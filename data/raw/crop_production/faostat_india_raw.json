@@ -1,0 +1,31 @@
+{
+  "status": "api_timeout",
+  "note": "FAOSTAT API was unreachable. To obtain this data manually: 1. Visit https://www.fao.org/faostat/en/#data/QCL 2. Select Country=India, Element=Area+Production+Yield,    Item=All items, Year=2000-2023, Download CSV 3. Place the CSV as data/raw/crop_production/faostat_india_QCL.csv",
+  "items_requested": {
+    "27": "Rice, paddy",
+    "15": "Wheat",
+    "56": "Maize",
+    "83": "Sorghum",
+    "79": "Millet",
+    "71": "Sugar cane",
+    "176": "Groundnuts",
+    "236": "Mustard seed",
+    "289": "Soybeans",
+    "267": "Sunflower seed",
+    "312": "Sesame seed",
+    "101": "Chick peas",
+    "187": "Pigeon peas",
+    "195": "Cowpeas",
+    "388": "Cotton lint",
+    "116": "Potatoes",
+    "125": "Sweet potatoes",
+    "397": "Onions",
+    "Chillies": "Chilli peppers"
+  },
+  "elements": [
+    "5312 (Area harvested)",
+    "5510 (Production)",
+    "5419 (Yield)"
+  ],
+  "retrieved_at": "2026-10-15T05:38:44.947538Z"
+}

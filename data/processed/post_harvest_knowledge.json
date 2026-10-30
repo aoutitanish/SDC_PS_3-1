@@ -1,0 +1,880 @@
+{
+  "Rice": {
+    "crop": "Rice",
+    "harvest_maturity_indicators": "80-85% grains turn golden yellow, panicles droop, grain moisture drops to 20-24%",
+    "harvesting_handling_guidance": "Harvest during dry weather using sickles or combine harvesters. Avoid delayed harvesting to prevent shattering and lodging.",
+    "drying_requirements": "Sun drying on clean tarpaulin or mechanical hot-air drying to reduce moisture from 20-24% to 13-14% within 24 hours of harvest.",
+    "safe_target_moisture_pct": 13.0,
+    "storage_method": "Hermetic storage bags, aerated dry godowns, or metal silos",
+    "suitable_storage_structure": "CWC / FCI approved ventilated brick godowns or HDPE hermetic bags",
+    "temperature_c_requirement": "15-25°C ambient dry conditions",
+    "relative_humidity_pct_requirement": "60-65%",
+    "shelf_life_days": 365,
+    "major_storage_pest_risks": [
+      "Rice Weevil (Sitophilus oryzae)",
+      "Lesser Grain Borer (Rhyzopertha dominica)",
+      "Angoumois Grain Moth (Sitotroga cerealella)"
+    ],
+    "fungal_moisture_risks": "Aflatoxin contamination (Aspergillus flavus) and yellowing if stored above 14% moisture.",
+    "packaging_requirements": "Jute gunny bags (50kg) treated with neem extract or multi-layer hermetic PICS bags.",
+    "handling_precautions": "Keep bags stacked on wooden dunnage crates 20cm above floor and 50cm away from walls.",
+    "processing_value_add_options": [
+      "Parboiling",
+      "Puffed rice (Murmura)",
+      "Flaked rice (Poha)",
+      "Rice bran oil extraction",
+      "Rice flour milling"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.7-6.0% overall post-harvest loss during harvesting, threshing, drying, and storage.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Rice Research (IIRR) & FCI Grain Preservation Guidelines",
+      "source_url": "https://www.eirr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Wheat": {
+    "crop": "Wheat",
+    "harvest_maturity_indicators": "Grains become hard and yellow-golden, straw turns dry and brittle, grain moisture 14-16%",
+    "harvesting_handling_guidance": "Harvest when crop turns completely golden brown. Combine harvesting at 14% moisture recommended.",
+    "drying_requirements": "Dry in thin layers under sunlight until moisture drops to 12% before storage.",
+    "safe_target_moisture_pct": 12.0,
+    "storage_method": "Hermetic grain bags, covered warehouses, or corrugated steel silos",
+    "suitable_storage_structure": "Dry brick-paved godowns with moisture-proof flooring or hermetic Cocoons",
+    "temperature_c_requirement": "15-20°C",
+    "relative_humidity_pct_requirement": "55-60%",
+    "shelf_life_days": 365,
+    "major_storage_pest_risks": [
+      "Khapra Beetle (Trogoderma granarium)",
+      "Rice Weevil (Sitophilus oryzae)",
+      "Rust Red Flour Beetle (Tribolium castaneum)"
+    ],
+    "fungal_moisture_risks": "Aspergillus and Penicillium mold growth causing musty odor if moisture exceeds 13%.",
+    "packaging_requirements": "50kg HDPE woven sacks or clean jute bags stacked up to 16 bags high.",
+    "handling_precautions": "Disinfect storage godowns with malathion 50% EC spray prior to bag stacking.",
+    "processing_value_add_options": [
+      "Whole wheat flour (Atta)",
+      "Refined flour (Maida)",
+      "Semolina (Suji/Rava)",
+      "Wheat germ oil",
+      "Pasta and noodle manufacturing"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.5-5.3% post-harvest loss in wheat across farm-to-market channels.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Wheat and Barley Research (IIWBR)",
+      "source_url": "https://iiwbr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Maize": {
+    "crop": "Maize",
+    "harvest_maturity_indicators": "Black layer formation at grain base, husks turn dry and papery white, kernel moisture 20-25%",
+    "harvesting_handling_guidance": "Harvest cobs when husks turn light brown. De-husk and shell cobs promptly to prevent ear rot.",
+    "drying_requirements": "Cob drying followed by grain drying to reach 13% moisture level.",
+    "safe_target_moisture_pct": 13.0,
+    "storage_method": "Dry crib storage for cobs, hermetic bags for shelled kernels",
+    "suitable_storage_structure": "Ventilated maize cribs or concrete-floored dry godowns",
+    "temperature_c_requirement": "18-25°C",
+    "relative_humidity_pct_requirement": "60%",
+    "shelf_life_days": 180,
+    "major_storage_pest_risks": [
+      "Maize Weevil (Sitophilus zeamais)",
+      "Angoumois Grain Moth",
+      "Grain Borer"
+    ],
+    "fungal_moisture_risks": "High risk of Aflatoxin (Aspergillus flavus) if stored with >14% moisture content.",
+    "packaging_requirements": "Hermetic PICS bags or dry jute bags stored on wooden pallets.",
+    "handling_precautions": "Ensure complete separation of infested old stocks from fresh harvest.",
+    "processing_value_add_options": [
+      "Corn starch & glucose syrup",
+      "Corn flour & cornmeal",
+      "Poultry and cattle feed formulations",
+      "Corn oil extraction",
+      "Corn flakes"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.6-6.4% post-harvest loss in maize.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Maize Research (IIMR)",
+      "source_url": "https://iimr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Arhar/Tur (Pigeon Pea)": {
+    "crop": "Arhar/Tur (Pigeon Pea)",
+    "harvest_maturity_indicators": "75-80% pods turn brown and dry, seeds rattle inside pods",
+    "harvesting_handling_guidance": "Harvest by cutting plants near ground with sickle. Thresh after 2-3 days of field drying.",
+    "drying_requirements": "Sun dry threshed seeds for 3-4 days until moisture drops to 9-10%.",
+    "safe_target_moisture_pct": 9.5,
+    "storage_method": "Hermetic pulse bags, metal bins, or dry earthen pots treated with vegetable oil",
+    "suitable_storage_structure": "Pucca dry godowns or airtight galvanized iron bins",
+    "temperature_c_requirement": "20-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 270,
+    "major_storage_pest_risks": [
+      "Pulse Beetle (Callosobruchus chinensis / maculatus)"
+    ],
+    "fungal_moisture_risks": "Low fungal risk if moisture <10%; bruchid infestation is main threat.",
+    "packaging_requirements": "Hermetic Super Grain bags or jute bags smearing with 5ml neem oil/kg grain.",
+    "handling_precautions": "Sun-dry stored grain every 2 months during monsoon to eliminate pulse beetle eggs.",
+    "processing_value_add_options": [
+      "Split pulse (Tur Dal milling)",
+      "Dal flour (Besan blend)",
+      "Husk for cattle feed"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 6.3-8.6% post-harvest loss in pigeon pea due to bruchid damage during storage.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Moong (Green Gram)": {
+    "crop": "Moong (Green Gram)",
+    "harvest_maturity_indicators": "80% of pods turn dark brown/black, seeds harden",
+    "harvesting_handling_guidance": "Pick pods in 2-3 flushes or harvest full crop when majority of pods mature. Avoid delay to prevent pod shattering.",
+    "drying_requirements": "Sun dry harvested pods for 2-3 days before threshing; dry clean seeds to 9% moisture.",
+    "safe_target_moisture_pct": 9.0,
+    "storage_method": "Hermetic bags, moisture-proof bins, or sealed clay jars",
+    "suitable_storage_structure": "Dry concrete godowns with wooden dunnage",
+    "temperature_c_requirement": "20-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 240,
+    "major_storage_pest_risks": [
+      "Pulse Beetle (Callosobruchus maculatus)"
+    ],
+    "fungal_moisture_risks": "Spoilage and seed coat discoloration if moisture >10%.",
+    "packaging_requirements": "Air-tight hermetic PICS bags or gunny bags treated with activated clay.",
+    "handling_precautions": "Treat stored seeds with a thin film of edible mustard oil (2-3 ml/kg).",
+    "processing_value_add_options": [
+      "Moong Dal (split green/yellow)",
+      "Sprouted moong packages",
+      "Moong dal papad and snacks"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 5.4-7.2% post-harvest loss in green gram.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Urad": {
+    "crop": "Urad",
+    "harvest_maturity_indicators": "Pods turn black and mature, seeds become firm",
+    "harvesting_handling_guidance": "Harvest whole plants or pick mature pods promptly. Thresh by light beating after drying.",
+    "drying_requirements": "Dry threshed seeds under sun until moisture drops to 9-10%.",
+    "safe_target_moisture_pct": 9.5,
+    "storage_method": "Hermetic storage bags or metal bins",
+    "suitable_storage_structure": "Dry ventilated godowns or G.I. storage bins",
+    "temperature_c_requirement": "20-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 240,
+    "major_storage_pest_risks": [
+      "Pulse Beetle (Callosobruchus chinensis)"
+    ],
+    "fungal_moisture_risks": "Mold growth and bean darkening above 10% moisture.",
+    "packaging_requirements": "Hermetic grain bags or double jute sacks with polyethylene lining.",
+    "handling_precautions": "Store away from damp walls and inspect monthly for bruchid emergence.",
+    "processing_value_add_options": [
+      "Urad Dal (whole black / split white)",
+      "Idli & Dosa batter flour",
+      "Papad processing"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 5.6-7.8% post-harvest loss in black gram.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Gram (Chickpea)": {
+    "crop": "Gram (Chickpea)",
+    "harvest_maturity_indicators": "Leaves turn yellow and drop, pods turn straw yellow, seeds rattle inside pods",
+    "harvesting_handling_guidance": "Harvest plants by pulling or cutting close to ground. Stack harvested crop for 2-3 days before threshing.",
+    "drying_requirements": "Sun dry clean chickpea seeds to 9-10% moisture before bagging.",
+    "safe_target_moisture_pct": 9.5,
+    "storage_method": "Hermetic PICS bags, metal bins, or dry warehouse stacking",
+    "suitable_storage_structure": "FCI/CWC approved dry godowns",
+    "temperature_c_requirement": "18-22°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 300,
+    "major_storage_pest_risks": [
+      "Pulse Beetle (Callosobruchus chinensis)"
+    ],
+    "fungal_moisture_risks": "Low fungal risk when dried to 9%; high bruchid vulnerability.",
+    "packaging_requirements": "Jute bags with poly-liner or hermetic grain sacks.",
+    "handling_precautions": "Mix dry neem leaf powder (1% w/w) with grain during storage.",
+    "processing_value_add_options": [
+      "Chana Dal (split chickpea)",
+      "Gram flour (Besan)",
+      "Roasted chana snacks",
+      "Sattu powder"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.3-6.8% post-harvest loss in chickpea.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Groundnut": {
+    "crop": "Groundnut",
+    "harvest_maturity_indicators": "Leaves turn yellow, inner shell turns dark brown/black, kernels achieve full size with original pink coat",
+    "harvesting_handling_guidance": "Dig or pull plants out when 75-80% pods mature. Strip pods from vines after field curing.",
+    "drying_requirements": "Inverted pod drying in fields followed by sun drying to reduce pod moisture to 8-9%.",
+    "safe_target_moisture_pct": 8.0,
+    "storage_method": "Store in unshelled pod form in dry ventilated warehouses",
+    "suitable_storage_structure": "CWC godowns with raised dunnage flooring",
+    "temperature_c_requirement": "15-20°C",
+    "relative_humidity_pct_requirement": "55-60%",
+    "shelf_life_days": 180,
+    "major_storage_pest_risks": [
+      "Groundnut Pod Borer (Caryedon serratus)",
+      "Red Flour Beetle"
+    ],
+    "fungal_moisture_risks": "Aflatoxin development (Aspergillus flavus) if moisture exceeds 9%.",
+    "packaging_requirements": "New clean gunny bags filled to 40kg capacity for free aeration.",
+    "handling_precautions": "Never store shelled kernels for long periods; store as unshelled pods.",
+    "processing_value_add_options": [
+      "Groundnut oil extraction",
+      "Peanut butter",
+      "Roasted & salted peanuts",
+      "Oilcake cattle feed"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 6.0-8.2% post-harvest loss in groundnut.",
+    "provenance": {
+      "source_name": "ICAR - Directorate of Groundnut Research (DGR)",
+      "source_url": "https://dgr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Mustard / Rapeseed": {
+    "crop": "Mustard / Rapeseed",
+    "harvest_maturity_indicators": "Pods turn yellow, seeds inside turn dark brown/black, seed moisture drops to 15-18%",
+    "harvesting_handling_guidance": "Harvest in early morning hours to minimize pod shattering. Stack for 2-3 days before threshing.",
+    "drying_requirements": "Sun dry threshed mustard seeds on tarpaulin to achieve 7-8% moisture level.",
+    "safe_target_moisture_pct": 8.0,
+    "storage_method": "Metal bins, hermetic grain bags, or dry gunny bags in ventilated godowns",
+    "suitable_storage_structure": "Moisture-proof concrete godowns or G.I. storage structures",
+    "temperature_c_requirement": "15-20°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 270,
+    "major_storage_pest_risks": [
+      "Saw-Toothed Grain Beetle (Oryzaephilus surinamensis)",
+      "Almond Moth"
+    ],
+    "fungal_moisture_risks": "Rancidity and free fatty acid buildup if stored wet.",
+    "packaging_requirements": "HDPE woven sacks or double jute bags.",
+    "handling_precautions": "Ensure seeds are thoroughly cleaned of chaff and weed seeds prior to storage.",
+    "processing_value_add_options": [
+      "Kachi Ghani mustard oil",
+      "Mustard meal / oilcake feed",
+      "Prepared condiment mustard paste"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 3.8-5.5% post-harvest loss in rapeseed and mustard.",
+    "provenance": {
+      "source_name": "ICAR - Directorate of Rapeseed-Mustard Research (DRMR)",
+      "source_url": "https://drmr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Sesamum": {
+    "crop": "Sesamum",
+    "harvest_maturity_indicators": "Bottom capsules turn yellow and start opening, leaves turn yellow and fall off",
+    "harvesting_handling_guidance": "Harvest when lower capsules ripen but before top capsules shatter. Bundle plants upright for drying.",
+    "drying_requirements": "Sun dry upright bundles for 5-7 days; thresh by gentle shaking over cloth.",
+    "safe_target_moisture_pct": 7.0,
+    "storage_method": "Hermetic bags or sealed metal containers",
+    "suitable_storage_structure": "Dry cool godowns with wooden dunnage",
+    "temperature_c_requirement": "15-20°C",
+    "relative_humidity_pct_requirement": "50%",
+    "shelf_life_days": 240,
+    "major_storage_pest_risks": [
+      "Sesame Seed Bug",
+      "Red Flour Beetle"
+    ],
+    "fungal_moisture_risks": "High susceptibility to rancidity if moisture exceeds 8%.",
+    "packaging_requirements": "Clean poly-lined jute bags filled to 30-40kg capacity.",
+    "handling_precautions": "Handle gently to prevent seed coat damage.",
+    "processing_value_add_options": [
+      "Sesame oil (Til oil)",
+      "Hulled sesame seeds for confectionery",
+      "Tahini paste & sesame candy (Chikki)"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.2-6.1% post-harvest loss in sesamum.",
+    "provenance": {
+      "source_name": "ICAR - All India Coordinated Research Project on Sesame & Niger",
+      "source_url": "https://icar.org.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Sugarcane": {
+    "crop": "Sugarcane",
+    "harvest_maturity_indicators": "Brix reading 18-20% with hand refractometer, leaves turn yellow, stalk node buds mature",
+    "harvesting_handling_guidance": "Harvest close to ground level using sharp sugarcane knives. Transport to sugar mill within 24-48 hours.",
+    "drying_requirements": "Not applicable (Highly perishable crushed crop). Keep harvested cane shaded.",
+    "safe_target_moisture_pct": null,
+    "storage_method": "Immediate mill crushing or shade-covered yard storage for max 48 hours",
+    "suitable_storage_structure": "Shaded mill collection yards or open field heaps covered with trash leaves",
+    "temperature_c_requirement": "Ambient short-term shade",
+    "relative_humidity_pct_requirement": "High ambient humidity to prevent moisture desiccation",
+    "shelf_life_days": 2,
+    "major_storage_pest_risks": [
+      "Borer larvae",
+      "Post-harvest sucrose inversion bacteria (Leuconostoc mesenteroides)"
+    ],
+    "fungal_moisture_risks": "Rapid sucrose degradation and acid inversion if delayed beyond 48 hours.",
+    "packaging_requirements": "Transported in loose bulk tractor trolleys or truck loads.",
+    "handling_precautions": "Minimize time lag between field cutting and factory crushing.",
+    "processing_value_add_options": [
+      "White crystal sugar",
+      "Jaggery (Gur / Khandsari)",
+      "Molasses for ethanol bio-fuel",
+      "Bagasse power co-generation"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 6.5-8.9% post-harvest loss due to sucrose inversion during transport delays.",
+    "provenance": {
+      "source_name": "ICAR - Sugarcane Breeding Institute (SBI) & ICAR-IISR",
+      "source_url": "https://sugarcane.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Jowar (Sorghum)": {
+    "crop": "Jowar (Sorghum)",
+    "harvest_maturity_indicators": "Grains hard and firm, black spot forms at base of grain, kernel moisture 18-20%",
+    "harvesting_handling_guidance": "Cut earheads with sickle when mature. Sun dry earheads on threshing floor for 3-4 days.",
+    "drying_requirements": "Sun dry clean threshed grain until moisture drops to 10-11%.",
+    "safe_target_moisture_pct": 10.5,
+    "storage_method": "Hermetic bags, traditional underground Khattis, or metal storage bins",
+    "suitable_storage_structure": "CWC brick godowns or G.I. bins",
+    "temperature_c_requirement": "18-25°C",
+    "relative_humidity_pct_requirement": "55%",
+    "shelf_life_days": 270,
+    "major_storage_pest_risks": [
+      "Rice Weevil",
+      "Lesser Grain Borer",
+      "Flour Beetle"
+    ],
+    "fungal_moisture_risks": "Grain mold (Fusarium/Curvularia) if harvested during unseasonal rains.",
+    "packaging_requirements": "HDPE woven sacks or clean jute bags.",
+    "handling_precautions": "Store only thoroughly cleaned grain free from broken kernels.",
+    "processing_value_add_options": [
+      "Jowar flour (Roti flour)",
+      "Sorghum flakes & pops",
+      "Multigrain bakery blends",
+      "Cattle feed granules"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.2-5.8% post-harvest loss in sorghum.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Millets Research (IIMR)",
+      "source_url": "https://millets.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Bajra (Pearl Millet)": {
+    "crop": "Bajra (Pearl Millet)",
+    "harvest_maturity_indicators": "Grains turn hard, earheads turn brown, moisture drops to 20%",
+    "harvesting_handling_guidance": "Harvest earheads by cutting with sickle. Dry earheads thoroughly before threshing.",
+    "drying_requirements": "Sun dry threshed grain to 10-11% moisture content.",
+    "safe_target_moisture_pct": 10.5,
+    "storage_method": "Hermetic grain bags or covered masonry godowns",
+    "suitable_storage_structure": "Dry ventilated godowns or metal storage bins",
+    "temperature_c_requirement": "18-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 180,
+    "major_storage_pest_risks": [
+      "Red Flour Beetle",
+      "Rice Weevil",
+      "Ephestia Moth"
+    ],
+    "fungal_moisture_risks": "Rancidity due to high lipase activity in ground flour; store as whole grain.",
+    "packaging_requirements": "Hermetic PICS bags or dry jute bags.",
+    "handling_precautions": "Do not store milled bajra flour long term; store as un-milled whole grain.",
+    "processing_value_add_options": [
+      "Bajra flour (Bhakhri/Roti)",
+      "Extruded millet snacks",
+      "Porridge & breakfast flakes"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.5-6.1% post-harvest loss in pearl millet.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Millets Research (IIMR)",
+      "source_url": "https://millets.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Ragi (Finger Millet)": {
+    "crop": "Ragi (Finger Millet)",
+    "harvest_maturity_indicators": "Earheads turn dark brown, grains hard and brown",
+    "harvesting_handling_guidance": "Harvest earheads in 2-3 pickings as they ripen. Stack earheads for curing before threshing.",
+    "drying_requirements": "Sun dry threshed tiny ragi grains to 10-11% moisture.",
+    "safe_target_moisture_pct": 10.5,
+    "storage_method": "Hermetic bags, metal bins, or traditional mud-lined granaries",
+    "suitable_storage_structure": "Ventilated dry godowns or earthen granaries",
+    "temperature_c_requirement": "15-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 730,
+    "major_storage_pest_risks": [
+      "Very low pest susceptibility due to small seed size and hard seed coat."
+    ],
+    "fungal_moisture_risks": "Minimal fungal issues if kept dry; highly resilient grain.",
+    "packaging_requirements": "Poly-lined jute sacks or hermetic bags.",
+    "handling_precautions": "Keep storage dry; ragi can be stored for 2+ years without insect damage.",
+    "processing_value_add_options": [
+      "Ragi flour & malt powder",
+      "Infant food formulations",
+      "Ragi vermicelli & biscuits"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 3.2-4.5% post-harvest loss in finger millet (lowest among millets).",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Millets Research (IIMR)",
+      "source_url": "https://millets.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Sunflower": {
+    "crop": "Sunflower",
+    "harvest_maturity_indicators": "Back of sunflower head turns lemon yellow to brown, seed moisture drops to 15-20%",
+    "harvesting_handling_guidance": "Cut heads with 10cm stem when yellow-brown. Dry heads on threshing floor before seed separation.",
+    "drying_requirements": "Sun dry clean sunflower seeds to reduce moisture to 8-9%.",
+    "safe_target_moisture_pct": 8.0,
+    "storage_method": "Hermetic bags or aerated flat storage warehouses",
+    "suitable_storage_structure": "Cool, dry, ventilated godowns",
+    "temperature_c_requirement": "15-18°C",
+    "relative_humidity_pct_requirement": "50%",
+    "shelf_life_days": 180,
+    "major_storage_pest_risks": [
+      "Merchant Grain Beetle",
+      "Almond Moth",
+      "Rodents"
+    ],
+    "fungal_moisture_risks": "Free fatty acid rise and seed heating if stored at >9% moisture.",
+    "packaging_requirements": "Clean jute bags filled to 35-40kg capacity.",
+    "handling_precautions": "Avoid seed hull cracking during mechanical threshing to prevent oil oxidation.",
+    "processing_value_add_options": [
+      "Refined sunflower oil",
+      "Dehulled sunflower kernels for confectionery",
+      "High-protein sunflower seed meal for livestock"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.1-5.9% post-harvest loss in sunflower.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Oilseeds Research (IIOR)",
+      "source_url": "https://icar-iior.org.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Cotton": {
+    "crop": "Cotton",
+    "harvest_maturity_indicators": "Bolls burst open fully, fluffy white lint exposes",
+    "harvesting_handling_guidance": "Pick cotton bolls in 3-4 pickings during dry sunny weather. Avoid picking immature or wet bolls.",
+    "drying_requirements": "Sun dry picked Kapas on clean cloth/floor to lower moisture to 7-8% before ginning.",
+    "safe_target_moisture_pct": 8.0,
+    "storage_method": "Loose Kapas dry covered yard storage or pressed lint bales",
+    "suitable_storage_structure": "CWC / Cotton Corporation of India (CCI) covered ginning yards & bale warehouses",
+    "temperature_c_requirement": "Ambient dry ventilated storage",
+    "relative_humidity_pct_requirement": "50-60%",
+    "shelf_life_days": 365,
+    "major_storage_pest_risks": [
+      "Pink Bollworm remnants",
+      "Rodents",
+      "Fire hazards"
+    ],
+    "fungal_moisture_risks": "Lint yellowing, fiber weakening, and seed heat damage if Kapas stored wet.",
+    "packaging_requirements": "Kapas stored in loose bulk heaps; ginned cotton pressed into 170kg cotton cloth wrapped bales.",
+    "handling_precautions": "Strict fire safety protocols; enforce zero moisture contact in storage yards.",
+    "processing_value_add_options": [
+      "Ginned lint fiber for textile spinning",
+      "Cottonseed oil extraction",
+      "Cottonseed meal/cake animal feed",
+      "Linters for industrial cellulose"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.0-5.8% post-harvest loss in seed cotton (Kapas).",
+    "provenance": {
+      "source_name": "ICAR - Central Institute for Research on Cotton Technology (CIRCOT) & CCI Guidelines",
+      "source_url": "https://circot.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Barley": {
+    "crop": "Barley",
+    "harvest_maturity_indicators": "Grains hard, heads bend downwards, straw turns straw yellow",
+    "harvesting_handling_guidance": "Harvest at 14-16% moisture with combine harvester or sickle. Avoid over-maturity.",
+    "drying_requirements": "Sun dry clean barley grain to 12% moisture content.",
+    "safe_target_moisture_pct": 12.0,
+    "storage_method": "Hermetic bags, covered masonry godowns, or steel silos",
+    "suitable_storage_structure": "Dry ventilated godowns with moisture-proof flooring",
+    "temperature_c_requirement": "15-20°C",
+    "relative_humidity_pct_requirement": "55-60%",
+    "shelf_life_days": 365,
+    "major_storage_pest_risks": [
+      "Rice Weevil",
+      "Lesser Grain Borer",
+      "Saw-Toothed Grain Beetle"
+    ],
+    "fungal_moisture_risks": "Loss of malting quality and germination capacity if moisture >13%.",
+    "packaging_requirements": "50kg HDPE sacks or clean jute bags.",
+    "handling_precautions": "Maintain embryo viability by avoiding high temperature hot-air drying.",
+    "processing_value_add_options": [
+      "Malt for brewing & malted food drinks",
+      "Barley flour (Sattu blend)",
+      "Pearl barley for soups",
+      "Cattle feed"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 3.9-5.2% post-harvest loss in barley.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Wheat and Barley Research (IIWBR)",
+      "source_url": "https://iiwbr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Masoor": {
+    "crop": "Masoor",
+    "harvest_maturity_indicators": "Pods turn golden brown, seeds rattle inside pods, leaves dry and shed",
+    "harvesting_handling_guidance": "Harvest in early morning to prevent pod shattering. Cut plants close to ground.",
+    "drying_requirements": "Sun dry threshed lentil seeds to 9-10% moisture.",
+    "safe_target_moisture_pct": 9.5,
+    "storage_method": "Hermetic bags or sealed metal bins",
+    "suitable_storage_structure": "Dry brick godowns with wooden pallets",
+    "temperature_c_requirement": "18-22°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 270,
+    "major_storage_pest_risks": [
+      "Pulse Beetle (Callosobruchus chinensis)"
+    ],
+    "fungal_moisture_risks": "Discoloration and darkening of red coat if stored humid.",
+    "packaging_requirements": "PICS hermetic sacks or clean jute bags.",
+    "handling_precautions": "Clean thoroughly to remove mud balls and broken seeds before bagging.",
+    "processing_value_add_options": [
+      "Masoor Dal (whole red / split orange)",
+      "Lentil flour",
+      "Dal snack mixes"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.8-6.9% post-harvest loss in lentil.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Onion": {
+    "crop": "Onion",
+    "harvest_maturity_indicators": "50-70% neck fall (tops collapse naturally), outer scales acquire full skin color",
+    "harvesting_handling_guidance": "Harvest during dry weather. Leave 2-3 cm neck attached to bulb during field topping.",
+    "drying_requirements": "Field curing for 3-5 days followed by shade curing for 10-15 days to dry neck and skin.",
+    "safe_target_moisture_pct": 65.0,
+    "storage_method": "Naturally ventilated Kanda Chawl storage structures or cold storage (for specific varieties)",
+    "suitable_storage_structure": "ICAR-DOGR approved elevated bamboo/wooden ventilated Kanda Chawls",
+    "temperature_c_requirement": "25-30°C (ventilated chawl) OR 0-2°C (cold storage for long term)",
+    "relative_humidity_pct_requirement": "65-70%",
+    "shelf_life_days": 150,
+    "major_storage_pest_risks": [
+      "Onion Thrips remnants",
+      "Rodents"
+    ],
+    "fungal_moisture_risks": "Black mold (Aspergillus niger), neck rot (Botrytis), and premature sprouting.",
+    "packaging_requirements": "Open mesh leno bags (25-50kg capacity) allowing free air circulation.",
+    "handling_precautions": "Never stack onions in solid plastic/jute sacks; ensure continuous cross ventilation.",
+    "processing_value_add_options": [
+      "Dehydrated onion flakes & powder",
+      "Onion paste",
+      "Pickled small onions"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET & DOGR estimate 15.0-26.0% post-harvest loss in onions due to rotting, sprouting, and shrinkage during chawl storage.",
+    "provenance": {
+      "source_name": "ICAR - Directorate of Onion and Garlic Research (DOGR)",
+      "source_url": "https://dogr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Potato": {
+    "crop": "Potato",
+    "harvest_maturity_indicators": "Vines dry up naturally, skin becomes firm and tough (does not feather under thumb pressure)",
+    "harvesting_handling_guidance": "Dehaulm vines 10-12 days prior to digging to harden tuber skin. Harvest carefully to prevent cuts.",
+    "drying_requirements": "Shade curing at 15-20°C with 85-90% RH for 10-14 days to heal skin cuts and wounds.",
+    "safe_target_moisture_pct": 78.0,
+    "storage_method": "Commercial Cold Storage (10-12°C with CIPC treatment for table use OR 2-4°C for seed potatoes)",
+    "suitable_storage_structure": "National Horticulture Board (NHB) accredited cold storage facilities",
+    "temperature_c_requirement": "2-4°C (seed) / 8-10°C (processing/table potato)",
+    "relative_humidity_pct_requirement": "85-90%",
+    "shelf_life_days": 210,
+    "major_storage_pest_risks": [
+      "Potato Tuber Moth (Phthorimaea operculella)"
+    ],
+    "fungal_moisture_risks": "Soft rot (Erwinia), dry rot (Fusarium), and late blight tuber infection.",
+    "packaging_requirements": "50kg mesh leno bags or jute gunny bags.",
+    "handling_precautions": "Avoid direct sunlight exposure on tubers to prevent greening (solanine toxicity).",
+    "processing_value_add_options": [
+      "Potato chips & wafers",
+      "French fries",
+      "Dehydrated potato flakes & starch"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 12.5-18.0% post-harvest loss in potatoes across digging, transport, and cold storage storage.",
+    "provenance": {
+      "source_name": "ICAR - Central Potato Research Institute (CPRI) & NHB Guidelines",
+      "source_url": "https://cpri.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Dry chillies": {
+    "crop": "Dry chillies",
+    "harvest_maturity_indicators": "Pods achieve full red color, feel firm to touch",
+    "harvesting_handling_guidance": "Harvest ripe red pods in 3-4 pickings. Spread harvested chillies on tarpaulin immediately.",
+    "drying_requirements": "Sun drying or solar drying for 7-15 days to reduce moisture from 75% to 10%.",
+    "safe_target_moisture_pct": 10.0,
+    "storage_method": "Cold storage (4-10°C) to preserve bright red color or dry hermetic bags",
+    "suitable_storage_structure": "NHB approved cold storage units or dry ventilated spice godowns",
+    "temperature_c_requirement": "4-10°C (cold storage recommended for premium color retention)",
+    "relative_humidity_pct_requirement": "60-65%",
+    "shelf_life_days": 240,
+    "major_storage_pest_risks": [
+      "Cigarette Beetle (Lasioderma serricorne)",
+      "Drugstore Beetle"
+    ],
+    "fungal_moisture_risks": "Aflatoxin (Aspergillus flavus) and color bleaching if stored above 11% moisture.",
+    "packaging_requirements": "Jute bags lined with polythene or hermetic bags.",
+    "handling_precautions": "Protect dried pods from moisture re-absorption and direct sunlight bleaching.",
+    "processing_value_add_options": [
+      "Chilli powder & flakes",
+      "Chilli oleoresin extraction",
+      "Capsaicin extraction for pharmaceuticals"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 6.8-9.4% post-harvest loss in dry chillies.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Spices Research (IISR) & Spices Board India",
+      "source_url": "https://spices.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Turmeric": {
+    "crop": "Turmeric",
+    "harvest_maturity_indicators": "Leaves turn yellow and dry up completely (7-9 months after planting)",
+    "harvesting_handling_guidance": "Dig rhizomes carefully without cutting. Separate mother rhizomes from finger rhizomes.",
+    "drying_requirements": "Boil rhizomes in water for 45-60 mins, then sun dry for 10-15 days to 8-10% moisture.",
+    "safe_target_moisture_pct": 9.0,
+    "storage_method": "Dry polished rhizome storage in ventilated masonry godowns",
+    "suitable_storage_structure": "Cool, dry, dark spice warehouses or metal storage bins",
+    "temperature_c_requirement": "18-25°C",
+    "relative_humidity_pct_requirement": "55-60%",
+    "shelf_life_days": 365,
+    "major_storage_pest_risks": [
+      "Drugstore Beetle (Stegobium paniceum)",
+      "Cigarette Beetle"
+    ],
+    "fungal_moisture_risks": "Rhizome rot (Pythium) and mold if rhizomes stored un-boiled or damp.",
+    "packaging_requirements": "Double gunny bags filled to 50kg capacity.",
+    "handling_precautions": "Polish dried rhizomes to improve golden-yellow surface shine.",
+    "processing_value_add_options": [
+      "Turmeric powder",
+      "Curcumin extraction (pharmaceutical grade)",
+      "Turmeric essential oil"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 5.2-7.8% post-harvest loss in turmeric.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Spices Research (IISR)",
+      "source_url": "https://spices.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Sweet potato": {
+    "crop": "Sweet potato",
+    "harvest_maturity_indicators": "Leaves turn yellow and shed, tubers reach desired marketable size",
+    "harvesting_handling_guidance": "Cut vines near ground, dig tubers carefully to avoid skin skinning and bruising.",
+    "drying_requirements": "Cure tubers at 28-30°C with 85-90% RH for 4-7 days to heal harvest wounds.",
+    "safe_target_moisture_pct": 70.0,
+    "storage_method": "Shade-cured pit storage, raised wooden racks, or ventilated ambient store",
+    "suitable_storage_structure": "Ventilated thatch-roofed stores or earthen curing pits",
+    "temperature_c_requirement": "13-15°C (Do NOT store below 10°C to avoid chilling injury)",
+    "relative_humidity_pct_requirement": "85-90%",
+    "shelf_life_days": 90,
+    "major_storage_pest_risks": [
+      "Sweet Potato Weevil (Cylas formicarius)"
+    ],
+    "fungal_moisture_risks": "Black rot (Ceratocystis) and soft rot (Rhizopus) in un-cured bruised tubers.",
+    "packaging_requirements": "Slatted wooden crates or mesh bags for ventilation.",
+    "handling_precautions": "Never wash tubers prior to storage; clean dry dirt gently.",
+    "processing_value_add_options": [
+      "Sweet potato flour & starch",
+      "Dehydrated chips",
+      "Bio-ethanol feedstock"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET & CTCRI estimate 8.5-14.0% post-harvest loss in sweet potato.",
+    "provenance": {
+      "source_name": "ICAR - Central Tuber Crops Research Institute (CTCRI)",
+      "source_url": "https://ctcri.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Linseed": {
+    "crop": "Linseed",
+    "harvest_maturity_indicators": "Capsules turn brown and dry, seeds inside rattle",
+    "harvesting_handling_guidance": "Harvest crop with sickle when 90% capsules ripen. Thresh by beating bundles on floor.",
+    "drying_requirements": "Sun dry threshed seeds until moisture drops to 8%.",
+    "safe_target_moisture_pct": 8.0,
+    "storage_method": "Hermetic bags, metal bins, or dry jute bags",
+    "suitable_storage_structure": "Dry concrete godowns with wooden dunnage",
+    "temperature_c_requirement": "15-20°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 270,
+    "major_storage_pest_risks": [
+      "Red Flour Beetle",
+      "Saw-Toothed Grain Beetle"
+    ],
+    "fungal_moisture_risks": "Rapid oil oxidation and rancidity if seed moisture >9%.",
+    "packaging_requirements": "HDPE woven sacks or poly-lined gunny bags.",
+    "handling_precautions": "Keep seeds dry and dark to preserve omega-3 fatty acid quality.",
+    "processing_value_add_options": [
+      "Flaxseed / Linseed oil (Industrial & edible grade)",
+      "Flaxseed meal for poultry feed",
+      "Flax fiber for linen textile"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 3.5-5.0% post-harvest loss in linseed.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Oilseeds Research (IIOR)",
+      "source_url": "https://icar-iior.org.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Horse-gram": {
+    "crop": "Horse-gram",
+    "harvest_maturity_indicators": "Pods turn yellow-brown, leaves drop, seeds harden",
+    "harvesting_handling_guidance": "Pull whole plants when mature. Field dry bundles for 3-4 days before threshing.",
+    "drying_requirements": "Sun dry clean seeds to 9-10% moisture content.",
+    "safe_target_moisture_pct": 9.5,
+    "storage_method": "Hermetic bags, earthenware pots, or dry gunny bags",
+    "suitable_storage_structure": "Earthen dry granaries or metal bins",
+    "temperature_c_requirement": "18-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 300,
+    "major_storage_pest_risks": [
+      "Pulse Beetle (Callosobruchus chinensis)"
+    ],
+    "fungal_moisture_risks": "Low fungal susceptibility due to hard seed coat.",
+    "packaging_requirements": "Air-tight PICS bags or jute sacks treated with neem oil.",
+    "handling_precautions": "Store in dry airtight containers to prevent bruchid infestation.",
+    "processing_value_add_options": [
+      "Horse-gram flour & soup mix (Kollu / Kulthi powder)",
+      "Sprouted horse-gram packages",
+      "Ayurvedic herbal extract preparation"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 4.0-5.8% post-harvest loss in horse-gram.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Small millets": {
+    "crop": "Small millets",
+    "harvest_maturity_indicators": "Earheads turn straw yellow/brown, grains harden (Kodo, Kutki, Foxtail, Barnyard)",
+    "harvesting_handling_guidance": "Harvest earheads with sickle. Sun dry earheads on threshing floor for 3-5 days before de-husking.",
+    "drying_requirements": "Sun dry threshed grains to 10-11% moisture content.",
+    "safe_target_moisture_pct": 10.5,
+    "storage_method": "Hermetic grain bags, metal bins, or traditional clay granaries",
+    "suitable_storage_structure": "Dry masonry godowns or GI storage structures",
+    "temperature_c_requirement": "15-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 365,
+    "major_storage_pest_risks": [
+      "Rice Weevil",
+      "Red Flour Beetle"
+    ],
+    "fungal_moisture_risks": "Head smut & mold if harvested in wet conditions.",
+    "packaging_requirements": "Poly-lined jute sacks or hermetic PICS bags.",
+    "handling_precautions": "De-husk small millets using specialized millet de-huskers prior to human consumption.",
+    "processing_value_add_options": [
+      "De-husked millet rice (Kodo/Foxtail/Little millet)",
+      "Millet flour blends",
+      "Ready-to-cook millet breakfast mixes"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 3.5-5.0% post-harvest loss in small millets.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Millets Research (IIMR)",
+      "source_url": "https://millets.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Peas & beans (Pulses)": {
+    "crop": "Peas & beans (Pulses)",
+    "harvest_maturity_indicators": "Pods turn yellow-brown, seeds become firm and plump",
+    "harvesting_handling_guidance": "Harvest pods when fully mature. Thresh gently to avoid seed splitting.",
+    "drying_requirements": "Sun dry threshed pulse seeds to 9-10% moisture.",
+    "safe_target_moisture_pct": 9.5,
+    "storage_method": "Hermetic storage sacks or sealed metal containers",
+    "suitable_storage_structure": "Dry concrete godowns with wooden dunnage",
+    "temperature_c_requirement": "18-22°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 270,
+    "major_storage_pest_risks": [
+      "Pea Weevil (Bruchus pisorum)",
+      "Pulse Beetle"
+    ],
+    "fungal_moisture_risks": "Spoilage and seed splitting if stored wet.",
+    "packaging_requirements": "PICS bags or double jute sacks.",
+    "handling_precautions": "Inspect seeds for pea weevil emergence holes before long term storage.",
+    "processing_value_add_options": [
+      "Split green/yellow pea dal",
+      "Pea flour",
+      "Canned green peas"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 5.0-7.0% post-harvest loss in dry peas and beans.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  },
+  "Other Kharif pulses": {
+    "crop": "Other Kharif pulses",
+    "harvest_maturity_indicators": "Pods turn yellow-black, seeds harden (Cowpea, Moth bean, Rajmash)",
+    "harvesting_handling_guidance": "Harvest mature pods in flushes or pull whole plants when dry. Thresh by light beating.",
+    "drying_requirements": "Sun dry clean seeds to 9-10% moisture content.",
+    "safe_target_moisture_pct": 9.5,
+    "storage_method": "Hermetic PICS bags or dry GI bins",
+    "suitable_storage_structure": "Dry ventilated godowns",
+    "temperature_c_requirement": "18-25°C",
+    "relative_humidity_pct_requirement": "50-55%",
+    "shelf_life_days": 240,
+    "major_storage_pest_risks": [
+      "Pulse Beetle (Callosobruchus spp.)"
+    ],
+    "fungal_moisture_risks": "Fungal rotting if moisture >10%.",
+    "packaging_requirements": "Hermetic grain bags or jute bags treated with edible oil (3ml/kg).",
+    "handling_precautions": "Maintain dry, pest-free storage environment.",
+    "processing_value_add_options": [
+      "Whole & split pulse dal",
+      "Pulse flour blends",
+      "Sprouted pulse packs"
+    ],
+    "post_harvest_loss_info": "ICAR-CIPHET estimates 5.2-7.5% post-harvest loss in miscellaneous Kharif pulses.",
+    "provenance": {
+      "source_name": "ICAR - Indian Institute of Pulses Research (IIPR)",
+      "source_url": "https://iipr.icar.gov.in",
+      "source_type": "official",
+      "reference_year": "2024-25"
+    }
+  }
+}

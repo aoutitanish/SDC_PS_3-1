@@ -1,0 +1,29 @@
+{
+  "benchmark_execution_timestamp": "2026-10-15T07:17:45.961113+00:00",
+  "total_test_instances": 1928,
+  "models_evaluated": {
+    "model_1_frequency_baseline": {
+      "name": "Historical Frequency Baseline",
+      "description": "Ranks crops by empirical state/season historical cultivation frequency",
+      "metrics_across_all_districts": {
+        "precision_at_1": 0.899,
+        "precision_at_3": 0.7859,
+        "precision_at_5": 0.7698,
+        "recall_at_3": 0.1925,
+        "recall_at_5": 0.33
+      },
+      "status": "BASELINE_ESTABLISHED"
+    },
+    "model_0_rule_baseline": {
+      "name": "Deterministic ICAR Agronomic Rule Filter",
+      "description": "Deterministic pass/fail filter based on physiological thresholds (pH, temp, moisture)",
+      "metrics": {
+        "suitability_precision": 1.0,
+        "zero_physiological_hallucination": true
+      },
+      "status": "BASELINE_ESTABLISHED"
+    }
+  },
+  "model_training_status": "NO_MODEL_TRAINED (Phase 3 Strict Invariant Preserved)",
+  "production_engine_integrity": "UNTOUCHED"
+}

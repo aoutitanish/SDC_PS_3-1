@@ -1,0 +1,10 @@
+{
+  "source": "Agmarknet / data.gov.in OGD API",
+  "resource_id": "9ef84268-d588-465a-a308-a864a43d0070",
+  "source_url": "https://data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070",
+  "status": "REQUIRES_API_KEY",
+  "action_required": "1. Register at https://data.gov.in/user/register (free)\n2. Obtain your API key from your account dashboard\n3. Set environment variable: set DATAGOV_API_KEY=your_key_here\n4. Re-run: python scripts/acquire_agmarknet_ogd.py",
+  "existing_mandi_data": "See data/raw/market/raw_agmarknet_historical.json (8.5 MB, synthetic benchmarks) and data/processed/historical_market/historical_mandi_prices.json (10.1 MB, cleaned).",
+  "license": "Government Open Data License India (GODL-India) v1.0",
+  "run_timestamp": "2026-10-15T05:38:45.519044Z"
+}

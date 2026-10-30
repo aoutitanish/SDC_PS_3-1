@@ -1,0 +1,45 @@
+{
+  "source": "FAO FAOSTAT QCL - Crops and Livestock Products",
+  "source_url": "https://www.fao.org/faostat/en/#data/QCL",
+  "api_url": "https://fenixservices.fao.org/faostat/api/v1/en/data/QCL",
+  "coverage": {
+    "country": "India (code 100)",
+    "temporal_range": "2000\u20132023",
+    "elements": [
+      "Area harvested (5312)",
+      "Production (5510)",
+      "Yield (5419)"
+    ],
+    "crops": {
+      "27": "Rice, paddy",
+      "15": "Wheat",
+      "56": "Maize",
+      "83": "Sorghum",
+      "79": "Millet",
+      "71": "Sugar cane",
+      "176": "Groundnuts",
+      "236": "Mustard seed",
+      "289": "Soybeans",
+      "267": "Sunflower seed",
+      "312": "Sesame seed",
+      "101": "Chick peas",
+      "187": "Pigeon peas",
+      "195": "Cowpeas",
+      "388": "Cotton lint",
+      "116": "Potatoes",
+      "125": "Sweet potatoes",
+      "397": "Onions",
+      "Chillies": "Chilli peppers"
+    }
+  },
+  "units": {
+    "area": "ha",
+    "production": "tonnes",
+    "yield": "hg/ha (100g/ha)"
+  },
+  "license": "FAO Open Data \u2014 free for non-commercial research",
+  "cite": "FAO (2024). FAOSTAT. Food and Agriculture Organization of the United Nations.",
+  "manual_download": "https://www.fao.org/faostat/en/#data/QCL",
+  "accessibility_note": "Primary API endpoint was unreachable from this network during probe (2026-10-15). Manual bulk download is recommended. FAOSTAT data complements DES statistics with internationally comparable crop production metrics.",
+  "run_timestamp": "2026-10-15T05:38:44.948235Z"
+}

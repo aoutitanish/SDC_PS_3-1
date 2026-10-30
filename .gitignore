@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+*.db
+*.sqlite3
+.pytest_cache/
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backups
+backup_*/
+backup/
+
+# Large files exceeding GitHub 100MB limit
+ml/models/crop_suitability_model_experimental.pkl
+ml/models/crop_recommendation_model_v2_candidate.pkl
+scripts/results/csi_diagnostics.csv

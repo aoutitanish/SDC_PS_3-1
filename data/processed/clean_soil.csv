@@ -1,0 +1,642 @@
+State_Name,District_Name,bdod_0_5cm,cec_0_5cm,clay_0_5cm,nitrogen_0_5cm,phh2o_0_5cm,sand_0_5cm,silt_0_5cm,soc_0_5cm,ph_outlier_flag,district_key,ph,clay_pct,sand_pct,silt_pct,nitrogen_cg_kg,soc_dg_kg,cec,bulk_density,usda_texture,indian_soil_group,nitrogen_level,ph_category
+Andaman And Nicobar Islands,Nicobars,123.0,233.0,337.0,388.0,56.0,377.0,286.0,417.0,False,andaman and nicobar islands__nicobars,5.6,33.7,37.7,28.6,388.0,417.0,233.0,1.23,Clay Loam,Red and Yellow Soil,High,Acidic
+Andaman And Nicobar Islands,North And Middle Andaman,123.0,233.0,337.0,388.0,56.0,377.0,286.0,417.0,False,andaman and nicobar islands__north and middle andaman,5.6,33.7,37.7,28.6,388.0,417.0,233.0,1.23,Clay Loam,Red and Yellow Soil,High,Acidic
+Andaman And Nicobar Islands,South Andamans,116.0,244.0,295.0,468.0,54.0,390.0,315.0,535.0,False,andaman and nicobar islands__south andamans,5.4,29.5,39.0,31.5,468.0,535.0,244.0,1.16,Clay Loam,Red and Yellow Soil,High,Acidic
+Andhra Pradesh,Anantapur,,,,,,,,,False,andhra pradesh__anantapur,6.7,31.25,37.1,33.6,195.5,300.0,267.0,1.355,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Chittoor,135.0,289.0,343.0,199.0,69.0,380.0,277.0,333.0,False,andhra pradesh__chittoor,6.9,34.3,38.0,27.7,199.0,333.0,289.0,1.35,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Andhra Pradesh,East Godavari,135.0,264.0,283.0,187.0,67.0,376.0,341.0,292.0,False,andhra pradesh__east godavari,6.7,28.3,37.6,34.1,187.0,292.0,264.0,1.35,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Guntur,,,,,,,,,False,andhra pradesh__guntur,6.7,31.25,37.1,33.6,195.5,300.0,267.0,1.355,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Kadapa,,,,,,,,,False,andhra pradesh__kadapa,6.7,31.25,37.1,33.6,195.5,300.0,267.0,1.355,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Krishna,136.0,255.0,324.0,192.0,66.0,329.0,347.0,251.0,False,andhra pradesh__krishna,6.6,32.4,32.9,34.7,192.0,251.0,255.0,1.36,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Kurnool,,,,,,,,,False,andhra pradesh__kurnool,6.7,31.25,37.1,33.6,195.5,300.0,267.0,1.355,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Prakasam,138.0,278.0,307.0,217.0,71.0,361.0,331.0,528.0,False,andhra pradesh__prakasam,7.1,30.7,36.1,33.1,217.0,528.0,278.0,1.38,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Andhra Pradesh,Spsr Nellore,143.0,265.0,318.0,207.0,67.0,370.0,312.0,299.0,False,andhra pradesh__spsr nellore,6.7,31.8,37.0,31.2,207.0,299.0,265.0,1.43,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Srikakulam,,,,,,,,,False,andhra pradesh__srikakulam,6.7,31.25,37.1,33.6,195.5,300.0,267.0,1.355,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Visakhapatanam,,,,,,,,,False,andhra pradesh__visakhapatanam,6.7,31.25,37.1,33.6,195.5,300.0,267.0,1.355,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,Vizianagaram,,,,,,,,,False,andhra pradesh__vizianagaram,6.7,31.25,37.1,33.6,195.5,300.0,267.0,1.355,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Andhra Pradesh,West Godavari,132.0,269.0,286.0,189.0,67.0,372.0,342.0,301.0,False,andhra pradesh__west godavari,6.7,28.6,37.2,34.2,189.0,301.0,269.0,1.32,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Arunachal Pradesh,Anjaw,104.0,274.0,202.0,485.0,61.0,456.0,342.0,922.0,False,arunachal pradesh__anjaw,6.1,20.2,45.6,34.2,485.0,922.0,274.0,1.04,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Arunachal Pradesh,Changlang,112.0,219.0,290.0,477.0,50.0,431.0,279.0,499.0,False,arunachal pradesh__changlang,5.0,29.0,43.1,27.9,477.0,499.0,219.0,1.12,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Dibang Valley,108.0,190.0,206.0,601.0,55.0,490.0,304.0,517.0,False,arunachal pradesh__dibang valley,5.5,20.6,49.0,30.4,601.0,517.0,190.0,1.08,Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,East Kameng,103.0,215.0,353.0,742.0,51.0,271.0,376.0,493.0,False,arunachal pradesh__east kameng,5.1,35.3,27.1,37.6,742.0,493.0,215.0,1.03,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,East Siang,126.0,161.0,310.0,302.0,54.0,430.0,260.0,375.0,False,arunachal pradesh__east siang,5.4,31.0,43.0,26.0,302.0,375.0,161.0,1.26,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Kurung Kumey,106.0,201.0,305.0,423.0,55.0,301.0,395.0,585.0,False,arunachal pradesh__kurung kumey,5.5,30.5,30.1,39.5,423.0,585.0,201.0,1.06,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Lohit,113.0,181.0,301.0,797.0,53.0,408.0,291.0,588.0,False,arunachal pradesh__lohit,5.3,30.1,40.8,29.1,797.0,588.0,181.0,1.13,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Longding,118.0,169.0,292.0,661.0,53.0,412.0,296.0,422.0,False,arunachal pradesh__longding,5.3,29.2,41.2,29.6,661.0,422.0,169.0,1.18,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Lower Dibang Valley,105.0,200.0,329.0,1152.0,52.0,358.0,313.0,614.0,False,arunachal pradesh__lower dibang valley,5.2,32.9,35.8,31.3,1152.0,614.0,200.0,1.05,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Lower Subansiri,99.0,218.0,320.0,495.0,53.0,353.0,327.0,521.0,False,arunachal pradesh__lower subansiri,5.3,32.0,35.3,32.7,495.0,521.0,218.0,0.99,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Namsai,126.0,210.0,320.0,385.0,50.0,388.0,292.0,426.0,False,arunachal pradesh__namsai,5.0,32.0,38.8,29.2,385.0,426.0,210.0,1.26,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Papum Pare,102.0,210.0,316.0,610.0,52.0,307.0,377.0,499.0,False,arunachal pradesh__papum pare,5.2,31.6,30.7,37.7,610.0,499.0,210.0,1.02,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Tawang,107.0,236.0,295.0,411.0,59.0,341.0,364.0,591.0,False,arunachal pradesh__tawang,5.9,29.5,34.1,36.4,411.0,591.0,236.0,1.07,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Tirap,115.0,192.0,310.0,430.0,52.0,430.0,260.0,470.0,False,arunachal pradesh__tirap,5.2,31.0,43.0,26.0,430.0,470.0,192.0,1.15,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Upper Siang,99.0,230.0,212.0,629.0,55.0,425.0,363.0,823.0,False,arunachal pradesh__upper siang,5.5,21.2,42.5,36.3,629.0,823.0,230.0,0.99,Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,Upper Subansiri,104.0,210.0,299.0,1231.0,52.0,336.0,365.0,552.0,False,arunachal pradesh__upper subansiri,5.2,29.9,33.6,36.5,1231.0,552.0,210.0,1.04,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,West Kameng,104.0,210.0,364.0,535.0,53.0,260.0,376.0,675.0,False,arunachal pradesh__west kameng,5.3,36.4,26.0,37.6,535.0,675.0,210.0,1.04,Clay Loam,Red and Yellow Soil,High,Acidic
+Arunachal Pradesh,West Siang,101.0,244.0,287.0,555.0,54.0,353.0,359.0,827.0,False,arunachal pradesh__west siang,5.4,28.7,35.3,35.9,555.0,827.0,244.0,1.01,Clay Loam,Red and Yellow Soil,High,Acidic
+Assam,Baksa,124.0,175.0,273.0,159.0,55.0,377.0,351.0,187.0,False,assam__baksa,5.5,27.3,37.7,35.1,159.0,187.0,175.0,1.24,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Barpeta,128.0,187.0,299.0,192.0,57.0,356.0,345.0,181.0,False,assam__barpeta,5.7,29.9,35.6,34.5,192.0,181.0,187.0,1.28,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Bongaigaon,,,,,,,,,False,assam__bongaigaon,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Cachar,130.0,198.0,274.0,231.0,55.0,374.0,352.0,212.0,False,assam__cachar,5.5,27.4,37.4,35.2,231.0,212.0,198.0,1.3,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Chirang,124.0,203.0,289.0,155.0,54.0,426.0,285.0,213.0,False,assam__chirang,5.4,28.9,42.6,28.5,155.0,213.0,203.0,1.24,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Darrang,130.0,188.0,302.0,151.0,56.0,324.0,374.0,206.0,False,assam__darrang,5.6,30.2,32.4,37.4,151.0,206.0,188.0,1.3,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Dhemaji,,,,,,,,,False,assam__dhemaji,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Dhubri,128.0,163.0,295.0,159.0,58.0,373.0,332.0,203.0,False,assam__dhubri,5.8,29.5,37.3,33.2,159.0,203.0,163.0,1.28,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Dibrugarh,,,,,,,,,False,assam__dibrugarh,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Dima Hasao,115.0,198.0,314.0,272.0,52.0,309.0,377.0,324.0,False,assam__dima hasao,5.2,31.4,30.9,37.7,272.0,324.0,198.0,1.15,Clay Loam,Laterite Soil,High,Acidic
+Assam,Goalpara,128.0,190.0,288.0,162.0,54.0,453.0,260.0,204.0,False,assam__goalpara,5.4,28.8,45.3,26.0,162.0,204.0,190.0,1.28,Sandy Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Golaghat,,,,,,,,,False,assam__golaghat,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Hailakandi,,,,,,,,,False,assam__hailakandi,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Jorhat,,,,,,,,,False,assam__jorhat,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Kamrup,,,,,,,,,False,assam__kamrup,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Kamrup Metro,,,,,,,,,False,assam__kamrup metro,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Karbi Anglong,112.0,228.0,357.0,608.0,53.0,318.0,325.0,435.0,False,assam__karbi anglong,5.3,35.7,31.8,32.5,608.0,435.0,228.0,1.12,Clay Loam,Laterite Soil,High,Acidic
+Assam,Karimganj,124.0,169.0,254.0,406.0,51.0,417.0,328.0,256.0,False,assam__karimganj,5.1,25.4,41.7,32.8,406.0,256.0,169.0,1.24,Loam,Laterite Soil,High,Acidic
+Assam,Kokrajhar,127.0,163.0,263.0,186.0,55.0,422.0,315.0,242.0,False,assam__kokrajhar,5.5,26.3,42.2,31.5,186.0,242.0,163.0,1.27,Loam,Laterite Soil,Medium,Acidic
+Assam,Lakhimpur,123.0,153.0,314.0,288.0,56.0,400.0,286.0,287.0,False,assam__lakhimpur,5.6,31.4,40.0,28.6,288.0,287.0,153.0,1.23,Clay Loam,Laterite Soil,High,Acidic
+Assam,Marigaon,130.0,172.0,274.0,146.0,56.0,357.0,369.0,172.0,False,assam__marigaon,5.6,27.4,35.7,36.9,146.0,172.0,172.0,1.3,Clay Loam,Laterite Soil,Low,Acidic
+Assam,Nagaon,130.0,190.0,309.0,253.0,56.0,343.0,348.0,208.0,False,assam__nagaon,5.6,30.9,34.3,34.8,253.0,208.0,190.0,1.3,Clay Loam,Laterite Soil,High,Acidic
+Assam,Nalbari,126.0,188.0,285.0,191.0,58.0,351.0,364.0,204.0,False,assam__nalbari,5.8,28.5,35.1,36.4,191.0,204.0,188.0,1.26,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Sivasagar,,,,,,,,,False,assam__sivasagar,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Sonitpur,123.0,192.0,308.0,198.0,53.0,334.0,358.0,233.0,False,assam__sonitpur,5.3,30.8,33.4,35.8,198.0,233.0,192.0,1.23,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Tinsukia,,,,,,,,,False,assam__tinsukia,5.5,28.9,37.3,34.8,191.0,208.0,188.0,1.27,Clay Loam,Laterite Soil,Medium,Acidic
+Assam,Udalguri,129.0,179.0,266.0,176.0,56.0,379.0,355.0,200.0,False,assam__udalguri,5.6,26.6,37.9,35.5,176.0,200.0,179.0,1.29,Loam,Laterite Soil,Medium,Acidic
+Bihar,Araria,,,,,,,,,False,bihar__araria,6.9,27.9,30.3,41.2,161.0,194.0,176.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Arwal,140.0,275.0,287.0,171.0,75.0,260.0,453.0,208.0,False,bihar__arwal,7.5,28.7,26.0,45.3,171.0,208.0,275.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Aurangabad,143.0,345.0,343.0,170.0,75.0,263.0,393.0,119.0,False,bihar__aurangabad,7.5,34.3,26.3,39.3,170.0,119.0,345.0,1.43,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Banka,127.0,172.0,249.0,154.0,66.0,359.0,392.0,396.0,False,bihar__banka,6.6,24.9,35.9,39.2,154.0,396.0,172.0,1.27,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Begusarai,136.0,162.0,297.0,194.0,69.0,277.0,427.0,214.0,False,bihar__begusarai,6.9,29.7,27.7,42.7,194.0,214.0,162.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Bhagalpur,,,,,,,,,False,bihar__bhagalpur,6.9,27.9,30.3,41.2,161.0,194.0,176.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Bhojpur,140.0,264.0,285.0,158.0,72.0,272.0,444.0,181.0,False,bihar__bhojpur,7.2,28.5,27.2,44.4,158.0,181.0,264.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Buxar,139.0,274.0,293.0,146.0,75.0,283.0,424.0,143.0,False,bihar__buxar,7.5,29.3,28.3,42.4,146.0,143.0,274.0,1.39,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Bihar,Darbhanga,133.0,166.0,295.0,149.0,70.0,297.0,408.0,195.0,False,bihar__darbhanga,7.0,29.5,29.7,40.8,149.0,195.0,166.0,1.33,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Bihar,Gaya,,,,,,,,,False,bihar__gaya,6.9,27.9,30.3,41.2,161.0,194.0,176.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Gopalganj,134.0,158.0,270.0,158.0,71.0,328.0,402.0,203.0,False,bihar__gopalganj,7.1,27.0,32.8,40.2,158.0,203.0,158.0,1.34,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Jamui,137.0,176.0,293.0,144.0,69.0,313.0,393.0,186.0,False,bihar__jamui,6.9,29.3,31.3,39.3,144.0,186.0,176.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Bihar,Jehanabad,140.0,192.0,250.0,161.0,76.0,300.0,450.0,167.0,False,bihar__jehanabad,7.6,25.0,30.0,45.0,161.0,167.0,192.0,1.4,Loam,Alluvial Soil,Medium,Alkaline
+Bihar,Kaimur (Bhabua),,,,,,,,,False,bihar__kaimur (bhabua),6.9,27.9,30.3,41.2,161.0,194.0,176.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Katihar,132.0,158.0,271.0,147.0,67.0,271.0,458.0,180.0,False,bihar__katihar,6.7,27.1,27.1,45.8,147.0,180.0,158.0,1.32,Clay Loam,Alluvial Soil,Low,Neutral / Optimal
+Bihar,Khagaria,134.0,171.0,287.0,174.0,69.0,305.0,408.0,224.0,False,bihar__khagaria,6.9,28.7,30.5,40.8,174.0,224.0,171.0,1.34,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Kishanganj,130.0,187.0,248.0,162.0,61.0,342.0,410.0,192.0,False,bihar__kishanganj,6.1,24.8,34.2,41.0,162.0,192.0,187.0,1.3,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Lakhisarai,133.0,183.0,279.0,183.0,68.0,298.0,422.0,232.0,False,bihar__lakhisarai,6.8,27.9,29.8,42.2,183.0,232.0,183.0,1.33,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Madhepura,132.0,170.0,244.0,177.0,69.0,315.0,442.0,193.0,False,bihar__madhepura,6.9,24.4,31.5,44.2,177.0,193.0,170.0,1.32,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Madhubani,136.0,181.0,291.0,172.0,68.0,303.0,406.0,217.0,False,bihar__madhubani,6.8,29.1,30.3,40.6,172.0,217.0,181.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Munger,120.0,189.0,239.0,346.0,60.0,386.0,375.0,360.0,False,bihar__munger,6.0,23.9,38.6,37.5,346.0,360.0,189.0,1.2,Loam,Red and Yellow Soil,High,Acidic
+Bihar,Muzaffarpur,135.0,137.0,254.0,160.0,69.0,322.0,423.0,183.0,False,bihar__muzaffarpur,6.9,25.4,32.2,42.3,160.0,183.0,137.0,1.35,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Nalanda,136.0,153.0,261.0,300.0,73.0,290.0,449.0,196.0,False,bihar__nalanda,7.3,26.1,29.0,44.9,300.0,196.0,153.0,1.36,Loam,Alluvial Soil,High,Neutral / Optimal
+Bihar,Nawada,136.0,220.0,295.0,173.0,71.0,261.0,444.0,212.0,False,bihar__nawada,7.1,29.5,26.1,44.4,173.0,212.0,220.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Pashchim Champaran,139.0,164.0,260.0,152.0,67.0,336.0,404.0,194.0,False,bihar__pashchim champaran,6.7,26.0,33.6,40.4,152.0,194.0,164.0,1.39,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Patna,,,,,,,,,False,bihar__patna,6.9,27.9,30.3,41.2,161.0,194.0,176.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Purbi Champaran,141.0,159.0,237.0,136.0,69.0,285.0,478.0,164.0,False,bihar__purbi champaran,6.9,23.7,28.5,47.8,136.0,164.0,159.0,1.41,Loam,Alluvial Soil,Low,Neutral / Optimal
+Bihar,Purnia,135.0,161.0,260.0,153.0,68.0,314.0,426.0,186.0,False,bihar__purnia,6.8,26.0,31.4,42.6,153.0,186.0,161.0,1.35,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Rohtas,143.0,296.0,311.0,172.0,72.0,288.0,401.0,144.0,False,bihar__rohtas,7.2,31.1,28.8,40.1,172.0,144.0,296.0,1.43,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Saharsa,133.0,172.0,295.0,161.0,70.0,325.0,380.0,229.0,False,bihar__saharsa,7.0,29.5,32.5,38.0,161.0,229.0,172.0,1.33,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Samastipur,,,,,,,,,False,bihar__samastipur,6.9,27.9,30.3,41.2,161.0,194.0,176.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Saran,134.0,159.0,260.0,152.0,68.0,323.0,417.0,189.0,False,bihar__saran,6.8,26.0,32.3,41.7,152.0,189.0,159.0,1.34,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Sheikhpura,137.0,183.0,251.0,161.0,71.0,277.0,472.0,205.0,False,bihar__sheikhpura,7.1,25.1,27.7,47.2,161.0,205.0,183.0,1.37,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Bihar,Sheohar,137.0,177.0,301.0,161.0,68.0,287.0,412.0,189.0,False,bihar__sheohar,6.8,30.1,28.7,41.2,161.0,189.0,177.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Sitamarhi,,,,,,,,,False,bihar__sitamarhi,6.9,27.9,30.3,41.2,161.0,194.0,176.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Siwan,137.0,178.0,301.0,136.0,72.0,319.0,380.0,163.0,False,bihar__siwan,7.2,30.1,31.9,38.0,136.0,163.0,178.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Bihar,Supaul,136.0,179.0,273.0,152.0,68.0,315.0,411.0,204.0,False,bihar__supaul,6.8,27.3,31.5,41.1,152.0,204.0,179.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Bihar,Vaishali,131.0,157.0,286.0,140.0,69.0,312.0,402.0,211.0,False,bihar__vaishali,6.9,28.6,31.2,40.2,140.0,211.0,157.0,1.31,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Chandigarh,Chandigarh,,,,,,,,,False,chandigarh__chandigarh,6.9,29.5,35.45,35.0,167.5,193.0,225.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Balod,158.0,214.0,353.0,158.0,66.0,319.0,328.0,122.0,False,chhattisgarh__balod,6.6,35.3,31.9,32.8,158.0,122.0,214.0,1.58,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Baloda Bazar,167.0,337.0,347.0,155.0,74.0,219.0,434.0,124.0,False,chhattisgarh__baloda bazar,7.4,34.7,21.9,43.4,155.0,124.0,337.0,1.67,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Balrampur,138.0,396.0,389.0,232.0,62.0,219.0,391.0,317.0,False,chhattisgarh__balrampur,6.2,38.9,21.9,39.1,232.0,317.0,396.0,1.38,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Chhattisgarh,Bastar,144.0,352.0,283.0,165.0,64.0,378.0,339.0,239.0,False,chhattisgarh__bastar,6.4,28.3,37.8,33.9,165.0,239.0,352.0,1.44,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Chhattisgarh,Bemetara,162.0,347.0,410.0,173.0,73.0,181.0,409.0,133.0,False,chhattisgarh__bemetara,7.3,41.0,18.1,40.9,173.0,133.0,347.0,1.62,Silty Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Bijapur,146.0,194.0,313.0,148.0,66.0,402.0,286.0,170.0,False,chhattisgarh__bijapur,6.6,31.3,40.2,28.6,148.0,170.0,194.0,1.46,Clay Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Chhattisgarh,Bilaspur,153.0,314.0,388.0,159.0,74.0,171.0,441.0,147.0,False,chhattisgarh__bilaspur,7.4,38.8,17.1,44.1,159.0,147.0,314.0,1.53,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Dantewada,133.0,270.0,281.0,196.0,60.0,380.0,338.0,256.0,False,chhattisgarh__dantewada,6.0,28.1,38.0,33.8,196.0,256.0,270.0,1.33,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Chhattisgarh,Dhamtari,149.0,238.0,343.0,193.0,62.0,394.0,262.0,195.0,False,chhattisgarh__dhamtari,6.2,34.3,39.4,26.2,193.0,195.0,238.0,1.49,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Durg,,,,,,,,,False,chhattisgarh__durg,6.75,36.8,23.1,35.8,172.5,167.5,326.0,1.5350000000000001,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Gariyaband,155.0,241.0,336.0,156.0,66.0,340.0,324.0,151.0,False,chhattisgarh__gariyaband,6.6,33.6,34.0,32.4,156.0,151.0,241.0,1.55,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Janjgir-Champa,151.0,367.0,408.0,207.0,73.0,191.0,401.0,185.0,False,chhattisgarh__janjgir-champa,7.3,40.8,19.1,40.1,207.0,185.0,367.0,1.51,Silty Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Jashpur,140.0,353.0,364.0,183.0,66.0,240.0,396.0,217.0,False,chhattisgarh__jashpur,6.6,36.4,24.0,39.6,183.0,217.0,353.0,1.4,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Kabirdham,162.0,349.0,378.0,144.0,73.0,191.0,430.0,145.0,False,chhattisgarh__kabirdham,7.3,37.8,19.1,43.0,144.0,145.0,349.0,1.62,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Chhattisgarh,Kanker,155.0,177.0,372.0,177.0,61.0,340.0,287.0,186.0,False,chhattisgarh__kanker,6.1,37.2,34.0,28.7,177.0,186.0,177.0,1.55,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Kondagaon,,,,,,,,,False,chhattisgarh__kondagaon,6.75,36.8,23.1,35.8,172.5,167.5,326.0,1.5350000000000001,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Korba,136.0,396.0,416.0,225.0,72.0,216.0,368.0,459.0,False,chhattisgarh__korba,7.2,41.6,21.6,36.8,225.0,459.0,396.0,1.36,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Korea,,,,,,,,,False,chhattisgarh__korea,6.75,36.8,23.1,35.8,172.5,167.5,326.0,1.5350000000000001,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Mahasamund,158.0,302.0,362.0,178.0,72.0,222.0,416.0,137.0,False,chhattisgarh__mahasamund,7.2,36.2,22.2,41.6,178.0,137.0,302.0,1.58,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Mungeli,,,,,,,,,False,chhattisgarh__mungeli,6.75,36.8,23.1,35.8,172.5,167.5,326.0,1.5350000000000001,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Narayanpur,138.0,276.0,315.0,172.0,59.0,428.0,257.0,272.0,False,chhattisgarh__narayanpur,5.9,31.5,42.8,25.7,172.0,272.0,276.0,1.38,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Chhattisgarh,Raigarh,156.0,385.0,463.0,165.0,72.0,181.0,356.0,141.0,False,chhattisgarh__raigarh,7.2,46.3,18.1,35.6,165.0,141.0,385.0,1.56,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Raipur,,,,,,,,,False,chhattisgarh__raipur,6.75,36.8,23.1,35.8,172.5,167.5,326.0,1.5350000000000001,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Chhattisgarh,Rajnandgaon,154.0,315.0,383.0,161.0,69.0,257.0,360.0,137.0,False,chhattisgarh__rajnandgaon,6.9,38.3,25.7,36.0,161.0,137.0,315.0,1.54,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Sukma,130.0,217.0,284.0,250.0,59.0,400.0,316.0,343.0,False,chhattisgarh__sukma,5.9,28.4,40.0,31.6,250.0,343.0,217.0,1.3,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Chhattisgarh,Surajpur,162.0,426.0,404.0,170.0,74.0,153.0,443.0,157.0,False,chhattisgarh__surajpur,7.4,40.4,15.3,44.3,170.0,157.0,426.0,1.62,Silty Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Chhattisgarh,Surguja,162.0,423.0,458.0,176.0,72.0,190.0,352.0,165.0,False,chhattisgarh__surguja,7.2,45.8,19.0,35.2,176.0,165.0,423.0,1.62,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Dadra And Nagar Haveli,Dadra And Nagar Haveli,,,,,,,,,False,dadra and nagar haveli__dadra and nagar haveli,6.9,29.5,35.45,35.0,167.5,193.0,225.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Goa,North Goa,134.0,203.0,334.0,210.0,57.0,367.0,299.0,278.0,False,goa__north goa,5.7,33.4,36.7,29.9,210.0,278.0,203.0,1.34,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Goa,South Goa,135.0,237.0,326.0,261.0,63.0,363.0,311.0,296.0,False,goa__south goa,6.3,32.6,36.3,31.1,261.0,296.0,237.0,1.35,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Gujarat,Ahmadabad,148.0,298.0,347.0,184.0,73.0,309.0,344.0,110.0,False,gujarat__ahmadabad,7.3,34.7,30.9,34.4,184.0,110.0,298.0,1.48,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Amreli,154.0,247.0,306.0,124.0,73.0,354.0,340.0,85.0,False,gujarat__amreli,7.3,30.6,35.4,34.0,124.0,85.0,247.0,1.54,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Gujarat,Anand,156.0,304.0,240.0,153.0,71.0,416.0,345.0,98.0,False,gujarat__anand,7.1,24.0,41.6,34.5,153.0,98.0,304.0,1.56,Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Gujarat,Banas Kantha,146.0,268.0,210.0,181.0,73.0,435.0,355.0,134.0,False,gujarat__banas kantha,7.3,21.0,43.5,35.5,181.0,134.0,268.0,1.46,Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Gujarat,Bharuch,,,,,,,,,False,gujarat__bharuch,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Bhavnagar,,,,,,,,,False,gujarat__bhavnagar,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Dang,152.0,345.0,447.0,210.0,67.0,258.0,296.0,202.0,False,gujarat__dang,6.7,44.7,25.8,29.6,210.0,202.0,345.0,1.52,Clay,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Gujarat,Dohad,148.0,280.0,332.0,136.0,73.0,383.0,285.0,81.0,False,gujarat__dohad,7.3,33.2,38.3,28.5,136.0,81.0,280.0,1.48,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Gujarat,Gandhinagar,150.0,311.0,302.0,162.0,74.0,319.0,379.0,95.0,False,gujarat__gandhinagar,7.4,30.2,31.9,37.9,162.0,95.0,311.0,1.5,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Jamnagar,146.0,212.0,309.0,156.0,70.0,368.0,324.0,120.0,False,gujarat__jamnagar,7.0,30.9,36.8,32.4,156.0,120.0,212.0,1.46,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Junagadh,,,,,,,,,False,gujarat__junagadh,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Kachchh,128.0,248.0,211.0,72.0,74.0,476.0,313.0,276.0,False,gujarat__kachchh,7.4,21.1,47.6,31.3,72.0,276.0,248.0,1.28,Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Gujarat,Kheda,158.0,333.0,303.0,148.0,74.0,337.0,359.0,107.0,False,gujarat__kheda,7.4,30.3,33.7,35.9,148.0,107.0,333.0,1.58,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Gujarat,Mahesana,156.0,312.0,244.0,164.0,73.0,388.0,369.0,101.0,False,gujarat__mahesana,7.3,24.4,38.8,36.9,164.0,101.0,312.0,1.56,Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Gujarat,Narmada,153.0,305.0,391.0,203.0,67.0,301.0,308.0,232.0,False,gujarat__narmada,6.7,39.1,30.1,30.8,203.0,232.0,305.0,1.53,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Gujarat,Navsari,,,,,,,,,False,gujarat__navsari,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Panch Mahals,161.0,322.0,292.0,124.0,70.0,394.0,314.0,100.0,False,gujarat__panch mahals,7.0,29.2,39.4,31.4,124.0,100.0,322.0,1.61,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Gujarat,Patan,151.0,269.0,190.0,151.0,74.0,419.0,391.0,105.0,False,gujarat__patan,7.4,19.0,41.9,39.1,151.0,105.0,269.0,1.51,Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Gujarat,Porbandar,150.0,211.0,234.0,138.0,70.0,400.0,366.0,149.0,False,gujarat__porbandar,7.0,23.4,40.0,36.6,138.0,149.0,211.0,1.5,Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Gujarat,Rajkot,,,,,,,,,False,gujarat__rajkot,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Sabar Kantha,,,,,,,,,False,gujarat__sabar kantha,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Surat,,,,,,,,,False,gujarat__surat,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Surendranagar,,294.0,310.0,172.0,75.0,381.0,308.0,93.0,False,gujarat__surendranagar,7.5,31.0,38.1,30.8,172.0,93.0,294.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Tapi,162.0,339.0,388.0,169.0,69.0,340.0,272.0,115.0,False,gujarat__tapi,6.9,38.8,34.0,27.2,169.0,115.0,339.0,1.62,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Vadodara,,,,,,,,,False,gujarat__vadodara,7.3,30.450000000000003,37.45,33.2,159.0,108.5,296.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Gujarat,Valsad,148.0,269.0,393.0,254.0,70.0,346.0,261.0,188.0,False,gujarat__valsad,7.0,39.3,34.6,26.1,254.0,188.0,269.0,1.48,Clay Loam,Black Soil (Regur/Vertisol),High,Neutral / Optimal
+Haryana,Ambala,,,,,,,,,False,haryana__ambala,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Bhiwani,,,,,,,,,False,haryana__bhiwani,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Faridabad,,,,,,,,,False,haryana__faridabad,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Fatehabad,147.0,130.0,211.0,145.0,79.0,494.0,295.0,84.0,False,haryana__fatehabad,7.9,21.1,49.4,29.5,145.0,84.0,130.0,1.47,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Gurgaon,,,,,,,,,False,haryana__gurgaon,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Hisar,,,,,,,,,False,haryana__hisar,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Jhajjar,143.0,157.0,226.0,106.0,80.0,433.0,342.0,114.0,False,haryana__jhajjar,8.0,22.6,43.3,34.2,106.0,114.0,157.0,1.43,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Jind,,,,,,,,,False,haryana__jind,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Kaithal,,,,,,,,,False,haryana__kaithal,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Karnal,144.0,138.0,274.0,111.0,80.0,342.0,384.0,155.0,False,haryana__karnal,8.0,27.4,34.2,38.4,111.0,155.0,138.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Haryana,Kurukshetra,,,,,,,,,False,haryana__kurukshetra,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Mahendragarh,146.0,208.0,268.0,100.0,78.0,428.0,304.0,98.0,False,haryana__mahendragarh,7.8,26.8,42.8,30.4,100.0,98.0,208.0,1.46,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Mewat,141.0,225.0,254.0,145.0,78.0,516.0,229.0,140.0,False,haryana__mewat,7.8,25.4,51.6,22.9,145.0,140.0,225.0,1.41,Sandy Clay Loam,Alluvial Soil,Low,Alkaline
+Haryana,Palwal,144.0,115.0,238.0,121.0,84.0,478.0,284.0,107.0,False,haryana__palwal,8.4,23.8,47.8,28.4,121.0,107.0,115.0,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Panchkula,138.0,179.0,225.0,187.0,70.0,436.0,339.0,206.0,False,haryana__panchkula,7.0,22.5,43.6,33.9,187.0,206.0,179.0,1.38,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Haryana,Panipat,,,,,,,,,False,haryana__panipat,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Rewari,,,,,,,,,False,haryana__rewari,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Rohtak,,,,,,,,,False,haryana__rohtak,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Sirsa,148.0,136.0,191.0,136.0,78.0,511.0,297.0,104.0,False,haryana__sirsa,7.8,19.1,51.1,29.7,136.0,104.0,136.0,1.48,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Sonipat,,,,,,,,,False,haryana__sonipat,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Haryana,Yamunanagar,,,,,,,,,False,haryana__yamunanagar,7.85,23.200000000000003,45.7,30.049999999999997,128.5,110.5,147.5,1.44,Loam,Alluvial Soil,Low,Alkaline
+Himachal Pradesh,Bilaspur,,,,,,,,,False,himachal pradesh__bilaspur,6.2,25.75,39.5,34.75,477.0,537.5,232.5,1.18,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Chamba,110.0,274.0,299.0,673.0,57.0,403.0,299.0,930.0,False,himachal pradesh__chamba,5.7,29.9,40.3,29.9,673.0,930.0,274.0,1.1,Clay Loam,Red and Yellow Soil,High,Acidic
+Himachal Pradesh,Hamirpur,133.0,235.0,266.0,496.0,63.0,425.0,309.0,494.0,False,himachal pradesh__hamirpur,6.3,26.6,42.5,30.9,496.0,494.0,235.0,1.33,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Kangra,128.0,208.0,300.0,643.0,63.0,377.0,324.0,554.0,False,himachal pradesh__kangra,6.3,30.0,37.7,32.4,643.0,554.0,208.0,1.28,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Kinnaur,117.0,250.0,189.0,626.0,61.0,489.0,322.0,797.0,False,himachal pradesh__kinnaur,6.1,18.9,48.9,32.2,626.0,797.0,250.0,1.17,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Kullu,,,,,,,,,False,himachal pradesh__kullu,6.2,25.75,39.5,34.75,477.0,537.5,232.5,1.18,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Lahul And Spiti,105.0,418.0,177.0,458.0,68.0,445.0,378.0,738.0,False,himachal pradesh__lahul and spiti,6.8,17.7,44.5,37.8,458.0,738.0,418.0,1.05,Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Himachal Pradesh,Mandi,112.0,221.0,257.0,676.0,56.0,387.0,356.0,768.0,False,himachal pradesh__mandi,5.6,25.7,38.7,35.6,676.0,768.0,221.0,1.12,Loam,Red and Yellow Soil,High,Acidic
+Himachal Pradesh,Shimla,118.0,250.0,258.0,446.0,62.0,372.0,370.0,497.0,False,himachal pradesh__shimla,6.2,25.8,37.2,37.0,446.0,497.0,250.0,1.18,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Sirmaur,118.0,228.0,242.0,415.0,62.0,366.0,391.0,521.0,False,himachal pradesh__sirmaur,6.2,24.2,36.6,39.1,415.0,521.0,228.0,1.18,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Solan,125.0,230.0,262.0,351.0,62.0,370.0,368.0,515.0,False,himachal pradesh__solan,6.2,26.2,37.0,36.8,351.0,515.0,230.0,1.25,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Himachal Pradesh,Una,140.0,161.0,217.0,191.0,74.0,444.0,339.0,233.0,False,himachal pradesh__una,7.4,21.7,44.4,33.9,191.0,233.0,161.0,1.4,Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jammu And Kashmir,Anantnag,,,,,,,,,False,jammu and kashmir__anantnag,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Badgam,,,,,,,,,False,jammu and kashmir__badgam,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Bandipora,,,,,,,,,False,jammu and kashmir__bandipora,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Baramulla,,,,,,,,,False,jammu and kashmir__baramulla,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Doda,120.0,207.0,289.0,432.0,62.0,384.0,327.0,514.0,False,jammu and kashmir__doda,6.2,28.9,38.4,32.7,432.0,514.0,207.0,1.2,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Ganderbal,107.0,290.0,159.0,497.0,64.0,392.0,449.0,804.0,False,jammu and kashmir__ganderbal,6.4,15.9,39.2,44.9,497.0,804.0,290.0,1.07,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Jammu,130.0,191.0,257.0,404.0,62.0,259.0,484.0,429.0,False,jammu and kashmir__jammu,6.2,25.7,25.9,48.4,404.0,429.0,191.0,1.3,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Kargil,,,,,,,,,False,jammu and kashmir__kargil,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Kathua,,,,,,,,,False,jammu and kashmir__kathua,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Kishtwar,108.0,300.0,185.0,372.0,71.0,407.0,409.0,523.0,False,jammu and kashmir__kishtwar,7.1,18.5,40.7,40.9,372.0,523.0,300.0,1.08,Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Jammu And Kashmir,Kulgam,126.0,231.0,253.0,463.0,61.0,277.0,470.0,452.0,False,jammu and kashmir__kulgam,6.1,25.3,27.7,47.0,463.0,452.0,231.0,1.26,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Kupwara,130.0,212.0,313.0,481.0,67.0,261.0,426.0,378.0,False,jammu and kashmir__kupwara,6.7,31.3,26.1,42.6,481.0,378.0,212.0,1.3,Clay Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Jammu And Kashmir,Leh Ladakh,,,,,,,,,False,jammu and kashmir__leh ladakh,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Poonch,131.0,186.0,268.0,332.0,71.0,374.0,359.0,378.0,False,jammu and kashmir__poonch,7.1,26.8,37.4,35.9,332.0,378.0,186.0,1.31,Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Jammu And Kashmir,Pulwama,116.0,241.0,245.0,502.0,61.0,331.0,425.0,458.0,False,jammu and kashmir__pulwama,6.1,24.5,33.1,42.5,502.0,458.0,241.0,1.16,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Rajauri,,,,,,,,,False,jammu and kashmir__rajauri,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Ramban,124.0,222.0,229.0,481.0,65.0,326.0,446.0,546.0,False,jammu and kashmir__ramban,6.5,22.9,32.6,44.6,481.0,546.0,222.0,1.24,Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Jammu And Kashmir,Reasi,118.0,207.0,299.0,501.0,61.0,336.0,365.0,595.0,False,jammu and kashmir__reasi,6.1,29.9,33.6,36.5,501.0,595.0,207.0,1.18,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Samba,138.0,173.0,222.0,285.0,72.0,362.0,416.0,251.0,False,jammu and kashmir__samba,7.2,22.2,36.2,41.6,285.0,251.0,173.0,1.38,Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Jammu And Kashmir,Shopian,,,,,,,,,False,jammu and kashmir__shopian,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Srinagar,,,,,,,,,False,jammu and kashmir__srinagar,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jammu And Kashmir,Udhampur,,,,,,,,,False,jammu and kashmir__udhampur,6.4,25.3,33.6,42.5,463.0,458.0,212.0,1.24,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jharkhand,Bokaro,148.0,311.0,347.0,189.0,66.0,283.0,371.0,204.0,False,jharkhand__bokaro,6.6,34.7,28.3,37.1,189.0,204.0,311.0,1.48,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Chatra,148.0,367.0,353.0,133.0,62.0,205.0,441.0,229.0,False,jharkhand__chatra,6.2,35.3,20.5,44.1,133.0,229.0,367.0,1.48,Clay Loam,Red and Yellow Soil,Low,Neutral / Optimal
+Jharkhand,Deoghar,,,,,,,,,False,jharkhand__deoghar,6.35,35.0,30.85,35.8,186.5,212.5,286.0,1.43,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Jharkhand,Dhanbad,,,,,,,,,False,jharkhand__dhanbad,6.35,35.0,30.85,35.8,186.5,212.5,286.0,1.43,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Jharkhand,Dumka,137.0,151.0,202.0,161.0,58.0,360.0,437.0,186.0,False,jharkhand__dumka,5.8,20.2,36.0,43.7,161.0,186.0,151.0,1.37,Loam,Red / Mixed Alluvial Soil,Medium,Acidic
+Jharkhand,East Singhbum,132.0,196.0,329.0,274.0,63.0,400.0,270.0,295.0,False,jharkhand__east singhbum,6.3,32.9,40.0,27.0,274.0,295.0,196.0,1.32,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Jharkhand,Garhwa,155.0,391.0,359.0,177.0,65.0,177.0,464.0,186.0,False,jharkhand__garhwa,6.5,35.9,17.7,46.4,177.0,186.0,391.0,1.55,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Giridih,147.0,253.0,264.0,129.0,64.0,414.0,322.0,162.0,False,jharkhand__giridih,6.4,26.4,41.4,32.2,129.0,162.0,253.0,1.47,Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Jharkhand,Godda,140.0,191.0,254.0,169.0,63.0,397.0,349.0,227.0,False,jharkhand__godda,6.3,25.4,39.7,34.9,169.0,227.0,191.0,1.4,Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Jharkhand,Gumla,135.0,342.0,383.0,205.0,65.0,263.0,354.0,346.0,False,jharkhand__gumla,6.5,38.3,26.3,35.4,205.0,346.0,342.0,1.35,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Hazaribagh,145.0,256.0,288.0,205.0,67.0,306.0,406.0,203.0,False,jharkhand__hazaribagh,6.7,28.8,30.6,40.6,205.0,203.0,256.0,1.45,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Jamtara,145.0,173.0,222.0,154.0,63.0,421.0,357.0,175.0,False,jharkhand__jamtara,6.3,22.2,42.1,35.7,154.0,175.0,173.0,1.45,Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Khunti,140.0,301.0,331.0,187.0,67.0,342.0,327.0,253.0,False,jharkhand__khunti,6.7,33.1,34.2,32.7,187.0,253.0,301.0,1.4,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Koderma,,,,,,,,,False,jharkhand__koderma,6.35,35.0,30.85,35.8,186.5,212.5,286.0,1.43,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Jharkhand,Latehar,153.0,373.0,367.0,148.0,68.0,236.0,397.0,159.0,False,jharkhand__latehar,6.8,36.7,23.6,39.7,148.0,159.0,373.0,1.53,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Jharkhand,Lohardaga,145.0,334.0,366.0,191.0,68.0,280.0,354.0,238.0,False,jharkhand__lohardaga,6.8,36.6,28.0,35.4,191.0,238.0,334.0,1.45,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Jharkhand,Pakur,136.0,188.0,209.0,193.0,59.0,423.0,369.0,224.0,False,jharkhand__pakur,5.9,20.9,42.3,36.9,193.0,224.0,188.0,1.36,Loam,Red and Yellow Soil,Medium,Acidic
+Jharkhand,Palamu,161.0,399.0,378.0,146.0,71.0,213.0,409.0,157.0,False,jharkhand__palamu,7.1,37.8,21.3,40.9,146.0,157.0,399.0,1.61,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Jharkhand,Ramgarh,145.0,360.0,362.0,186.0,65.0,255.0,383.0,175.0,False,jharkhand__ramgarh,6.5,36.2,25.5,38.3,186.0,175.0,360.0,1.45,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Ranchi,,,,,,,,,False,jharkhand__ranchi,6.35,35.0,30.85,35.8,186.5,212.5,286.0,1.43,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Jharkhand,Sahebganj,129.0,193.0,203.0,200.0,62.0,472.0,326.0,291.0,False,jharkhand__sahebganj,6.2,20.3,47.2,32.6,200.0,291.0,193.0,1.29,Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Jharkhand,Saraikela Kharsawan,136.0,223.0,373.0,175.0,63.0,311.0,315.0,183.0,False,jharkhand__saraikela kharsawan,6.3,37.3,31.1,31.5,175.0,183.0,223.0,1.36,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Jharkhand,Simdega,141.0,322.0,353.0,232.0,63.0,289.0,359.0,331.0,False,jharkhand__simdega,6.3,35.3,28.9,35.9,232.0,331.0,322.0,1.41,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Jharkhand,West Singhbhum,132.0,271.0,389.0,208.0,61.0,347.0,264.0,221.0,False,jharkhand__west singhbhum,6.1,38.9,34.7,26.4,208.0,221.0,271.0,1.32,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Karnataka,Bagalkot,,,,,,,,,False,karnataka__bagalkot,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Bangalore Rural,138.0,143.0,222.0,156.0,65.0,554.0,224.0,163.0,False,karnataka__bangalore rural,6.5,22.2,55.4,22.4,156.0,163.0,143.0,1.38,Sandy Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Karnataka,Belgaum,135.0,389.0,339.0,148.0,66.0,375.0,286.0,205.0,False,karnataka__belgaum,6.6,33.9,37.5,28.6,148.0,205.0,389.0,1.35,Clay Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Karnataka,Bellary,,,,,,,,,False,karnataka__bellary,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Bengaluru Urban,,,,,,,,,False,karnataka__bengaluru urban,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Bidar,152.0,313.0,387.0,148.0,72.0,327.0,286.0,117.0,False,karnataka__bidar,7.2,38.7,32.7,28.6,148.0,117.0,313.0,1.52,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Bijapur,146.0,283.0,275.0,131.0,69.0,532.0,193.0,156.0,False,karnataka__bijapur,6.9,27.5,53.2,19.3,131.0,156.0,283.0,1.46,Sandy Clay Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Karnataka,Chamarajanagar,122.0,300.0,292.0,227.0,64.0,435.0,273.0,348.0,False,karnataka__chamarajanagar,6.4,29.2,43.5,27.3,227.0,348.0,300.0,1.22,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Karnataka,Chikballapur,,,,,,,,,False,karnataka__chikballapur,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Chikmagalur,,,,,,,,,False,karnataka__chikmagalur,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Chitradurga,146.0,334.0,297.0,129.0,71.0,428.0,275.0,180.0,False,karnataka__chitradurga,7.1,29.7,42.8,27.5,129.0,180.0,334.0,1.46,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Dakshin Kannad,,,,,,,,,False,karnataka__dakshin kannad,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Davangere,,,,,,,,,False,karnataka__davangere,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Dharwad,,,,,,,,,False,karnataka__dharwad,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Gadag,144.0,287.0,272.0,136.0,74.0,449.0,279.0,193.0,False,karnataka__gadag,7.4,27.2,44.9,27.9,136.0,193.0,287.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Gulbarga,147.0,238.0,355.0,126.0,69.0,384.0,261.0,179.0,False,karnataka__gulbarga,6.9,35.5,38.4,26.1,126.0,179.0,238.0,1.47,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Hassan,133.0,290.0,291.0,188.0,70.0,392.0,318.0,202.0,False,karnataka__hassan,7.0,29.1,39.2,31.8,188.0,202.0,290.0,1.33,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Karnataka,Haveri,141.0,391.0,378.0,140.0,74.0,320.0,302.0,166.0,False,karnataka__haveri,7.4,37.8,32.0,30.2,140.0,166.0,391.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Kodagu,109.0,266.0,318.0,385.0,55.0,428.0,255.0,405.0,False,karnataka__kodagu,5.5,31.8,42.8,25.5,385.0,405.0,266.0,1.09,Clay Loam,Laterite Soil,High,Acidic
+Karnataka,Kolar,143.0,223.0,327.0,126.0,70.0,429.0,245.0,197.0,False,karnataka__kolar,7.0,32.7,42.9,24.5,126.0,197.0,223.0,1.43,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Koppal,150.0,260.0,238.0,115.0,71.0,517.0,244.0,163.0,False,karnataka__koppal,7.1,23.8,51.7,24.4,115.0,163.0,260.0,1.5,Sandy Clay Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Karnataka,Mandya,137.0,254.0,334.0,143.0,68.0,408.0,258.0,201.0,False,karnataka__mandya,6.8,33.4,40.8,25.8,143.0,201.0,254.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Mysore,,,,,,,,,False,karnataka__mysore,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Raichur,151.0,198.0,334.0,175.0,68.0,424.0,242.0,183.0,False,karnataka__raichur,6.8,33.4,42.4,24.2,175.0,183.0,198.0,1.51,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Karnataka,Ramanagara,,,,,,,,,False,karnataka__ramanagara,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Shimoga,134.0,348.0,306.0,163.0,62.0,433.0,262.0,192.0,False,karnataka__shimoga,6.2,30.6,43.3,26.2,163.0,192.0,348.0,1.34,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Karnataka,Tumkur,,,,,,,,,False,karnataka__tumkur,6.9,31.8,42.8,26.2,148.0,193.0,267.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Karnataka,Udupi,124.0,196.0,351.0,268.0,57.0,392.0,257.0,346.0,False,karnataka__udupi,5.7,35.1,39.2,25.7,268.0,346.0,196.0,1.24,Clay Loam,Laterite Soil,High,Acidic
+Karnataka,Uttar Kannad,121.0,265.0,275.0,354.0,56.0,453.0,272.0,394.0,False,karnataka__uttar kannad,5.6,27.5,45.3,27.2,354.0,394.0,265.0,1.21,Sandy Clay Loam,Laterite Soil,High,Acidic
+Karnataka,Yadgir,142.0,267.0,380.0,120.0,74.0,333.0,287.0,293.0,False,karnataka__yadgir,7.4,38.0,33.3,28.7,120.0,293.0,267.0,1.42,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Kerala,Ernakulam,,,,,,,,,False,kerala__ernakulam,5.5,30.9,43.05,27.35,347.0,400.0,170.5,1.185,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Idukki,,,,,,,,,False,kerala__idukki,5.5,30.9,43.05,27.35,347.0,400.0,170.5,1.185,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Kannur,,,,,,,,,False,kerala__kannur,5.5,30.9,43.05,27.35,347.0,400.0,170.5,1.185,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Kasaragod,112.0,186.0,327.0,343.0,56.0,504.0,170.0,403.0,False,kerala__kasaragod,5.6,32.7,50.4,17.0,343.0,403.0,186.0,1.12,Sandy Clay Loam,Laterite Soil,High,Acidic
+Kerala,Kollam,,,,,,,,,False,kerala__kollam,5.5,30.9,43.05,27.35,347.0,400.0,170.5,1.185,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Kottayam,113.0,155.0,308.0,351.0,53.0,408.0,284.0,397.0,False,kerala__kottayam,5.3,30.8,40.8,28.4,351.0,397.0,155.0,1.13,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Kozhikode,,,,,,,,,False,kerala__kozhikode,5.5,30.9,43.05,27.35,347.0,400.0,170.5,1.185,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Malappuram,126.0,139.0,260.0,314.0,56.0,474.0,266.0,437.0,False,kerala__malappuram,5.6,26.0,47.4,26.6,314.0,437.0,139.0,1.26,Sandy Clay Loam,Laterite Soil,High,Acidic
+Kerala,Palakkad,126.0,149.0,270.0,432.0,54.0,448.0,281.0,273.0,False,kerala__palakkad,5.4,27.0,44.8,28.1,432.0,273.0,149.0,1.26,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Pathanamthitta,107.0,186.0,310.0,431.0,52.0,377.0,313.0,512.0,False,kerala__pathanamthitta,5.2,31.0,37.7,31.3,431.0,512.0,186.0,1.07,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Thiruvananthapuram,,,,,,,,,False,kerala__thiruvananthapuram,5.5,30.9,43.05,27.35,347.0,400.0,170.5,1.185,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Thrissur,,,,,,,,,False,kerala__thrissur,5.5,30.9,43.05,27.35,347.0,400.0,170.5,1.185,Clay Loam,Laterite Soil,High,Acidic
+Kerala,Wayanad,124.0,205.0,330.0,238.0,56.0,413.0,257.0,292.0,False,kerala__wayanad,5.6,33.0,41.3,25.7,238.0,292.0,205.0,1.24,Clay Loam,Laterite Soil,Medium,Acidic
+Madhya Pradesh,Agar Malwa,155.0,433.0,294.0,115.0,73.0,307.0,399.0,74.0,False,madhya pradesh__agar malwa,7.3,29.4,30.7,39.9,115.0,74.0,433.0,1.55,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Alirajpur,163.0,343.0,376.0,139.0,74.0,330.0,294.0,92.0,False,madhya pradesh__alirajpur,7.4,37.6,33.0,29.4,139.0,92.0,343.0,1.63,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Anuppur,158.0,399.0,375.0,174.0,70.0,207.0,418.0,129.0,False,madhya pradesh__anuppur,7.0,37.5,20.7,41.8,174.0,129.0,399.0,1.58,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Ashoknagar,156.0,375.0,314.0,110.0,73.0,345.0,341.0,93.0,False,madhya pradesh__ashoknagar,7.3,31.4,34.5,34.1,110.0,93.0,375.0,1.56,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Balaghat,143.0,306.0,412.0,242.0,63.0,215.0,374.0,376.0,False,madhya pradesh__balaghat,6.3,41.2,21.5,37.4,242.0,376.0,306.0,1.43,Clay,Red and Yellow Soil,Medium,Neutral / Optimal
+Madhya Pradesh,Barwani,163.0,506.0,471.0,118.0,73.0,239.0,290.0,113.0,False,madhya pradesh__barwani,7.3,47.1,23.9,29.0,118.0,113.0,506.0,1.63,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Betul,161.0,468.0,445.0,152.0,73.0,183.0,372.0,117.0,False,madhya pradesh__betul,7.3,44.5,18.3,37.2,152.0,117.0,468.0,1.61,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Bhind,141.0,238.0,252.0,129.0,79.0,420.0,327.0,105.0,False,madhya pradesh__bhind,7.9,25.2,42.0,32.7,129.0,105.0,238.0,1.41,Loam,Saline / Alkaline Soil,Low,Alkaline
+Madhya Pradesh,Bhopal,,,,,,,,,False,madhya pradesh__bhopal,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Burhanpur,162.0,399.0,379.0,135.0,74.0,331.0,290.0,88.0,False,madhya pradesh__burhanpur,7.4,37.9,33.1,29.0,135.0,88.0,399.0,1.62,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Chhatarpur,159.0,284.0,320.0,110.0,74.0,279.0,401.0,85.0,False,madhya pradesh__chhatarpur,7.4,32.0,27.9,40.1,110.0,85.0,284.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Chhindwara,149.0,477.0,416.0,214.0,71.0,196.0,389.0,201.0,False,madhya pradesh__chhindwara,7.1,41.6,19.6,38.9,214.0,201.0,477.0,1.49,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Damoh,168.0,373.0,422.0,125.0,74.0,180.0,398.0,97.0,False,madhya pradesh__damoh,7.4,42.2,18.0,39.8,125.0,97.0,373.0,1.68,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Datia,139.0,229.0,234.0,132.0,77.0,417.0,349.0,86.0,False,madhya pradesh__datia,7.7,23.4,41.7,34.9,132.0,86.0,229.0,1.39,Loam,Red / Mixed Alluvial Soil,Low,Alkaline
+Madhya Pradesh,Dewas,166.0,448.0,413.0,106.0,76.0,176.0,411.0,98.0,False,madhya pradesh__dewas,7.6,41.3,17.6,41.1,106.0,98.0,448.0,1.66,Silty Clay,Black Soil (Regur/Vertisol),Low,Alkaline
+Madhya Pradesh,Dhar,163.0,520.0,436.0,109.0,76.0,187.0,377.0,102.0,False,madhya pradesh__dhar,7.6,43.6,18.7,37.7,109.0,102.0,520.0,1.63,Clay,Black Soil (Regur/Vertisol),Low,Alkaline
+Madhya Pradesh,Dindori,158.0,400.0,381.0,195.0,71.0,208.0,411.0,187.0,False,madhya pradesh__dindori,7.1,38.1,20.8,41.1,195.0,187.0,400.0,1.58,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Guna,135.0,342.0,319.0,131.0,73.0,353.0,327.0,398.0,False,madhya pradesh__guna,7.3,31.9,35.3,32.7,131.0,398.0,342.0,1.35,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Gwalior,,,,,,,,,False,madhya pradesh__gwalior,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Harda,159.0,332.0,403.0,131.0,74.0,205.0,393.0,128.0,False,madhya pradesh__harda,7.4,40.3,20.5,39.3,131.0,128.0,332.0,1.59,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Hoshangabad,,,,,,,,,False,madhya pradesh__hoshangabad,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Indore,,,,,,,,,False,madhya pradesh__indore,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Jabalpur,,,,,,,,,False,madhya pradesh__jabalpur,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Jhabua,157.0,390.0,423.0,132.0,71.0,248.0,329.0,105.0,False,madhya pradesh__jhabua,7.1,42.3,24.8,32.9,132.0,105.0,390.0,1.57,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Katni,168.0,411.0,404.0,120.0,73.0,199.0,397.0,113.0,False,madhya pradesh__katni,7.3,40.4,19.9,39.7,120.0,113.0,411.0,1.68,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Khandwa,,,,,,,,,False,madhya pradesh__khandwa,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Khargone,155.0,428.0,298.0,122.0,74.0,368.0,334.0,79.0,False,madhya pradesh__khargone,7.4,29.8,36.8,33.4,122.0,79.0,428.0,1.55,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Mandla,164.0,441.0,411.0,194.0,71.0,159.0,429.0,174.0,False,madhya pradesh__mandla,7.1,41.1,15.9,42.9,194.0,174.0,441.0,1.64,Silty Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Mandsaur,,,,,,,,,False,madhya pradesh__mandsaur,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Morena,147.0,233.0,254.0,111.0,79.0,404.0,342.0,104.0,False,madhya pradesh__morena,7.9,25.4,40.4,34.2,111.0,104.0,233.0,1.47,Loam,Saline / Alkaline Soil,Low,Alkaline
+Madhya Pradesh,Narsinghpur,168.0,377.0,424.0,109.0,74.0,166.0,410.0,104.0,False,madhya pradesh__narsinghpur,7.4,42.4,16.6,41.0,109.0,104.0,377.0,1.68,Silty Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Neemuch,164.0,293.0,350.0,118.0,73.0,324.0,326.0,70.0,False,madhya pradesh__neemuch,7.3,35.0,32.4,32.6,118.0,70.0,293.0,1.64,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Panna,161.0,429.0,350.0,130.0,76.0,179.0,471.0,88.0,False,madhya pradesh__panna,7.6,35.0,17.9,47.1,130.0,88.0,429.0,1.61,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Madhya Pradesh,Raisen,153.0,360.0,432.0,182.0,63.0,218.0,350.0,194.0,False,madhya pradesh__raisen,6.3,43.2,21.8,35.0,182.0,194.0,360.0,1.53,Clay,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Madhya Pradesh,Rajgarh,164.0,413.0,366.0,115.0,75.0,290.0,344.0,86.0,False,madhya pradesh__rajgarh,7.5,36.6,29.0,34.4,115.0,86.0,413.0,1.64,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Ratlam,164.0,429.0,449.0,126.0,74.0,187.0,365.0,90.0,False,madhya pradesh__ratlam,7.4,44.9,18.7,36.5,126.0,90.0,429.0,1.64,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Rewa,163.0,360.0,368.0,130.0,73.0,254.0,378.0,103.0,False,madhya pradesh__rewa,7.3,36.8,25.4,37.8,130.0,103.0,360.0,1.63,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Sagar,164.0,414.0,399.0,150.0,71.0,223.0,378.0,115.0,False,madhya pradesh__sagar,7.1,39.9,22.3,37.8,150.0,115.0,414.0,1.64,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Satna,160.0,420.0,318.0,134.0,76.0,214.0,468.0,89.0,False,madhya pradesh__satna,7.6,31.8,21.4,46.8,134.0,89.0,420.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Madhya Pradesh,Sehore,166.0,424.0,421.0,130.0,73.0,221.0,357.0,106.0,False,madhya pradesh__sehore,7.3,42.1,22.1,35.7,130.0,106.0,424.0,1.66,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Seoni,164.0,437.0,377.0,163.0,71.0,169.0,455.0,149.0,False,madhya pradesh__seoni,7.1,37.7,16.9,45.5,163.0,149.0,437.0,1.64,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Shahdol,167.0,432.0,434.0,115.0,72.0,203.0,363.0,91.0,False,madhya pradesh__shahdol,7.2,43.4,20.3,36.3,115.0,91.0,432.0,1.67,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Shajapur,163.0,439.0,377.0,113.0,75.0,220.0,403.0,90.0,False,madhya pradesh__shajapur,7.5,37.7,22.0,40.3,113.0,90.0,439.0,1.63,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Sheopur,153.0,223.0,246.0,116.0,73.0,443.0,312.0,87.0,False,madhya pradesh__sheopur,7.3,24.6,44.3,31.2,116.0,87.0,223.0,1.53,Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Madhya Pradesh,Shivpuri,155.0,337.0,292.0,109.0,70.0,387.0,322.0,93.0,False,madhya pradesh__shivpuri,7.0,29.2,38.7,32.2,109.0,93.0,337.0,1.55,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Sidhi,157.0,380.0,374.0,157.0,71.0,226.0,400.0,123.0,False,madhya pradesh__sidhi,7.1,37.4,22.6,40.0,157.0,123.0,380.0,1.57,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Singrauli,161.0,364.0,333.0,129.0,71.0,264.0,403.0,124.0,False,madhya pradesh__singrauli,7.1,33.3,26.4,40.3,129.0,124.0,364.0,1.61,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Tikamgarh,153.0,256.0,253.0,123.0,73.0,332.0,416.0,100.0,False,madhya pradesh__tikamgarh,7.3,25.3,33.2,41.6,123.0,100.0,256.0,1.53,Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Madhya Pradesh,Ujjain,,,,,,,,,False,madhya pradesh__ujjain,7.3,37.7,22.6,37.8,130.0,104.0,399.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Madhya Pradesh,Umaria,156.0,416.0,380.0,202.0,68.0,226.0,393.0,151.0,False,madhya pradesh__umaria,6.8,38.0,22.6,39.3,202.0,151.0,416.0,1.56,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Madhya Pradesh,Vidisha,159.0,436.0,337.0,133.0,75.0,244.0,419.0,114.0,False,madhya pradesh__vidisha,7.5,33.7,24.4,41.9,133.0,114.0,436.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Ahmednagar,140.0,384.0,409.0,159.0,71.0,330.0,262.0,181.0,False,maharashtra__ahmednagar,7.1,40.9,33.0,26.2,159.0,181.0,384.0,1.4,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Maharashtra,Akola,161.0,410.0,455.0,112.0,75.0,273.0,273.0,91.0,False,maharashtra__akola,7.5,45.5,27.3,27.3,112.0,91.0,410.0,1.61,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Amravati,153.0,438.0,447.0,112.0,75.0,210.0,343.0,123.0,False,maharashtra__amravati,7.5,44.7,21.0,34.3,112.0,123.0,438.0,1.53,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Aurangabad,,,,,,,,,False,maharashtra__aurangabad,7.2,40.5,28.3,29.7,140.5,129.0,369.5,1.55,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Beed,160.0,422.0,469.0,123.0,72.0,277.0,254.0,116.0,False,maharashtra__beed,7.2,46.9,27.7,25.4,123.0,116.0,422.0,1.6,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Bhandara,155.0,390.0,438.0,157.0,72.0,158.0,404.0,175.0,False,maharashtra__bhandara,7.2,43.8,15.8,40.4,157.0,175.0,390.0,1.55,Silty Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Maharashtra,Buldhana,149.0,464.0,518.0,161.0,70.0,226.0,256.0,182.0,False,maharashtra__buldhana,7.0,51.8,22.6,25.6,161.0,182.0,464.0,1.49,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Maharashtra,Chandrapur,159.0,319.0,361.0,147.0,71.0,295.0,345.0,157.0,False,maharashtra__chandrapur,7.1,36.1,29.5,34.5,147.0,157.0,319.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Dhule,158.0,359.0,361.0,124.0,73.0,322.0,316.0,100.0,False,maharashtra__dhule,7.3,36.1,32.2,31.6,124.0,100.0,359.0,1.58,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Gadchiroli,154.0,259.0,339.0,199.0,61.0,277.0,384.0,231.0,False,maharashtra__gadchiroli,6.1,33.9,27.7,38.4,199.0,231.0,259.0,1.54,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Maharashtra,Gondia,,,,,,,,,False,maharashtra__gondia,7.2,40.5,28.3,29.7,140.5,129.0,369.5,1.55,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Hingoli,158.0,418.0,440.0,144.0,69.0,277.0,284.0,126.0,False,maharashtra__hingoli,6.9,44.0,27.7,28.4,144.0,126.0,418.0,1.58,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Jalgaon,159.0,398.0,401.0,108.0,74.0,319.0,280.0,89.0,False,maharashtra__jalgaon,7.4,40.1,31.9,28.0,108.0,89.0,398.0,1.59,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Jalna,159.0,470.0,467.0,118.0,73.0,211.0,321.0,112.0,False,maharashtra__jalna,7.3,46.7,21.1,32.1,118.0,112.0,470.0,1.59,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Kolhapur,,,,,,,,,False,maharashtra__kolhapur,7.2,40.5,28.3,29.7,140.5,129.0,369.5,1.55,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Latur,155.0,319.0,380.0,127.0,71.0,320.0,300.0,110.0,False,maharashtra__latur,7.1,38.0,32.0,30.0,127.0,110.0,319.0,1.55,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Mumbai,,,,,,,,,False,maharashtra__mumbai,7.2,40.5,28.3,29.7,140.5,129.0,369.5,1.55,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Nagpur,,,,,,,,,False,maharashtra__nagpur,7.2,40.5,28.3,29.7,140.5,129.0,369.5,1.55,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Nanded,160.0,372.0,399.0,122.0,72.0,286.0,315.0,121.0,False,maharashtra__nanded,7.2,39.9,28.6,31.5,122.0,121.0,372.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Nandurbar,160.0,347.0,350.0,149.0,74.0,267.0,384.0,80.0,False,maharashtra__nandurbar,7.4,35.0,26.7,38.4,149.0,80.0,347.0,1.6,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Nashik,,,,,,,,,False,maharashtra__nashik,7.2,40.5,28.3,29.7,140.5,129.0,369.5,1.55,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Osmanabad,155.0,384.0,366.0,137.0,72.0,324.0,311.0,132.0,False,maharashtra__osmanabad,7.2,36.6,32.4,31.1,137.0,132.0,384.0,1.55,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Palghar,140.0,262.0,356.0,356.0,66.0,324.0,320.0,221.0,False,maharashtra__palghar,6.6,35.6,32.4,32.0,356.0,221.0,262.0,1.4,Clay Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Maharashtra,Parbhani,159.0,443.0,415.0,136.0,73.0,280.0,305.0,100.0,False,maharashtra__parbhani,7.3,41.5,28.0,30.5,136.0,100.0,443.0,1.59,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Pune,,,,,,,,,False,maharashtra__pune,7.2,40.5,28.3,29.7,140.5,129.0,369.5,1.55,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Raigad,131.0,242.0,319.0,286.0,59.0,387.0,294.0,336.0,False,maharashtra__raigad,5.9,31.9,38.7,29.4,286.0,336.0,242.0,1.31,Clay Loam,Red and Yellow Soil,High,Acidic
+Maharashtra,Ratnagiri,131.0,218.0,373.0,246.0,62.0,335.0,292.0,315.0,False,maharashtra__ratnagiri,6.2,37.3,33.5,29.2,246.0,315.0,218.0,1.31,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Maharashtra,Sangli,150.0,346.0,419.0,123.0,73.0,348.0,233.0,153.0,False,maharashtra__sangli,7.3,41.9,34.8,23.3,123.0,153.0,346.0,1.5,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Satara,146.0,314.0,438.0,155.0,69.0,341.0,222.0,189.0,False,maharashtra__satara,6.9,43.8,34.1,22.2,155.0,189.0,314.0,1.46,Clay,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Maharashtra,Sindhudurg,131.0,243.0,340.0,257.0,62.0,344.0,316.0,314.0,False,maharashtra__sindhudurg,6.2,34.0,34.4,31.6,257.0,314.0,243.0,1.31,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Maharashtra,Solapur,152.0,341.0,513.0,147.0,72.0,249.0,239.0,151.0,False,maharashtra__solapur,7.2,51.3,24.9,23.9,147.0,151.0,341.0,1.52,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Thane,137.0,268.0,380.0,257.0,66.0,327.0,293.0,175.0,False,maharashtra__thane,6.6,38.0,32.7,29.3,257.0,175.0,268.0,1.37,Clay Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Maharashtra,Wardha,154.0,423.0,395.0,122.0,73.0,207.0,398.0,125.0,False,maharashtra__wardha,7.3,39.5,20.7,39.8,122.0,125.0,423.0,1.54,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Washim,162.0,457.0,529.0,125.0,72.0,233.0,238.0,111.0,False,maharashtra__washim,7.2,52.9,23.3,23.8,125.0,111.0,457.0,1.62,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Maharashtra,Yavatmal,160.0,367.0,446.0,125.0,71.0,272.0,282.0,113.0,False,maharashtra__yavatmal,7.1,44.6,27.2,28.2,125.0,113.0,367.0,1.6,Clay,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Manipur,Bishnupur,,,,,,,,,False,manipur__bishnupur,5.5,30.7,31.6,36.8,368.0,338.0,206.0,1.12,Clay Loam,Red and Yellow Soil,High,Acidic
+Manipur,Chandel,105.0,215.0,270.0,436.0,53.0,316.0,414.0,465.0,False,manipur__chandel,5.3,27.0,31.6,41.4,436.0,465.0,215.0,1.05,Clay Loam,Red and Yellow Soil,High,Acidic
+Manipur,Churachandpur,118.0,201.0,305.0,225.0,56.0,327.0,368.0,274.0,False,manipur__churachandpur,5.6,30.5,32.7,36.8,225.0,274.0,201.0,1.18,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Manipur,Imphal East,120.0,178.0,293.0,306.0,55.0,318.0,388.0,338.0,False,manipur__imphal east,5.5,29.3,31.8,38.8,306.0,338.0,178.0,1.2,Clay Loam,Red and Yellow Soil,High,Acidic
+Manipur,Imphal West,128.0,188.0,307.0,228.0,56.0,316.0,377.0,280.0,False,manipur__imphal west,5.6,30.7,31.6,37.7,228.0,280.0,188.0,1.28,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Manipur,Senapati,112.0,206.0,346.0,368.0,56.0,302.0,352.0,326.0,False,manipur__senapati,5.6,34.6,30.2,35.2,368.0,326.0,206.0,1.12,Clay Loam,Red and Yellow Soil,High,Acidic
+Manipur,Tamenglong,107.0,213.0,318.0,423.0,49.0,361.0,321.0,566.0,False,manipur__tamenglong,4.9,31.8,36.1,32.1,423.0,566.0,213.0,1.07,Clay Loam,Red and Yellow Soil,High,Acidic
+Manipur,Thoubal,,,,,,,,,False,manipur__thoubal,5.5,30.7,31.6,36.8,368.0,338.0,206.0,1.12,Clay Loam,Red and Yellow Soil,High,Acidic
+Manipur,Ukhrul,97.0,242.0,336.0,1050.0,55.0,312.0,353.0,419.0,False,manipur__ukhrul,5.5,33.6,31.2,35.3,1050.0,419.0,242.0,0.97,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,East Garo Hills,118.0,235.0,279.0,255.0,50.0,376.0,345.0,408.0,False,meghalaya__east garo hills,5.0,27.9,37.6,34.5,255.0,408.0,235.0,1.18,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,East Jaintia Hills,109.0,225.0,332.0,401.0,49.0,382.0,287.0,585.0,False,meghalaya__east jaintia hills,4.9,33.2,38.2,28.7,401.0,585.0,225.0,1.09,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,East Khasi Hills,98.0,222.0,326.0,952.0,51.0,336.0,337.0,801.0,False,meghalaya__east khasi hills,5.1,32.6,33.6,33.7,952.0,801.0,222.0,0.98,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,North Garo Hills,117.0,190.0,272.0,269.0,48.0,389.0,339.0,304.0,False,meghalaya__north garo hills,4.8,27.2,38.9,33.9,269.0,304.0,190.0,1.17,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,Ri Bhoi,113.0,235.0,297.0,286.0,51.0,412.0,292.0,472.0,False,meghalaya__ri bhoi,5.1,29.7,41.2,29.2,286.0,472.0,235.0,1.13,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,South Garo Hills,120.0,215.0,265.0,207.0,51.0,401.0,334.0,346.0,False,meghalaya__south garo hills,5.1,26.5,40.1,33.4,207.0,346.0,215.0,1.2,Loam,Red and Yellow Soil,Medium,Acidic
+Meghalaya,South West Garo Hills,129.0,199.0,288.0,186.0,52.0,387.0,324.0,181.0,False,meghalaya__south west garo hills,5.2,28.8,38.7,32.4,186.0,181.0,199.0,1.29,Clay Loam,Red / Mixed Alluvial Soil,Medium,Acidic
+Meghalaya,South West Khasi Hills,110.0,206.0,285.0,523.0,50.0,376.0,339.0,600.0,False,meghalaya__south west khasi hills,5.0,28.5,37.6,33.9,523.0,600.0,206.0,1.1,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,West Garo Hills,118.0,237.0,279.0,241.0,48.0,399.0,322.0,247.0,False,meghalaya__west garo hills,4.8,27.9,39.9,32.2,241.0,247.0,237.0,1.18,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Meghalaya,West Jaintia Hills,112.0,216.0,286.0,348.0,53.0,371.0,342.0,492.0,False,meghalaya__west jaintia hills,5.3,28.6,37.1,34.2,348.0,492.0,216.0,1.12,Clay Loam,Red and Yellow Soil,High,Acidic
+Meghalaya,West Khasi Hills,113.0,223.0,279.0,335.0,49.0,415.0,306.0,575.0,False,meghalaya__west khasi hills,4.9,27.9,41.5,30.6,335.0,575.0,223.0,1.13,Clay Loam,Red and Yellow Soil,High,Acidic
+Mizoram,Aizawl,,,,,,,,,False,mizoram__aizawl,5.3,30.8,31.6,37.3,345.0,367.0,206.0,1.11,Clay Loam,Red and Yellow Soil,High,Acidic
+Mizoram,Champhai,107.0,216.0,312.0,302.0,54.0,273.0,415.0,367.0,False,mizoram__champhai,5.4,31.2,27.3,41.5,302.0,367.0,216.0,1.07,Clay Loam,Red and Yellow Soil,High,Acidic
+Mizoram,Kolasib,115.0,206.0,308.0,541.0,52.0,335.0,357.0,311.0,False,mizoram__kolasib,5.2,30.8,33.5,35.7,541.0,311.0,206.0,1.15,Clay Loam,Red and Yellow Soil,High,Acidic
+Mizoram,Lawngtlai,111.0,190.0,283.0,273.0,53.0,367.0,351.0,421.0,False,mizoram__lawngtlai,5.3,28.3,36.7,35.1,273.0,421.0,190.0,1.11,Clay Loam,Red and Yellow Soil,High,Acidic
+Mizoram,Lunglei,111.0,175.0,287.0,345.0,53.0,326.0,386.0,311.0,False,mizoram__lunglei,5.3,28.7,32.6,38.6,345.0,311.0,175.0,1.11,Clay Loam,Red and Yellow Soil,High,Acidic
+Mizoram,Mamit,117.0,189.0,266.0,241.0,53.0,312.0,422.0,227.0,False,mizoram__mamit,5.3,26.6,31.2,42.2,241.0,227.0,189.0,1.17,Loam,Red and Yellow Soil,Medium,Acidic
+Mizoram,Saiha,106.0,228.0,349.0,383.0,54.0,316.0,335.0,387.0,False,mizoram__saiha,5.4,34.9,31.6,33.5,383.0,387.0,228.0,1.06,Clay Loam,Red and Yellow Soil,High,Acidic
+Mizoram,Serchhip,105.0,230.0,337.0,534.0,53.0,290.0,373.0,402.0,False,mizoram__serchhip,5.3,33.7,29.0,37.3,534.0,402.0,230.0,1.05,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Dimapur,,,,,,,,,False,nagaland__dimapur,5.3,29.5,32.9,37.6,720.0,446.0,219.0,1.08,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Kiphire,108.0,203.0,280.0,358.0,56.0,329.0,391.0,446.0,False,nagaland__kiphire,5.6,28.0,32.9,39.1,358.0,446.0,203.0,1.08,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Kohima,,,,,,,,,False,nagaland__kohima,5.3,29.5,32.9,37.6,720.0,446.0,219.0,1.08,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Longleng,110.0,234.0,287.0,767.0,53.0,374.0,339.0,500.0,False,nagaland__longleng,5.3,28.7,37.4,33.9,767.0,500.0,234.0,1.1,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Mokokchung,115.0,191.0,300.0,405.0,51.0,369.0,331.0,304.0,False,nagaland__mokokchung,5.1,30.0,36.9,33.1,405.0,304.0,191.0,1.15,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Mon,113.0,214.0,295.0,559.0,53.0,379.0,327.0,485.0,False,nagaland__mon,5.3,29.5,37.9,32.7,559.0,485.0,214.0,1.13,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Peren,107.0,221.0,306.0,720.0,51.0,317.0,376.0,420.0,False,nagaland__peren,5.1,30.6,31.7,37.6,720.0,420.0,221.0,1.07,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Phek,97.0,219.0,274.0,999.0,53.0,317.0,409.0,447.0,False,nagaland__phek,5.3,27.4,31.7,40.9,999.0,447.0,219.0,0.97,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Tuensang,97.0,248.0,316.0,1298.0,52.0,356.0,328.0,653.0,False,nagaland__tuensang,5.2,31.6,35.6,32.8,1298.0,653.0,248.0,0.97,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Wokha,120.0,217.0,288.0,336.0,53.0,317.0,395.0,329.0,False,nagaland__wokha,5.3,28.8,31.7,39.5,336.0,329.0,217.0,1.2,Clay Loam,Red and Yellow Soil,High,Acidic
+Nagaland,Zunheboto,101.0,219.0,299.0,871.0,52.0,310.0,390.0,413.0,False,nagaland__zunheboto,5.2,29.9,31.0,39.0,871.0,413.0,219.0,1.01,Clay Loam,Red and Yellow Soil,High,Acidic
+Odisha,Anugul,140.0,161.0,295.0,170.0,63.0,516.0,190.0,192.0,False,odisha__anugul,6.3,29.5,51.6,19.0,170.0,192.0,161.0,1.4,Sandy Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Balangir,146.0,260.0,363.0,177.0,66.0,285.0,352.0,165.0,False,odisha__balangir,6.6,36.3,28.5,35.2,177.0,165.0,260.0,1.46,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Baleshwar,130.0,186.0,344.0,205.0,64.0,306.0,350.0,297.0,False,odisha__baleshwar,6.4,34.4,30.6,35.0,205.0,297.0,186.0,1.3,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Bargarh,148.0,264.0,370.0,191.0,69.0,226.0,404.0,149.0,False,odisha__bargarh,6.9,37.0,22.6,40.4,191.0,149.0,264.0,1.48,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Odisha,Bhadrak,124.0,191.0,361.0,202.0,65.0,250.0,389.0,269.0,False,odisha__bhadrak,6.5,36.1,25.0,38.9,202.0,269.0,191.0,1.24,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Boudh,136.0,208.0,309.0,188.0,62.0,367.0,323.0,257.0,False,odisha__boudh,6.2,30.9,36.7,32.3,188.0,257.0,208.0,1.36,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Cuttack,,,,,,,,,False,odisha__cuttack,6.3,32.6,35.2,34.0,191.0,253.0,191.0,1.32,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Deogarh,137.0,221.0,361.0,251.0,63.0,343.0,296.0,266.0,False,odisha__deogarh,6.3,36.1,34.3,29.6,251.0,266.0,221.0,1.37,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Odisha,Dhenkanal,132.0,170.0,315.0,159.0,62.0,394.0,291.0,275.0,False,odisha__dhenkanal,6.2,31.5,39.4,29.1,159.0,275.0,170.0,1.32,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Gajapati,109.0,187.0,277.0,430.0,55.0,360.0,363.0,380.0,False,odisha__gajapati,5.5,27.7,36.0,36.3,430.0,380.0,187.0,1.09,Clay Loam,Laterite Soil,High,Acidic
+Odisha,Ganjam,132.0,183.0,312.0,165.0,62.0,352.0,335.0,166.0,False,odisha__ganjam,6.2,31.2,35.2,33.5,165.0,166.0,183.0,1.32,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Jagatsinghapur,124.0,190.0,387.0,220.0,66.0,235.0,379.0,246.0,False,odisha__jagatsinghapur,6.6,38.7,23.5,37.9,220.0,246.0,190.0,1.24,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Jajapur,126.0,185.0,368.0,215.0,65.0,206.0,426.0,328.0,False,odisha__jajapur,6.5,36.8,20.6,42.6,215.0,328.0,185.0,1.26,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Jharsuguda,145.0,281.0,392.0,142.0,66.0,234.0,375.0,174.0,False,odisha__jharsuguda,6.6,39.2,23.4,37.5,142.0,174.0,281.0,1.45,Clay Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Odisha,Kalahandi,145.0,179.0,275.0,168.0,63.0,418.0,306.0,181.0,False,odisha__kalahandi,6.3,27.5,41.8,30.6,168.0,181.0,179.0,1.45,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Kandhamal,128.0,185.0,326.0,263.0,61.0,355.0,319.0,304.0,False,odisha__kandhamal,6.1,32.6,35.5,31.9,263.0,304.0,185.0,1.28,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Odisha,Kendrapara,120.0,194.0,375.0,206.0,65.0,169.0,456.0,253.0,False,odisha__kendrapara,6.5,37.5,16.9,45.6,206.0,253.0,194.0,1.2,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Kendujhar,132.0,178.0,326.0,185.0,60.0,379.0,295.0,226.0,False,odisha__kendujhar,6.0,32.6,37.9,29.5,185.0,226.0,178.0,1.32,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Odisha,Khordha,127.0,193.0,344.0,196.0,64.0,330.0,326.0,285.0,False,odisha__khordha,6.4,34.4,33.0,32.6,196.0,285.0,193.0,1.27,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Koraput,127.0,194.0,260.0,268.0,57.0,399.0,340.0,294.0,False,odisha__koraput,5.7,26.0,39.9,34.0,268.0,294.0,194.0,1.27,Loam,Laterite Soil,High,Acidic
+Odisha,Malkangiri,133.0,187.0,235.0,172.0,65.0,375.0,390.0,186.0,False,odisha__malkangiri,6.5,23.5,37.5,39.0,172.0,186.0,187.0,1.33,Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Mayurbhanj,117.0,267.0,273.0,271.0,55.0,343.0,384.0,555.0,False,odisha__mayurbhanj,5.5,27.3,34.3,38.4,271.0,555.0,267.0,1.17,Clay Loam,Laterite Soil,High,Acidic
+Odisha,Nabarangpur,136.0,293.0,296.0,155.0,62.0,406.0,298.0,196.0,False,odisha__nabarangpur,6.2,29.6,40.6,29.8,155.0,196.0,293.0,1.36,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Odisha,Nayagarh,125.0,157.0,296.0,184.0,60.0,386.0,317.0,250.0,False,odisha__nayagarh,6.0,29.6,38.6,31.7,184.0,250.0,157.0,1.25,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Odisha,Nuapada,136.0,327.0,339.0,211.0,64.0,363.0,298.0,271.0,False,odisha__nuapada,6.4,33.9,36.3,29.8,211.0,271.0,327.0,1.36,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Puri,,,,,,,,,False,odisha__puri,6.3,32.6,35.2,34.0,191.0,253.0,191.0,1.32,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Rayagada,125.0,181.0,278.0,227.0,60.0,387.0,335.0,306.0,False,odisha__rayagada,6.0,27.8,38.7,33.5,227.0,306.0,181.0,1.25,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Odisha,Sambalpur,141.0,251.0,331.0,145.0,62.0,270.0,400.0,180.0,False,odisha__sambalpur,6.2,33.1,27.0,40.0,145.0,180.0,251.0,1.41,Clay Loam,Red / Mixed Alluvial Soil,Low,Neutral / Optimal
+Odisha,Sonepur,,,,,,,,,False,odisha__sonepur,6.3,32.6,35.2,34.0,191.0,253.0,191.0,1.32,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+Odisha,Sundargarh,146.0,306.0,399.0,161.0,66.0,232.0,369.0,184.0,False,odisha__sundargarh,6.6,39.9,23.2,36.9,161.0,184.0,306.0,1.46,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Puducherry,Karaikal,,,,,,,,,False,puducherry__karaikal,6.9,29.5,35.45,35.0,167.5,193.0,225.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Puducherry,Mahe,,,,,,,,,False,puducherry__mahe,6.9,29.5,35.45,35.0,167.5,193.0,225.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Puducherry,Pondicherry,,,,,,,,,False,puducherry__pondicherry,6.9,29.5,35.45,35.0,167.5,193.0,225.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Puducherry,Yanam,,,,,,,,,False,puducherry__yanam,6.9,29.5,35.45,35.0,167.5,193.0,225.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Punjab,Amritsar,,,,,,,,,False,punjab__amritsar,7.9,24.6,41.1,33.6,130.0,138.0,169.0,1.46,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Barnala,146.0,155.0,244.0,130.0,80.0,422.0,334.0,113.0,False,punjab__barnala,8.0,24.4,42.2,33.4,130.0,113.0,155.0,1.46,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Bathinda,148.0,126.0,234.0,162.0,79.0,430.0,336.0,109.0,False,punjab__bathinda,7.9,23.4,43.0,33.6,162.0,109.0,126.0,1.48,Loam,Alluvial Soil,Medium,Alkaline
+Punjab,Faridkot,146.0,132.0,235.0,112.0,79.0,434.0,331.0,101.0,False,punjab__faridkot,7.9,23.5,43.4,33.1,112.0,101.0,132.0,1.46,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Fatehgarh Sahib,147.0,196.0,360.0,133.0,77.0,296.0,344.0,168.0,False,punjab__fatehgarh sahib,7.7,36.0,29.6,34.4,133.0,168.0,196.0,1.47,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Punjab,Fazilka,149.0,146.0,220.0,129.0,78.0,481.0,300.0,101.0,False,punjab__fazilka,7.8,22.0,48.1,30.0,129.0,101.0,146.0,1.49,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Gurdaspur,148.0,175.0,257.0,131.0,78.0,342.0,401.0,146.0,False,punjab__gurdaspur,7.8,25.7,34.2,40.1,131.0,146.0,175.0,1.48,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Hoshiarpur,142.0,147.0,210.0,123.0,70.0,445.0,346.0,165.0,False,punjab__hoshiarpur,7.0,21.0,44.5,34.6,123.0,165.0,147.0,1.42,Loam,Alluvial Soil,Low,Neutral / Optimal
+Punjab,Jalandhar,,,,,,,,,False,punjab__jalandhar,7.9,24.6,41.1,33.6,130.0,138.0,169.0,1.46,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Kapurthala,144.0,201.0,271.0,104.0,79.0,411.0,318.0,129.0,False,punjab__kapurthala,7.9,27.1,41.1,31.8,104.0,129.0,201.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Punjab,Ludhiana,,,,,,,,,False,punjab__ludhiana,7.9,24.6,41.1,33.6,130.0,138.0,169.0,1.46,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Mansa,155.0,120.0,206.0,141.0,79.0,474.0,320.0,89.0,False,punjab__mansa,7.9,20.6,47.4,32.0,141.0,89.0,120.0,1.55,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Moga,145.0,175.0,250.0,126.0,79.0,392.0,358.0,145.0,False,punjab__moga,7.9,25.0,39.2,35.8,126.0,145.0,175.0,1.45,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Muktsar,,,,,,,,,False,punjab__muktsar,7.9,24.6,41.1,33.6,130.0,138.0,169.0,1.46,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Nawanshahr,148.0,172.0,246.0,118.0,76.0,458.0,296.0,196.0,False,punjab__nawanshahr,7.6,24.6,45.8,29.6,118.0,196.0,172.0,1.48,Loam,Alluvial Soil,Low,Alkaline
+Punjab,Pathankot,135.0,209.0,241.0,347.0,67.0,376.0,384.0,300.0,False,punjab__pathankot,6.7,24.1,37.6,38.4,347.0,300.0,209.0,1.35,Loam,Alluvial Soil,High,Neutral / Optimal
+Punjab,Patiala,145.0,224.0,377.0,119.0,81.0,216.0,407.0,116.0,False,punjab__patiala,8.1,37.7,21.6,40.7,119.0,116.0,224.0,1.45,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Punjab,Rupnagar,139.0,140.0,265.0,212.0,73.0,402.0,333.0,220.0,False,punjab__rupnagar,7.3,26.5,40.2,33.3,212.0,220.0,140.0,1.39,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Punjab,S.A.S Nagar,144.0,161.0,215.0,127.0,71.0,434.0,351.0,210.0,False,punjab__s.a.s nagar,7.1,21.5,43.4,35.1,127.0,210.0,161.0,1.44,Loam,Alluvial Soil,Low,Neutral / Optimal
+Punjab,Sangrur,146.0,183.0,290.0,137.0,80.0,391.0,319.0,126.0,False,punjab__sangrur,8.0,29.0,39.1,31.9,137.0,126.0,183.0,1.46,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Punjab,Tarn Taran,147.0,169.0,257.0,140.0,81.0,347.0,395.0,138.0,False,punjab__tarn taran,8.1,25.7,34.7,39.5,140.0,138.0,169.0,1.47,Loam,Alluvial Soil,Low,Alkaline
+Rajasthan,Ajmer,,,,,,,,,False,rajasthan__ajmer,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Alwar,147.0,196.0,246.0,113.0,77.0,432.0,322.0,131.0,False,rajasthan__alwar,7.7,24.6,43.2,32.2,113.0,131.0,196.0,1.47,Loam,Desert / Arid Soil,Low,Alkaline
+Rajasthan,Banswara,161.0,332.0,279.0,138.0,72.0,346.0,375.0,81.0,False,rajasthan__banswara,7.2,27.9,34.6,37.5,138.0,81.0,332.0,1.61,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Rajasthan,Baran,161.0,227.0,266.0,116.0,73.0,441.0,293.0,78.0,False,rajasthan__baran,7.3,26.6,44.1,29.3,116.0,78.0,227.0,1.61,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Barmer,143.0,132.0,232.0,63.0,78.0,501.0,267.0,64.0,False,rajasthan__barmer,7.8,23.2,50.1,26.7,63.0,64.0,132.0,1.43,Sandy Clay Loam,Desert / Arid Soil,Low,Alkaline
+Rajasthan,Bharatpur,147.0,173.0,291.0,110.0,77.0,453.0,256.0,95.0,False,rajasthan__bharatpur,7.7,29.1,45.3,25.6,110.0,95.0,173.0,1.47,Sandy Clay Loam,Desert / Arid Soil,Low,Alkaline
+Rajasthan,Bhilwara,154.0,254.0,267.0,134.0,74.0,373.0,360.0,82.0,False,rajasthan__bhilwara,7.4,26.7,37.3,36.0,134.0,82.0,254.0,1.54,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Bikaner,,,,,,,,,False,rajasthan__bikaner,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Bundi,148.0,231.0,300.0,125.0,72.0,360.0,340.0,86.0,False,rajasthan__bundi,7.2,30.0,36.0,34.0,125.0,86.0,231.0,1.48,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Rajasthan,Chittorgarh,161.0,388.0,340.0,96.0,74.0,356.0,305.0,80.0,False,rajasthan__chittorgarh,7.4,34.0,35.6,30.5,96.0,80.0,388.0,1.61,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Rajasthan,Churu,145.0,191.0,254.0,93.0,78.0,509.0,238.0,82.0,False,rajasthan__churu,7.8,25.4,50.9,23.8,93.0,82.0,191.0,1.45,Sandy Clay Loam,Desert / Arid Soil,Low,Alkaline
+Rajasthan,Dausa,153.0,222.0,229.0,92.0,73.0,500.0,270.0,95.0,False,rajasthan__dausa,7.3,22.9,50.0,27.0,92.0,95.0,222.0,1.53,Sandy Clay Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Dholpur,,,,,,,,,False,rajasthan__dholpur,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Dungarpur,,,,,,,,,False,rajasthan__dungarpur,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Ganganagar,144.0,184.0,236.0,159.0,73.0,482.0,282.0,112.0,False,rajasthan__ganganagar,7.3,23.6,48.2,28.2,159.0,112.0,184.0,1.44,Loam,Desert / Arid Soil,Medium,Neutral / Optimal
+Rajasthan,Hanumangarh,145.0,121.0,210.0,107.0,79.0,586.0,204.0,98.0,False,rajasthan__hanumangarh,7.9,21.0,58.6,20.4,107.0,98.0,121.0,1.45,Sandy Clay Loam,Desert / Arid Soil,Low,Alkaline
+Rajasthan,Jaipur,,,,,,,,,False,rajasthan__jaipur,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Jalore,143.0,227.0,231.0,119.0,75.0,546.0,223.0,76.0,False,rajasthan__jalore,7.5,23.1,54.6,22.3,119.0,76.0,227.0,1.43,Sandy Clay Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Jhalawar,162.0,255.0,292.0,135.0,73.0,371.0,337.0,103.0,False,rajasthan__jhalawar,7.3,29.2,37.1,33.7,135.0,103.0,255.0,1.62,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Rajasthan,Jhunjhunu,146.0,190.0,273.0,79.0,76.0,443.0,284.0,99.0,False,rajasthan__jhunjhunu,7.6,27.3,44.3,28.4,79.0,99.0,190.0,1.46,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Rajasthan,Jodhpur,,,,,,,,,False,rajasthan__jodhpur,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Karauli,152.0,186.0,246.0,93.0,73.0,513.0,241.0,125.0,False,rajasthan__karauli,7.3,24.6,51.3,24.1,93.0,125.0,186.0,1.52,Sandy Clay Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Kota,,,,,,,,,False,rajasthan__kota,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Nagaur,145.0,169.0,278.0,67.0,76.0,512.0,210.0,64.0,False,rajasthan__nagaur,7.6,27.8,51.2,21.0,67.0,64.0,169.0,1.45,Sandy Clay Loam,Desert / Arid Soil,Low,Alkaline
+Rajasthan,Pali,146.0,263.0,255.0,119.0,74.0,454.0,291.0,72.0,False,rajasthan__pali,7.4,25.5,45.4,29.1,119.0,72.0,263.0,1.46,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Pratapgarh,156.0,345.0,373.0,156.0,73.0,316.0,311.0,116.0,False,rajasthan__pratapgarh,7.3,37.3,31.6,31.1,156.0,116.0,345.0,1.56,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Rajasthan,Rajsamand,155.0,354.0,353.0,123.0,74.0,375.0,272.0,80.0,False,rajasthan__rajsamand,7.4,35.3,37.5,27.2,123.0,80.0,354.0,1.55,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Rajasthan,Sawai Madhopur,147.0,228.0,265.0,100.0,74.0,480.0,255.0,79.0,False,rajasthan__sawai madhopur,7.4,26.5,48.0,25.5,100.0,79.0,228.0,1.47,Sandy Clay Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Sikar,148.0,209.0,243.0,70.0,75.0,484.0,273.0,84.0,False,rajasthan__sikar,7.5,24.3,48.4,27.3,70.0,84.0,209.0,1.48,Sandy Clay Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Sirohi,149.0,299.0,243.0,151.0,74.0,397.0,361.0,111.0,False,rajasthan__sirohi,7.4,24.3,39.7,36.1,151.0,111.0,299.0,1.49,Loam,Desert / Arid Soil,Medium,Neutral / Optimal
+Rajasthan,Tonk,151.0,193.0,249.0,114.0,74.0,451.0,300.0,89.0,False,rajasthan__tonk,7.4,24.9,45.1,30.0,114.0,89.0,193.0,1.51,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Rajasthan,Udaipur,,,,,,,,,False,rajasthan__udaipur,7.4,26.0,45.2,28.299999999999997,113.5,85.0,224.5,1.48,Loam,Desert / Arid Soil,Low,Neutral / Optimal
+Sikkim,East District,109.0,239.0,270.0,776.0,56.0,352.0,378.0,569.0,False,sikkim__east district,5.6,27.0,35.2,37.8,776.0,569.0,239.0,1.09,Clay Loam,Red and Yellow Soil,High,Acidic
+Sikkim,North District,104.0,264.0,167.0,349.0,70.0,510.0,323.0,608.0,False,sikkim__north district,7.0,16.7,51.0,32.3,349.0,608.0,264.0,1.04,Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Sikkim,South District,96.0,269.0,232.0,705.0,53.0,386.0,382.0,739.0,False,sikkim__south district,5.3,23.2,38.6,38.2,705.0,739.0,269.0,0.96,Loam,Red and Yellow Soil,High,Acidic
+Sikkim,West District,,,,,,,,,False,sikkim__west district,5.6,23.2,38.6,37.8,705.0,608.0,264.0,1.04,Loam,Red and Yellow Soil,High,Acidic
+Tamil Nadu,Ariyalur,141.0,240.0,322.0,224.0,70.0,382.0,296.0,362.0,False,tamil nadu__ariyalur,7.0,32.2,38.2,29.6,224.0,362.0,240.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Coimbatore,,,,,,,,,False,tamil nadu__coimbatore,7.0,32.2,38.0,30.0,249.0,333.0,275.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Cuddalore,140.0,226.0,301.0,201.0,71.0,393.0,306.0,342.0,False,tamil nadu__cuddalore,7.1,30.1,39.3,30.6,201.0,342.0,226.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Dharmapuri,140.0,309.0,322.0,190.0,70.0,421.0,256.0,227.0,False,tamil nadu__dharmapuri,7.0,32.2,42.1,25.6,190.0,227.0,309.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Dindigul,142.0,266.0,334.0,196.0,68.0,418.0,248.0,315.0,False,tamil nadu__dindigul,6.8,33.4,41.8,24.8,196.0,315.0,266.0,1.42,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Erode,140.0,261.0,303.0,204.0,69.0,370.0,327.0,291.0,False,tamil nadu__erode,6.9,30.3,37.0,32.7,204.0,291.0,261.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Kanchipuram,,,,,,,,,False,tamil nadu__kanchipuram,7.0,32.2,38.0,30.0,249.0,333.0,275.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Kanniyakumari,119.0,215.0,353.0,455.0,56.0,382.0,265.0,485.0,False,tamil nadu__kanniyakumari,5.6,35.3,38.2,26.5,455.0,485.0,215.0,1.19,Clay Loam,Red and Yellow Soil,High,Acidic
+Tamil Nadu,Karur,143.0,297.0,319.0,187.0,74.0,394.0,287.0,333.0,False,tamil nadu__karur,7.4,31.9,39.4,28.7,187.0,333.0,297.0,1.43,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Krishnagiri,137.0,277.0,333.0,178.0,65.0,427.0,240.0,212.0,False,tamil nadu__krishnagiri,6.5,33.3,42.7,24.0,178.0,212.0,277.0,1.37,Clay Loam,Red / Mixed Alluvial Soil,Medium,Neutral / Optimal
+Tamil Nadu,Madurai,,,,,,,,,False,tamil nadu__madurai,7.0,32.2,38.0,30.0,249.0,333.0,275.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Nagapattinam,122.0,238.0,322.0,442.0,66.0,337.0,340.0,484.0,False,tamil nadu__nagapattinam,6.6,32.2,33.7,34.0,442.0,484.0,238.0,1.22,Clay Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Tamil Nadu,Namakkal,141.0,315.0,284.0,232.0,71.0,361.0,355.0,262.0,False,tamil nadu__namakkal,7.1,28.4,36.1,35.5,232.0,262.0,315.0,1.41,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Perambalur,140.0,328.0,340.0,259.0,71.0,355.0,305.0,401.0,False,tamil nadu__perambalur,7.1,34.0,35.5,30.5,259.0,401.0,328.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),High,Neutral / Optimal
+Tamil Nadu,Pudukkottai,144.0,283.0,322.0,243.0,76.0,366.0,313.0,323.0,False,tamil nadu__pudukkottai,7.6,32.2,36.6,31.3,243.0,323.0,283.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),Medium,Alkaline
+Tamil Nadu,Ramanathapuram,144.0,263.0,346.0,272.0,73.0,380.0,274.0,307.0,False,tamil nadu__ramanathapuram,7.3,34.6,38.0,27.4,272.0,307.0,263.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),High,Neutral / Optimal
+Tamil Nadu,Salem,137.0,303.0,356.0,262.0,66.0,357.0,287.0,359.0,False,tamil nadu__salem,6.6,35.6,35.7,28.7,262.0,359.0,303.0,1.37,Clay Loam,Red / Mixed Alluvial Soil,High,Neutral / Optimal
+Tamil Nadu,Sivaganga,144.0,310.0,318.0,250.0,71.0,365.0,317.0,360.0,False,tamil nadu__sivaganga,7.1,31.8,36.5,31.7,250.0,360.0,310.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Thanjavur,138.0,275.0,356.0,249.0,73.0,344.0,300.0,326.0,False,tamil nadu__thanjavur,7.3,35.6,34.4,30.0,249.0,326.0,275.0,1.38,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,The Nilgiris,115.0,264.0,306.0,382.0,63.0,364.0,330.0,499.0,False,tamil nadu__the nilgiris,6.3,30.6,36.4,33.0,382.0,499.0,264.0,1.15,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Tamil Nadu,Theni,139.0,272.0,314.0,284.0,68.0,425.0,262.0,306.0,False,tamil nadu__theni,6.8,31.4,42.5,26.2,284.0,306.0,272.0,1.39,Clay Loam,Black Soil (Regur/Vertisol),High,Neutral / Optimal
+Tamil Nadu,Thiruvallur,130.0,248.0,316.0,233.0,68.0,365.0,319.0,315.0,False,tamil nadu__thiruvallur,6.8,31.6,36.5,31.9,233.0,315.0,248.0,1.3,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Thiruvarur,138.0,286.0,293.0,326.0,69.0,339.0,368.0,342.0,False,tamil nadu__thiruvarur,6.9,29.3,33.9,36.8,326.0,342.0,286.0,1.38,Clay Loam,Black Soil (Regur/Vertisol),High,Neutral / Optimal
+Tamil Nadu,Tiruchirappalli,,,,,,,,,False,tamil nadu__tiruchirappalli,7.0,32.2,38.0,30.0,249.0,333.0,275.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Tirunelveli,134.0,203.0,334.0,303.0,63.0,401.0,265.0,488.0,False,tamil nadu__tirunelveli,6.3,33.4,40.1,26.5,303.0,488.0,203.0,1.34,Clay Loam,Red and Yellow Soil,High,Neutral / Optimal
+Tamil Nadu,Tiruppur,146.0,259.0,277.0,179.0,70.0,429.0,293.0,193.0,False,tamil nadu__tiruppur,7.0,27.7,42.9,29.3,179.0,193.0,259.0,1.46,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Tiruvannamalai,134.0,277.0,300.0,252.0,68.0,380.0,320.0,382.0,False,tamil nadu__tiruvannamalai,6.8,30.0,38.0,32.0,252.0,382.0,277.0,1.34,Clay Loam,Black Soil (Regur/Vertisol),High,Neutral / Optimal
+Tamil Nadu,Tuticorin,,,,,,,,,False,tamil nadu__tuticorin,7.0,32.2,38.0,30.0,249.0,333.0,275.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Vellore,148.0,304.0,300.0,218.0,71.0,391.0,308.0,259.0,False,tamil nadu__vellore,7.1,30.0,39.1,30.8,218.0,259.0,304.0,1.48,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Villupuram,,,,,,,,,False,tamil nadu__villupuram,7.0,32.2,38.0,30.0,249.0,333.0,275.0,1.4,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tamil Nadu,Virudhunagar,147.0,290.0,344.0,270.0,74.0,372.0,283.0,337.0,False,tamil nadu__virudhunagar,7.4,34.4,37.2,28.3,270.0,337.0,290.0,1.47,Clay Loam,Black Soil (Regur/Vertisol),High,Neutral / Optimal
+Telangana,Adilabad,,,,,,,,,False,telangana__adilabad,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Hyderabad,,,,,,,,,False,telangana__hyderabad,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Karimnagar,,,,,,,,,False,telangana__karimnagar,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Khammam,,,,,,,,,False,telangana__khammam,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Mahbubnagar,,,,,,,,,False,telangana__mahbubnagar,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Medak,159.0,341.0,326.0,163.0,71.0,416.0,258.0,169.0,False,telangana__medak,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Nalgonda,,,,,,,,,False,telangana__nalgonda,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Nizamabad,,,,,,,,,False,telangana__nizamabad,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Telangana,Warangal,,,,,,,,,False,telangana__warangal,7.1,32.6,41.6,25.8,163.0,169.0,341.0,1.59,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Tripura,Dhalai,119.0,185.0,268.0,261.0,54.0,346.0,386.0,247.0,False,tripura__dhalai,5.4,26.8,34.6,38.6,261.0,247.0,185.0,1.19,Loam,Red and Yellow Soil,High,Acidic
+Tripura,Gomati,129.0,174.0,296.0,169.0,55.0,285.0,419.0,218.0,False,tripura__gomati,5.5,29.6,28.5,41.9,169.0,218.0,174.0,1.29,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Tripura,Khowai,127.0,170.0,277.0,166.0,55.0,345.0,378.0,188.0,False,tripura__khowai,5.5,27.7,34.5,37.8,166.0,188.0,170.0,1.27,Clay Loam,Red / Mixed Alluvial Soil,Medium,Acidic
+Tripura,North Tripura,124.0,188.0,294.0,176.0,53.0,355.0,351.0,254.0,False,tripura__north tripura,5.3,29.4,35.5,35.1,176.0,254.0,188.0,1.24,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Tripura,Sepahijala,127.0,162.0,298.0,177.0,55.0,317.0,384.0,210.0,False,tripura__sepahijala,5.5,29.8,31.7,38.4,177.0,210.0,162.0,1.27,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Tripura,South Tripura,131.0,174.0,320.0,182.0,54.0,325.0,356.0,218.0,False,tripura__south tripura,5.4,32.0,32.5,35.6,182.0,218.0,174.0,1.31,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Tripura,Unakoti,126.0,159.0,262.0,224.0,52.0,368.0,370.0,223.0,False,tripura__unakoti,5.2,26.2,36.8,37.0,224.0,223.0,159.0,1.26,Loam,Red and Yellow Soil,Medium,Acidic
+Tripura,West Tripura,128.0,157.0,329.0,167.0,54.0,305.0,366.0,201.0,False,tripura__west tripura,5.4,32.9,30.5,36.6,167.0,201.0,157.0,1.28,Clay Loam,Red and Yellow Soil,Medium,Acidic
+Uttar Pradesh,Agra,,,,,,,,,False,uttar pradesh__agra,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Aligarh,143.0,138.0,198.0,145.0,84.0,494.0,308.0,128.0,False,uttar pradesh__aligarh,8.4,19.8,49.4,30.8,145.0,128.0,138.0,1.43,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Allahabad,,,,,,,,,False,uttar pradesh__allahabad,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Ambedkar Nagar,134.0,245.0,212.0,126.0,76.0,258.0,530.0,182.0,False,uttar pradesh__ambedkar nagar,7.6,21.2,25.8,53.0,126.0,182.0,245.0,1.34,Silt Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Amethi,136.0,218.0,281.0,128.0,74.0,317.0,403.0,140.0,False,uttar pradesh__amethi,7.4,28.1,31.7,40.3,128.0,140.0,218.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Uttar Pradesh,Amroha,139.0,138.0,208.0,157.0,73.0,444.0,348.0,162.0,False,uttar pradesh__amroha,7.3,20.8,44.4,34.8,157.0,162.0,138.0,1.39,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Auraiya,135.0,160.0,235.0,148.0,75.0,423.0,341.0,189.0,False,uttar pradesh__auraiya,7.5,23.5,42.3,34.1,148.0,189.0,160.0,1.35,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Azamgarh,135.0,261.0,285.0,129.0,76.0,270.0,445.0,161.0,False,uttar pradesh__azamgarh,7.6,28.5,27.0,44.5,129.0,161.0,261.0,1.35,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Uttar Pradesh,Baghpat,145.0,131.0,219.0,148.0,79.0,406.0,375.0,131.0,False,uttar pradesh__baghpat,7.9,21.9,40.6,37.5,148.0,131.0,131.0,1.45,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Bahraich,133.0,151.0,230.0,136.0,68.0,374.0,396.0,199.0,False,uttar pradesh__bahraich,6.8,23.0,37.4,39.6,136.0,199.0,151.0,1.33,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Ballia,137.0,229.0,268.0,124.0,73.0,298.0,434.0,133.0,False,uttar pradesh__ballia,7.3,26.8,29.8,43.4,124.0,133.0,229.0,1.37,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Balrampur,135.0,155.0,216.0,155.0,70.0,342.0,442.0,162.0,False,uttar pradesh__balrampur,7.0,21.6,34.2,44.2,155.0,162.0,155.0,1.35,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Banda,141.0,175.0,209.0,142.0,72.0,347.0,444.0,102.0,False,uttar pradesh__banda,7.2,20.9,34.7,44.4,142.0,102.0,175.0,1.41,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Barabanki,133.0,245.0,263.0,122.0,71.0,359.0,378.0,150.0,False,uttar pradesh__barabanki,7.1,26.3,35.9,37.8,122.0,150.0,245.0,1.33,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Bareilly,132.0,142.0,246.0,140.0,70.0,382.0,372.0,177.0,False,uttar pradesh__bareilly,7.0,24.6,38.2,37.2,140.0,177.0,142.0,1.32,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Basti,134.0,156.0,232.0,151.0,71.0,342.0,425.0,144.0,False,uttar pradesh__basti,7.1,23.2,34.2,42.5,151.0,144.0,156.0,1.34,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Bijnor,132.0,168.0,262.0,179.0,68.0,403.0,335.0,231.0,False,uttar pradesh__bijnor,6.8,26.2,40.3,33.5,179.0,231.0,168.0,1.32,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Budaun,,,,,,,,,False,uttar pradesh__budaun,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Bulandshahr,137.0,146.0,276.0,124.0,84.0,385.0,339.0,123.0,False,uttar pradesh__bulandshahr,8.4,27.6,38.5,33.9,124.0,123.0,146.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Low,Alkaline
+Uttar Pradesh,Chandauli,144.0,277.0,335.0,144.0,75.0,264.0,400.0,151.0,False,uttar pradesh__chandauli,7.5,33.5,26.4,40.0,144.0,151.0,277.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Uttar Pradesh,Chitrakoot,145.0,243.0,259.0,146.0,73.0,372.0,369.0,103.0,False,uttar pradesh__chitrakoot,7.3,25.9,37.2,36.9,146.0,103.0,243.0,1.45,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Deoria,132.0,155.0,251.0,180.0,70.0,320.0,429.0,204.0,False,uttar pradesh__deoria,7.0,25.1,32.0,42.9,180.0,204.0,155.0,1.32,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Etah,142.0,146.0,224.0,141.0,89.0,484.0,292.0,137.0,False,uttar pradesh__etah,8.9,22.4,48.4,29.2,141.0,137.0,146.0,1.42,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Etawah,136.0,115.0,214.0,161.0,76.0,392.0,394.0,190.0,False,uttar pradesh__etawah,7.6,21.4,39.2,39.4,161.0,190.0,115.0,1.36,Loam,Alluvial Soil,Medium,Alkaline
+Uttar Pradesh,Faizabad,,,,,,,,,False,uttar pradesh__faizabad,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Farrukhabad,132.0,152.0,194.0,170.0,80.0,401.0,405.0,155.0,False,uttar pradesh__farrukhabad,8.0,19.4,40.1,40.5,170.0,155.0,152.0,1.32,Loam,Alluvial Soil,Medium,Alkaline
+Uttar Pradesh,Fatehpur,135.0,195.0,174.0,133.0,72.0,292.0,534.0,114.0,False,uttar pradesh__fatehpur,7.2,17.4,29.2,53.4,133.0,114.0,195.0,1.35,Silt Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Firozabad,136.0,133.0,235.0,137.0,87.0,394.0,371.0,113.0,False,uttar pradesh__firozabad,8.7,23.5,39.4,37.1,137.0,113.0,133.0,1.36,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Gautam Buddha Nagar,140.0,148.0,266.0,147.0,85.0,410.0,324.0,131.0,False,uttar pradesh__gautam buddha nagar,8.5,26.6,41.0,32.4,147.0,131.0,148.0,1.4,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Ghaziabad,140.0,121.0,186.0,121.0,83.0,435.0,379.0,109.0,False,uttar pradesh__ghaziabad,8.3,18.6,43.5,37.9,121.0,109.0,121.0,1.4,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Ghazipur,135.0,269.0,296.0,154.0,70.0,275.0,429.0,166.0,False,uttar pradesh__ghazipur,7.0,29.6,27.5,42.9,154.0,166.0,269.0,1.35,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Uttar Pradesh,Gonda,133.0,211.0,251.0,135.0,71.0,346.0,403.0,167.0,False,uttar pradesh__gonda,7.1,25.1,34.6,40.3,135.0,167.0,211.0,1.33,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Gorakhpur,133.0,146.0,263.0,168.0,73.0,307.0,430.0,232.0,False,uttar pradesh__gorakhpur,7.3,26.3,30.7,43.0,168.0,232.0,146.0,1.33,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Hamirpur,144.0,213.0,275.0,152.0,75.0,375.0,350.0,133.0,False,uttar pradesh__hamirpur,7.5,27.5,37.5,35.0,152.0,133.0,213.0,1.44,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Uttar Pradesh,Hapur,139.0,127.0,193.0,133.0,75.0,422.0,386.0,135.0,False,uttar pradesh__hapur,7.5,19.3,42.2,38.6,133.0,135.0,127.0,1.39,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Hardoi,132.0,238.0,244.0,137.0,74.0,325.0,431.0,204.0,False,uttar pradesh__hardoi,7.4,24.4,32.5,43.1,137.0,204.0,238.0,1.32,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Hathras,140.0,145.0,248.0,139.0,86.0,466.0,286.0,110.0,False,uttar pradesh__hathras,8.6,24.8,46.6,28.6,139.0,110.0,145.0,1.4,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Jalaun,133.0,186.0,214.0,136.0,77.0,368.0,418.0,155.0,False,uttar pradesh__jalaun,7.7,21.4,36.8,41.8,136.0,155.0,186.0,1.33,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Jaunpur,136.0,255.0,279.0,134.0,73.0,301.0,420.0,188.0,False,uttar pradesh__jaunpur,7.3,27.9,30.1,42.0,134.0,188.0,255.0,1.36,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Uttar Pradesh,Jhansi,143.0,205.0,239.0,137.0,74.0,437.0,324.0,107.0,False,uttar pradesh__jhansi,7.4,23.9,43.7,32.4,137.0,107.0,205.0,1.43,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Kannauj,133.0,228.0,236.0,146.0,76.0,425.0,339.0,191.0,False,uttar pradesh__kannauj,7.6,23.6,42.5,33.9,146.0,191.0,228.0,1.33,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Kanpur Dehat,132.0,227.0,199.0,152.0,74.0,376.0,425.0,186.0,False,uttar pradesh__kanpur dehat,7.4,19.9,37.6,42.5,152.0,186.0,227.0,1.32,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Kanpur Nagar,,,,,,,,,False,uttar pradesh__kanpur nagar,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Kasganj,136.0,123.0,203.0,165.0,86.0,460.0,337.0,155.0,False,uttar pradesh__kasganj,8.6,20.3,46.0,33.7,165.0,155.0,123.0,1.36,Loam,Alluvial Soil,Medium,Alkaline
+Uttar Pradesh,Kaushambi,141.0,151.0,198.0,143.0,72.0,365.0,437.0,95.0,False,uttar pradesh__kaushambi,7.2,19.8,36.5,43.7,143.0,95.0,151.0,1.41,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Kheri,134.0,167.0,253.0,147.0,69.0,375.0,373.0,201.0,False,uttar pradesh__kheri,6.9,25.3,37.5,37.3,147.0,201.0,167.0,1.34,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Lalitpur,160.0,279.0,261.0,125.0,75.0,318.0,421.0,85.0,False,uttar pradesh__lalitpur,7.5,26.1,31.8,42.1,125.0,85.0,279.0,1.6,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Lucknow,,,,,,,,,False,uttar pradesh__lucknow,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Maharajganj,134.0,227.0,273.0,147.0,73.0,345.0,382.0,129.0,False,uttar pradesh__maharajganj,7.3,27.3,34.5,38.2,147.0,129.0,227.0,1.34,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Uttar Pradesh,Mahoba,144.0,192.0,203.0,133.0,72.0,400.0,397.0,87.0,False,uttar pradesh__mahoba,7.2,20.3,40.0,39.7,133.0,87.0,192.0,1.44,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Mainpuri,136.0,111.0,191.0,179.0,83.0,483.0,327.0,165.0,False,uttar pradesh__mainpuri,8.3,19.1,48.3,32.7,179.0,165.0,111.0,1.36,Loam,Alluvial Soil,Medium,Alkaline
+Uttar Pradesh,Mathura,,,,,,,,,False,uttar pradesh__mathura,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Mau,,,,,,,,,False,uttar pradesh__mau,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Meerut,140.0,134.0,206.0,130.0,73.0,408.0,385.0,129.0,False,uttar pradesh__meerut,7.3,20.6,40.8,38.5,130.0,129.0,134.0,1.4,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Mirzapur,161.0,400.0,357.0,127.0,73.0,316.0,327.0,120.0,False,uttar pradesh__mirzapur,7.3,35.7,31.6,32.7,127.0,120.0,400.0,1.61,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Uttar Pradesh,Moradabad,134.0,135.0,247.0,114.0,71.0,363.0,390.0,166.0,False,uttar pradesh__moradabad,7.1,24.7,36.3,39.0,114.0,166.0,135.0,1.34,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Muzaffarnagar,138.0,141.0,239.0,131.0,73.0,383.0,378.0,185.0,False,uttar pradesh__muzaffarnagar,7.3,23.9,38.3,37.8,131.0,185.0,141.0,1.38,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Pilibhit,131.0,150.0,243.0,147.0,69.0,383.0,374.0,231.0,False,uttar pradesh__pilibhit,6.9,24.3,38.3,37.4,147.0,231.0,150.0,1.31,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Pratapgarh,139.0,154.0,215.0,127.0,72.0,328.0,457.0,147.0,False,uttar pradesh__pratapgarh,7.2,21.5,32.8,45.7,127.0,147.0,154.0,1.39,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Rae Bareli,137.0,307.0,252.0,125.0,74.0,353.0,396.0,99.0,False,uttar pradesh__rae bareli,7.4,25.2,35.3,39.6,125.0,99.0,307.0,1.37,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Rampur,132.0,134.0,230.0,145.0,70.0,354.0,416.0,171.0,False,uttar pradesh__rampur,7.0,23.0,35.4,41.6,145.0,171.0,134.0,1.32,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Saharanpur,133.0,187.0,248.0,164.0,69.0,396.0,356.0,248.0,False,uttar pradesh__saharanpur,6.9,24.8,39.6,35.6,164.0,248.0,187.0,1.33,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Sambhal,135.0,154.0,277.0,186.0,76.0,418.0,305.0,141.0,False,uttar pradesh__sambhal,7.6,27.7,41.8,30.5,186.0,141.0,154.0,1.35,Clay Loam,Black Soil (Regur/Vertisol),Medium,Alkaline
+Uttar Pradesh,Sant Ravidas Nagar,143.0,324.0,272.0,136.0,73.0,313.0,415.0,138.0,False,uttar pradesh__sant ravidas nagar,7.3,27.2,31.3,41.5,136.0,138.0,324.0,1.43,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Uttar Pradesh,Shahjahanpur,130.0,149.0,181.0,164.0,72.0,384.0,436.0,160.0,False,uttar pradesh__shahjahanpur,7.2,18.1,38.4,43.6,164.0,160.0,149.0,1.3,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Shamli,144.0,132.0,209.0,132.0,76.0,428.0,364.0,124.0,False,uttar pradesh__shamli,7.6,20.9,42.8,36.4,132.0,124.0,132.0,1.44,Loam,Alluvial Soil,Low,Alkaline
+Uttar Pradesh,Shravasti,,,,,,,,,False,uttar pradesh__shravasti,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Siddharth Nagar,137.0,138.0,260.0,147.0,71.0,302.0,438.0,175.0,False,uttar pradesh__siddharth nagar,7.1,26.0,30.2,43.8,147.0,175.0,138.0,1.37,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttar Pradesh,Sitapur,133.0,129.0,247.0,153.0,70.0,389.0,364.0,195.0,False,uttar pradesh__sitapur,7.0,24.7,38.9,36.4,153.0,195.0,129.0,1.33,Loam,Alluvial Soil,Medium,Neutral / Optimal
+Uttar Pradesh,Sonbhadra,163.0,479.0,374.0,153.0,74.0,203.0,423.0,129.0,False,uttar pradesh__sonbhadra,7.4,37.4,20.3,42.3,153.0,129.0,479.0,1.63,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Uttar Pradesh,Sultanpur,137.0,226.0,276.0,129.0,73.0,309.0,415.0,183.0,False,uttar pradesh__sultanpur,7.3,27.6,30.9,41.5,129.0,183.0,226.0,1.37,Clay Loam,Black Soil (Regur/Vertisol),Low,Neutral / Optimal
+Uttar Pradesh,Unnao,129.0,214.0,277.0,151.0,74.0,344.0,378.0,170.0,False,uttar pradesh__unnao,7.4,27.7,34.4,37.8,151.0,170.0,214.0,1.29,Clay Loam,Black Soil (Regur/Vertisol),Medium,Neutral / Optimal
+Uttar Pradesh,Varanasi,,,,,,,,,False,uttar pradesh__varanasi,7.3,24.4,37.4,39.0,143.0,155.0,156.0,1.36,Loam,Alluvial Soil,Low,Neutral / Optimal
+Uttarakhand,Almora,121.0,221.0,221.0,325.0,62.0,315.0,464.0,464.0,False,uttarakhand__almora,6.2,22.1,31.5,46.4,325.0,464.0,221.0,1.21,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Uttarakhand,Bageshwar,118.0,247.0,212.0,465.0,62.0,345.0,443.0,589.0,False,uttarakhand__bageshwar,6.2,21.2,34.5,44.3,465.0,589.0,247.0,1.18,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Uttarakhand,Chamoli,115.0,235.0,246.0,557.0,59.0,375.0,379.0,706.0,False,uttarakhand__chamoli,5.9,24.6,37.5,37.9,557.0,706.0,235.0,1.15,Loam,Red and Yellow Soil,High,Acidic
+Uttarakhand,Champawat,111.0,215.0,232.0,326.0,59.0,316.0,453.0,437.0,False,uttarakhand__champawat,5.9,23.2,31.6,45.3,326.0,437.0,215.0,1.11,Loam,Red and Yellow Soil,High,Acidic
+Uttarakhand,Dehradun,,,,,,,,,False,uttarakhand__dehradun,5.9,23.4,33.6,42.9,371.0,536.0,222.0,1.15,Loam,Red and Yellow Soil,High,Acidic
+Uttarakhand,Haridwar,,,,,,,,,False,uttarakhand__haridwar,5.9,23.4,33.6,42.9,371.0,536.0,222.0,1.15,Loam,Red and Yellow Soil,High,Acidic
+Uttarakhand,Nainital,108.0,218.0,251.0,371.0,58.0,320.0,429.0,536.0,False,uttarakhand__nainital,5.8,25.1,32.0,42.9,371.0,536.0,218.0,1.08,Loam,Red and Yellow Soil,High,Acidic
+Uttarakhand,Pauri Garhwal,117.0,222.0,234.0,353.0,61.0,359.0,407.0,478.0,False,uttarakhand__pauri garhwal,6.1,23.4,35.9,40.7,353.0,478.0,222.0,1.17,Loam,Red and Yellow Soil,High,Neutral / Optimal
+Uttarakhand,Pithoragarh,,,,,,,,,False,uttarakhand__pithoragarh,5.9,23.4,33.6,42.9,371.0,536.0,222.0,1.15,Loam,Red and Yellow Soil,High,Acidic
+Uttarakhand,Tehri Garhwal,112.0,227.0,248.0,458.0,57.0,336.0,416.0,608.0,False,uttarakhand__tehri garhwal,5.7,24.8,33.6,41.6,458.0,608.0,227.0,1.12,Loam,Red and Yellow Soil,High,Acidic
+West Bengal,Bankura,138.0,128.0,235.0,113.0,61.0,518.0,248.0,170.0,False,west bengal__bankura,6.1,23.5,51.8,24.8,113.0,170.0,128.0,1.38,Sandy Clay Loam,Alluvial Soil,Low,Neutral / Optimal
+West Bengal,Bardhaman,,,,,,,,,False,west bengal__bardhaman,6.4,27.8,33.7,36.8,164.0,204.0,183.0,1.3,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+West Bengal,Birbhum,133.0,189.0,258.0,220.0,62.0,374.0,368.0,218.0,False,west bengal__birbhum,6.2,25.8,37.4,36.8,220.0,218.0,189.0,1.33,Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+West Bengal,Coochbehar,125.0,183.0,227.0,464.0,56.0,455.0,318.0,224.0,False,west bengal__coochbehar,5.6,22.7,45.5,31.8,464.0,224.0,183.0,1.25,Loam,Red and Yellow Soil,High,Acidic
+West Bengal,Darjeeling,110.0,261.0,278.0,630.0,58.0,377.0,345.0,657.0,False,west bengal__darjeeling,5.8,27.8,37.7,34.5,630.0,657.0,261.0,1.1,Clay Loam,Red and Yellow Soil,High,Acidic
+West Bengal,Dinajpur Dakshin,130.0,163.0,411.0,150.0,67.0,222.0,367.0,179.0,False,west bengal__dinajpur dakshin,6.7,41.1,22.2,36.7,150.0,179.0,163.0,1.3,Clay,Alluvial Soil,Low,Neutral / Optimal
+West Bengal,Dinajpur Uttar,128.0,164.0,255.0,163.0,68.0,311.0,434.0,180.0,False,west bengal__dinajpur uttar,6.8,25.5,31.1,43.4,163.0,180.0,164.0,1.28,Loam,Alluvial Soil,Medium,Neutral / Optimal
+West Bengal,Hooghly,126.0,178.0,345.0,164.0,66.0,192.0,463.0,237.0,False,west bengal__hooghly,6.6,34.5,19.2,46.3,164.0,237.0,178.0,1.26,Clay Loam,Alluvial Soil,Medium,Neutral / Optimal
+West Bengal,Howrah,,,,,,,,,False,west bengal__howrah,6.4,27.8,33.7,36.8,164.0,204.0,183.0,1.3,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+West Bengal,Jalpaiguri,130.0,193.0,254.0,203.0,58.0,352.0,394.0,191.0,False,west bengal__jalpaiguri,5.8,25.4,35.2,39.4,203.0,191.0,193.0,1.3,Loam,Alluvial Soil,Medium,Acidic
+West Bengal,Maldah,131.0,191.0,349.0,122.0,64.0,278.0,374.0,190.0,False,west bengal__maldah,6.4,34.9,27.8,37.4,122.0,190.0,191.0,1.31,Clay Loam,Alluvial Soil,Low,Neutral / Optimal
+West Bengal,Medinipur East,,,,,,,,,False,west bengal__medinipur east,6.4,27.8,33.7,36.8,164.0,204.0,183.0,1.3,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+West Bengal,Medinipur West,,,,,,,,,False,west bengal__medinipur west,6.4,27.8,33.7,36.8,164.0,204.0,183.0,1.3,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+West Bengal,Murshidabad,,,,,,,,,False,west bengal__murshidabad,6.4,27.8,33.7,36.8,164.0,204.0,183.0,1.3,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal
+West Bengal,Nadia,127.0,182.0,385.0,156.0,67.0,132.0,484.0,222.0,False,west bengal__nadia,6.7,38.5,13.2,48.4,156.0,222.0,182.0,1.27,Clay Loam,Alluvial Soil,Medium,Neutral / Optimal
+West Bengal,Purulia,146.0,245.0,317.0,200.0,64.0,337.0,346.0,204.0,False,west bengal__purulia,6.4,31.7,33.7,34.6,200.0,204.0,245.0,1.46,Clay Loam,Red and Yellow Soil,Medium,Neutral / Optimal

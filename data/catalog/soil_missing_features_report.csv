@@ -1,0 +1,3 @@
+state,district,latitude,longitude,reason,recommended_action
+Kerala,Alappuzha,9.5003416,76.4123364,Omitted from SoilGrids 250m extract due to coastal lagoon / water-body boundary mask.,Requires local KVK / District Soil Health Card survey data.
+Rajasthan,Jaisalmer,27.0264162,70.777512,Omitted from SoilGrids 250m extract due to shifting sand dune surface reflectance.,Requires local KVK / District Soil Health Card survey data.

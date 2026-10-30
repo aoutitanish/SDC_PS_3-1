@@ -1,0 +1,135 @@
+{
+  "model_name": "KrishiMitra Agricultural Crop Suitability Engine V3 (Experimental)",
+  "training_timestamp": "2026-09-29 14:16:25",
+  "training_rows": 148590,
+  "holdout_rows": 36269,
+  "target_classes_count": 28,
+  "classes": [
+    "Arhar/Tur (Pigeon Pea)",
+    "Bajra (Pearl Millet)",
+    "Barley",
+    "Cotton",
+    "Dry chillies",
+    "Gram (Chickpea)",
+    "Groundnut",
+    "Horse-gram",
+    "Jowar (Sorghum)",
+    "Linseed",
+    "Maize",
+    "Masoor",
+    "Moong (Green Gram)",
+    "Mustard / Rapeseed",
+    "Onion",
+    "Other Kharif pulses",
+    "Peas & beans (Pulses)",
+    "Potato",
+    "Ragi (Finger Millet)",
+    "Rice",
+    "Sesamum",
+    "Small millets",
+    "Sugarcane",
+    "Sunflower",
+    "Sweet potato",
+    "Turmeric",
+    "Urad",
+    "Wheat"
+  ],
+  "best_single_model": "HistGradientBoosting (Uncalibrated)",
+  "features": {
+    "numeric": [
+      "ph",
+      "clay_pct",
+      "sand_pct",
+      "silt_pct",
+      "nitrogen_cg_kg",
+      "soc_dg_kg",
+      "cec",
+      "bulk_density",
+      "annual_rainfall_mm",
+      "kharif_rainfall_mm",
+      "rabi_rainfall_mm",
+      "mean_temperature_c",
+      "max_temperature_c",
+      "min_temperature_c",
+      "relative_humidity_pct",
+      "wind_speed_ms"
+    ],
+    "categorical": [
+      "State",
+      "indian_soil_group",
+      "usda_texture",
+      "Season"
+    ],
+    "engineered": [
+      "temperature_stress_index",
+      "soil_water_retention_capacity",
+      "sand_clay_ratio"
+    ],
+    "total_count": 23
+  },
+  "ensemble_weights": [
+    0.5,
+    0.25,
+    0.25
+  ],
+  "csi_weights": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "oof_validation_metrics": {
+    "RandomForest": {
+      "top1_uncal": 0.15413554074971397,
+      "top3_uncal": 0.3930479843865671,
+      "top5_uncal": 0.5890100275927047,
+      "f1_uncal": 0.14127962179349446,
+      "top1_cal": 0.15418938017363215,
+      "top3_cal": 0.37954101891109765,
+      "top5_cal": 0.5345783700114409,
+      "f1_cal": 0.12264694867227607
+    },
+    "ExtraTrees": {
+      "top1_uncal": 0.15210310249680328,
+      "top3_uncal": 0.3902550642708123,
+      "top5_uncal": 0.5868093411400498,
+      "f1_uncal": 0.13888446743602278,
+      "top1_cal": 0.1526011171680463,
+      "top3_cal": 0.37952082912712837,
+      "top5_cal": 0.5287435224443099,
+      "f1_cal": 0.12408347653232608
+    },
+    "HistGradientBoosting": {
+      "top1_uncal": 0.16707719227404266,
+      "top3_uncal": 0.4197321488660071,
+      "top5_uncal": 0.6147789218655361,
+      "f1_uncal": 0.14308949008869457,
+      "top1_cal": 0.15724476748098795,
+      "top3_cal": 0.39143280166902217,
+      "top5_cal": 0.5720034995625547,
+      "f1_cal": 0.08538420100594507
+    }
+  },
+  "outer_holdout_metrics": {
+    "ml_top1_pct": 16.91,
+    "ml_top3_pct": 41.6,
+    "ml_top5_pct": 59.08,
+    "ml_agro_top1_pct": 16.49,
+    "ml_agro_top3_pct": 38.68,
+    "ml_agro_top5_pct": 54.68,
+    "csi_top1_pct": 3.92,
+    "csi_top3_pct": 11.94,
+    "csi_top5_pct": 16.86,
+    "weighted_f1": 0.1085,
+    "macro_f1": 0.0909,
+    "ndcg_at_3": 0.3988,
+    "ndcg_at_5": 0.4031,
+    "agronomic_violation_rate_pct": 26.72,
+    "agronomic_violation_count": 9692
+  },
+  "temporal_metrics": {
+    "top1_pct": 15.73,
+    "top3_pct": 38.72,
+    "top5_pct": 55.98,
+    "weighted_f1": 0.1058
+  }
+}

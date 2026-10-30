@@ -1,0 +1,103 @@
+{
+  "backend_root": {
+    "PASS": true,
+    "status": 200,
+    "data": {
+      "service": "KrishiMitra AI Backend",
+      "status": "online",
+      "docs": "/api/docs"
+    }
+  },
+  "api_docs": {
+    "status": 200,
+    "result": "PASS"
+  },
+  "geography_states": {
+    "status": 200,
+    "count": 33,
+    "result": "PASS"
+  },
+  "geography_districts": {
+    "status": 200,
+    "count": 13,
+    "result": "PASS"
+  },
+  "chat_crop_recommendation": {
+    "status": 200,
+    "result": "PASS",
+    "intent": "crop_recommendation",
+    "language": "en",
+    "top_crop": "Arhar/Tur (Pigeon Pea)",
+    "resolved_state": "Andhra Pradesh",
+    "resolved_district": "Kurnool",
+    "resolved_season": "Kharif",
+    "resolved_soil": "Black Soil",
+    "has_answer": true,
+    "has_sources": true
+  },
+  "context_switch": {
+    "status": 200,
+    "result": "PASS",
+    "top_crop": "Gram (Chickpea)",
+    "resolved_state": "Punjab",
+    "resolved_district": "Ludhiana",
+    "resolved_season": "Rabi",
+    "context_leak_detected": false
+  },
+  "season_switch": {
+    "status": 200,
+    "result": "PASS",
+    "top_crop": "Maize",
+    "resolved_season": "Rabi"
+  },
+  "weather_api": {
+    "status": 200,
+    "result": "PASS",
+    "has_data": true
+  },
+  "hindi_chat": {
+    "status": 200,
+    "result": "PASS",
+    "language": "hi",
+    "intent": "crop_recommendation",
+    "has_answer": true
+  },
+  "telugu_chat": {
+    "status": 200,
+    "result": "PASS",
+    "language": "te",
+    "intent": "crop_recommendation",
+    "has_answer": true
+  },
+  "farm_profile": {
+    "status_save": 200,
+    "status_get": 200,
+    "result": "PASS",
+    "saved_district": "Ludhiana"
+  },
+  "streaming": {
+    "result": "PASS",
+    "has_metadata_event": true,
+    "has_token_events": true,
+    "has_done_event": true
+  },
+  "chat_history": {
+    "status": 200,
+    "result": "PASS",
+    "message_count": 2
+  },
+  "soil_api": {
+    "status": 200,
+    "result": "PASS",
+    "data_keys": [
+      "success",
+      "soil_profile",
+      "recommendations"
+    ]
+  },
+  "crops_api": {
+    "status": 200,
+    "result": "PASS",
+    "count": 78
+  }
+}

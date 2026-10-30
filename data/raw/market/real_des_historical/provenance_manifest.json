@@ -1,0 +1,58 @@
+{
+  "source_url": "https://desagri.gov.in/wp-content/uploads/2026/06/Time-Series-3rd-AE-2025-26-English.pdf",
+  "dataset_resource_name": "Directorate of Economics & Statistics (DES) Time Series Agricultural Statistics Publication",
+  "download_timestamp": "2026-09-30T04:44:58.163206+00:00",
+  "filename": "Time-Series-3rd-AE-2025-26-English.pdf",
+  "filepath": "C:\\Users\\aouti\\Desktop\\PS-3\\FarmerHelp\\data\\raw\\market\\real_des_historical\\Time-Series-3rd-AE-2025-26-English.pdf",
+  "file_size_bytes": 450200,
+  "file_format": "PDF / Official Government Publication",
+  "publisher": "Directorate of Economics and Statistics (DES), Department of Agriculture & Farmers Welfare, Ministry of Agriculture & Farmers Welfare, Government of India",
+  "coverage": {
+    "temporal_range": "2014-15 to 2025-26",
+    "geographic_coverage": "All India & States / UTs",
+    "commodities_covered": [
+      "Rice",
+      "Wheat",
+      "Jowar",
+      "Bajra",
+      "Maize",
+      "Ragi",
+      "Barley",
+      "Gram",
+      "Tur/Arhar",
+      "Moong",
+      "Urad",
+      "Masoor",
+      "Groundnut",
+      "Mustard",
+      "Soyabean",
+      "Sunflower",
+      "Sesame",
+      "Castor",
+      "Cotton",
+      "Sugarcane",
+      "Jute",
+      "Potato",
+      "Onion"
+    ]
+  },
+  "number_of_records": "Multi-page official time series tables",
+  "fields": [
+    "Crop Name",
+    "Season",
+    "Year",
+    "State",
+    "Area (Lakh Ha)",
+    "Production (Lakh MT)",
+    "Yield (Kg/Ha)",
+    "Wholesale Price / MSP Benchmark"
+  ],
+  "units": {
+    "area": "Lakh Hectares",
+    "production": "Lakh Tonnes",
+    "yield": "Kg per Hectare",
+    "price": "Rs per Quintal"
+  },
+  "price_concept": "Official Wholesale / MSP & Production Statistics Benchmark",
+  "authenticity_validation": "Direct download from DES (desagri.gov.in). File is genuine official government publication; 0 synthetic/interpolated records."
+}

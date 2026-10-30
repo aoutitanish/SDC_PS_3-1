@@ -1,0 +1,642 @@
+State_Name,District_Name,bdod_0_5cm,cec_0_5cm,clay_0_5cm,nitrogen_0_5cm,phh2o_0_5cm,sand_0_5cm,silt_0_5cm,soc_0_5cm,ph_outlier_flag
+Andaman And Nicobar Islands,Nicobars,123.0,233.0,337.0,388.0,56.0,377.0,286.0,417.0,False
+Andaman And Nicobar Islands,North And Middle Andaman,123.0,233.0,337.0,388.0,56.0,377.0,286.0,417.0,False
+Andaman And Nicobar Islands,South Andamans,116.0,244.0,295.0,468.0,54.0,390.0,315.0,535.0,False
+Andhra Pradesh,Anantapur,,,,,,,,,False
+Andhra Pradesh,Chittoor,135.0,289.0,343.0,199.0,69.0,380.0,277.0,333.0,False
+Andhra Pradesh,East Godavari,135.0,264.0,283.0,187.0,67.0,376.0,341.0,292.0,False
+Andhra Pradesh,Guntur,,,,,,,,,False
+Andhra Pradesh,Kadapa,,,,,,,,,False
+Andhra Pradesh,Krishna,136.0,255.0,324.0,192.0,66.0,329.0,347.0,251.0,False
+Andhra Pradesh,Kurnool,,,,,,,,,False
+Andhra Pradesh,Prakasam,138.0,278.0,307.0,217.0,71.0,361.0,331.0,528.0,False
+Andhra Pradesh,Spsr Nellore,143.0,265.0,318.0,207.0,67.0,370.0,312.0,299.0,False
+Andhra Pradesh,Srikakulam,,,,,,,,,False
+Andhra Pradesh,Visakhapatanam,,,,,,,,,False
+Andhra Pradesh,Vizianagaram,,,,,,,,,False
+Andhra Pradesh,West Godavari,132.0,269.0,286.0,189.0,67.0,372.0,342.0,301.0,False
+Arunachal Pradesh,Anjaw,104.0,274.0,202.0,485.0,61.0,456.0,342.0,922.0,False
+Arunachal Pradesh,Changlang,112.0,219.0,290.0,477.0,50.0,431.0,279.0,499.0,False
+Arunachal Pradesh,Dibang Valley,108.0,190.0,206.0,601.0,55.0,490.0,304.0,517.0,False
+Arunachal Pradesh,East Kameng,103.0,215.0,353.0,742.0,51.0,271.0,376.0,493.0,False
+Arunachal Pradesh,East Siang,126.0,161.0,310.0,302.0,54.0,430.0,260.0,375.0,False
+Arunachal Pradesh,Kurung Kumey,106.0,201.0,305.0,423.0,55.0,301.0,395.0,585.0,False
+Arunachal Pradesh,Lohit,113.0,181.0,301.0,797.0,53.0,408.0,291.0,588.0,False
+Arunachal Pradesh,Longding,118.0,169.0,292.0,661.0,53.0,412.0,296.0,422.0,False
+Arunachal Pradesh,Lower Dibang Valley,105.0,200.0,329.0,1152.0,52.0,358.0,313.0,614.0,False
+Arunachal Pradesh,Lower Subansiri,99.0,218.0,320.0,495.0,53.0,353.0,327.0,521.0,False
+Arunachal Pradesh,Namsai,126.0,210.0,320.0,385.0,50.0,388.0,292.0,426.0,False
+Arunachal Pradesh,Papum Pare,102.0,210.0,316.0,610.0,52.0,307.0,377.0,499.0,False
+Arunachal Pradesh,Tawang,107.0,236.0,295.0,411.0,59.0,341.0,364.0,591.0,False
+Arunachal Pradesh,Tirap,115.0,192.0,310.0,430.0,52.0,430.0,260.0,470.0,False
+Arunachal Pradesh,Upper Siang,99.0,230.0,212.0,629.0,55.0,425.0,363.0,823.0,False
+Arunachal Pradesh,Upper Subansiri,104.0,210.0,299.0,1231.0,52.0,336.0,365.0,552.0,False
+Arunachal Pradesh,West Kameng,104.0,210.0,364.0,535.0,53.0,260.0,376.0,675.0,False
+Arunachal Pradesh,West Siang,101.0,244.0,287.0,555.0,54.0,353.0,359.0,827.0,False
+Assam,Baksa,124.0,175.0,273.0,159.0,55.0,377.0,351.0,187.0,False
+Assam,Barpeta,128.0,187.0,299.0,192.0,57.0,356.0,345.0,181.0,False
+Assam,Bongaigaon,,,,,,,,,False
+Assam,Cachar,130.0,198.0,274.0,231.0,55.0,374.0,352.0,212.0,False
+Assam,Chirang,124.0,203.0,289.0,155.0,54.0,426.0,285.0,213.0,False
+Assam,Darrang,130.0,188.0,302.0,151.0,56.0,324.0,374.0,206.0,False
+Assam,Dhemaji,,,,,,,,,False
+Assam,Dhubri,128.0,163.0,295.0,159.0,58.0,373.0,332.0,203.0,False
+Assam,Dibrugarh,,,,,,,,,False
+Assam,Dima Hasao,115.0,198.0,314.0,272.0,52.0,309.0,377.0,324.0,False
+Assam,Goalpara,128.0,190.0,288.0,162.0,54.0,453.0,260.0,204.0,False
+Assam,Golaghat,,,,,,,,,False
+Assam,Hailakandi,,,,,,,,,False
+Assam,Jorhat,,,,,,,,,False
+Assam,Kamrup,,,,,,,,,False
+Assam,Kamrup Metro,,,,,,,,,False
+Assam,Karbi Anglong,112.0,228.0,357.0,608.0,53.0,318.0,325.0,435.0,False
+Assam,Karimganj,124.0,169.0,254.0,406.0,51.0,417.0,328.0,256.0,False
+Assam,Kokrajhar,127.0,163.0,263.0,186.0,55.0,422.0,315.0,242.0,False
+Assam,Lakhimpur,123.0,153.0,314.0,288.0,56.0,400.0,286.0,287.0,False
+Assam,Marigaon,130.0,172.0,274.0,146.0,56.0,357.0,369.0,172.0,False
+Assam,Nagaon,130.0,190.0,309.0,253.0,56.0,343.0,348.0,208.0,False
+Assam,Nalbari,126.0,188.0,285.0,191.0,58.0,351.0,364.0,204.0,False
+Assam,Sivasagar,,,,,,,,,False
+Assam,Sonitpur,123.0,192.0,308.0,198.0,53.0,334.0,358.0,233.0,False
+Assam,Tinsukia,,,,,,,,,False
+Assam,Udalguri,129.0,179.0,266.0,176.0,56.0,379.0,355.0,200.0,False
+Bihar,Araria,,,,,,,,,False
+Bihar,Arwal,140.0,275.0,287.0,171.0,75.0,260.0,453.0,208.0,False
+Bihar,Aurangabad,143.0,345.0,343.0,170.0,75.0,263.0,393.0,119.0,False
+Bihar,Banka,127.0,172.0,249.0,154.0,66.0,359.0,392.0,396.0,False
+Bihar,Begusarai,136.0,162.0,297.0,194.0,69.0,277.0,427.0,214.0,False
+Bihar,Bhagalpur,,,,,,,,,False
+Bihar,Bhojpur,140.0,264.0,285.0,158.0,72.0,272.0,444.0,181.0,False
+Bihar,Buxar,139.0,274.0,293.0,146.0,75.0,283.0,424.0,143.0,False
+Bihar,Darbhanga,133.0,166.0,295.0,149.0,70.0,297.0,408.0,195.0,False
+Bihar,Gaya,,,,,,,,,False
+Bihar,Gopalganj,134.0,158.0,270.0,158.0,71.0,328.0,402.0,203.0,False
+Bihar,Jamui,137.0,176.0,293.0,144.0,69.0,313.0,393.0,186.0,False
+Bihar,Jehanabad,140.0,192.0,250.0,161.0,76.0,300.0,450.0,167.0,False
+Bihar,Kaimur (Bhabua),,,,,,,,,False
+Bihar,Katihar,132.0,158.0,271.0,147.0,67.0,271.0,458.0,180.0,False
+Bihar,Khagaria,134.0,171.0,287.0,174.0,69.0,305.0,408.0,224.0,False
+Bihar,Kishanganj,130.0,187.0,248.0,162.0,61.0,342.0,410.0,192.0,False
+Bihar,Lakhisarai,133.0,183.0,279.0,183.0,68.0,298.0,422.0,232.0,False
+Bihar,Madhepura,132.0,170.0,244.0,177.0,69.0,315.0,442.0,193.0,False
+Bihar,Madhubani,136.0,181.0,291.0,172.0,68.0,303.0,406.0,217.0,False
+Bihar,Munger,120.0,189.0,239.0,346.0,60.0,386.0,375.0,360.0,False
+Bihar,Muzaffarpur,135.0,137.0,254.0,160.0,69.0,322.0,423.0,183.0,False
+Bihar,Nalanda,136.0,153.0,261.0,300.0,73.0,290.0,449.0,196.0,False
+Bihar,Nawada,136.0,220.0,295.0,173.0,71.0,261.0,444.0,212.0,False
+Bihar,Pashchim Champaran,139.0,164.0,260.0,152.0,67.0,336.0,404.0,194.0,False
+Bihar,Patna,,,,,,,,,False
+Bihar,Purbi Champaran,141.0,159.0,237.0,136.0,69.0,285.0,478.0,164.0,False
+Bihar,Purnia,135.0,161.0,260.0,153.0,68.0,314.0,426.0,186.0,False
+Bihar,Rohtas,143.0,296.0,311.0,172.0,72.0,288.0,401.0,144.0,False
+Bihar,Saharsa,133.0,172.0,295.0,161.0,70.0,325.0,380.0,229.0,False
+Bihar,Samastipur,,,,,,,,,False
+Bihar,Saran,134.0,159.0,260.0,152.0,68.0,323.0,417.0,189.0,False
+Bihar,Sheikhpura,137.0,183.0,251.0,161.0,71.0,277.0,472.0,205.0,False
+Bihar,Sheohar,137.0,177.0,301.0,161.0,68.0,287.0,412.0,189.0,False
+Bihar,Sitamarhi,,,,,,,,,False
+Bihar,Siwan,137.0,178.0,301.0,136.0,72.0,319.0,380.0,163.0,False
+Bihar,Supaul,136.0,179.0,273.0,152.0,68.0,315.0,411.0,204.0,False
+Bihar,Vaishali,131.0,157.0,286.0,140.0,69.0,312.0,402.0,211.0,False
+Chandigarh,Chandigarh,,,,,,,,,False
+Chhattisgarh,Balod,158.0,214.0,353.0,158.0,66.0,319.0,328.0,122.0,False
+Chhattisgarh,Baloda Bazar,167.0,337.0,347.0,155.0,74.0,219.0,434.0,124.0,False
+Chhattisgarh,Balrampur,138.0,396.0,389.0,232.0,62.0,219.0,391.0,317.0,False
+Chhattisgarh,Bastar,144.0,352.0,283.0,165.0,64.0,378.0,339.0,239.0,False
+Chhattisgarh,Bemetara,162.0,347.0,410.0,173.0,73.0,181.0,409.0,133.0,False
+Chhattisgarh,Bijapur,146.0,194.0,313.0,148.0,66.0,402.0,286.0,170.0,False
+Chhattisgarh,Bilaspur,153.0,314.0,388.0,159.0,74.0,171.0,441.0,147.0,False
+Chhattisgarh,Dantewada,133.0,270.0,281.0,196.0,60.0,380.0,338.0,256.0,False
+Chhattisgarh,Dhamtari,149.0,238.0,343.0,193.0,62.0,394.0,262.0,195.0,False
+Chhattisgarh,Durg,,,,,,,,,False
+Chhattisgarh,Gariyaband,155.0,241.0,336.0,156.0,66.0,340.0,324.0,151.0,False
+Chhattisgarh,Janjgir-Champa,151.0,367.0,408.0,207.0,73.0,191.0,401.0,185.0,False
+Chhattisgarh,Jashpur,140.0,353.0,364.0,183.0,66.0,240.0,396.0,217.0,False
+Chhattisgarh,Kabirdham,162.0,349.0,378.0,144.0,73.0,191.0,430.0,145.0,False
+Chhattisgarh,Kanker,155.0,177.0,372.0,177.0,61.0,340.0,287.0,186.0,False
+Chhattisgarh,Kondagaon,,,,,,,,,False
+Chhattisgarh,Korba,136.0,396.0,416.0,225.0,72.0,216.0,368.0,459.0,False
+Chhattisgarh,Korea,,,,,,,,,False
+Chhattisgarh,Mahasamund,158.0,302.0,362.0,178.0,72.0,222.0,416.0,137.0,False
+Chhattisgarh,Mungeli,,,,,,,,,False
+Chhattisgarh,Narayanpur,138.0,276.0,315.0,172.0,59.0,428.0,257.0,272.0,False
+Chhattisgarh,Raigarh,156.0,385.0,463.0,165.0,72.0,181.0,356.0,141.0,False
+Chhattisgarh,Raipur,,,,,,,,,False
+Chhattisgarh,Rajnandgaon,154.0,315.0,383.0,161.0,69.0,257.0,360.0,137.0,False
+Chhattisgarh,Sukma,130.0,217.0,284.0,250.0,59.0,400.0,316.0,343.0,False
+Chhattisgarh,Surajpur,162.0,426.0,404.0,170.0,74.0,153.0,443.0,157.0,False
+Chhattisgarh,Surguja,162.0,423.0,458.0,176.0,72.0,190.0,352.0,165.0,False
+Dadra And Nagar Haveli,Dadra And Nagar Haveli,,,,,,,,,False
+Goa,North Goa,134.0,203.0,334.0,210.0,57.0,367.0,299.0,278.0,False
+Goa,South Goa,135.0,237.0,326.0,261.0,63.0,363.0,311.0,296.0,False
+Gujarat,Ahmadabad,148.0,298.0,347.0,184.0,73.0,309.0,344.0,110.0,False
+Gujarat,Amreli,154.0,247.0,306.0,124.0,73.0,354.0,340.0,85.0,False
+Gujarat,Anand,156.0,304.0,240.0,153.0,71.0,416.0,345.0,98.0,False
+Gujarat,Banas Kantha,146.0,268.0,210.0,181.0,73.0,435.0,355.0,134.0,False
+Gujarat,Bharuch,,,,,,,,,False
+Gujarat,Bhavnagar,,,,,,,,,False
+Gujarat,Dang,152.0,345.0,447.0,210.0,67.0,258.0,296.0,202.0,False
+Gujarat,Dohad,148.0,280.0,332.0,136.0,73.0,383.0,285.0,81.0,False
+Gujarat,Gandhinagar,150.0,311.0,302.0,162.0,74.0,319.0,379.0,95.0,False
+Gujarat,Jamnagar,146.0,212.0,309.0,156.0,70.0,368.0,324.0,120.0,False
+Gujarat,Junagadh,,,,,,,,,False
+Gujarat,Kachchh,128.0,248.0,211.0,72.0,74.0,476.0,313.0,276.0,False
+Gujarat,Kheda,158.0,333.0,303.0,148.0,74.0,337.0,359.0,107.0,False
+Gujarat,Mahesana,156.0,312.0,244.0,164.0,73.0,388.0,369.0,101.0,False
+Gujarat,Narmada,153.0,305.0,391.0,203.0,67.0,301.0,308.0,232.0,False
+Gujarat,Navsari,,,,,,,,,False
+Gujarat,Panch Mahals,161.0,322.0,292.0,124.0,70.0,394.0,314.0,100.0,False
+Gujarat,Patan,151.0,269.0,190.0,151.0,74.0,419.0,391.0,105.0,False
+Gujarat,Porbandar,150.0,211.0,234.0,138.0,70.0,400.0,366.0,149.0,False
+Gujarat,Rajkot,,,,,,,,,False
+Gujarat,Sabar Kantha,,,,,,,,,False
+Gujarat,Surat,,,,,,,,,False
+Gujarat,Surendranagar,,294.0,310.0,172.0,75.0,381.0,308.0,93.0,False
+Gujarat,Tapi,162.0,339.0,388.0,169.0,69.0,340.0,272.0,115.0,False
+Gujarat,Vadodara,,,,,,,,,False
+Gujarat,Valsad,148.0,269.0,393.0,254.0,70.0,346.0,261.0,188.0,False
+Haryana,Ambala,,,,,,,,,False
+Haryana,Bhiwani,,,,,,,,,False
+Haryana,Faridabad,,,,,,,,,False
+Haryana,Fatehabad,147.0,130.0,211.0,145.0,79.0,494.0,295.0,84.0,False
+Haryana,Gurgaon,,,,,,,,,False
+Haryana,Hisar,,,,,,,,,False
+Haryana,Jhajjar,143.0,157.0,226.0,106.0,80.0,433.0,342.0,114.0,False
+Haryana,Jind,,,,,,,,,False
+Haryana,Kaithal,,,,,,,,,False
+Haryana,Karnal,144.0,138.0,274.0,111.0,80.0,342.0,384.0,155.0,False
+Haryana,Kurukshetra,,,,,,,,,False
+Haryana,Mahendragarh,146.0,208.0,268.0,100.0,78.0,428.0,304.0,98.0,False
+Haryana,Mewat,141.0,225.0,254.0,145.0,78.0,516.0,229.0,140.0,False
+Haryana,Palwal,144.0,115.0,238.0,121.0,84.0,478.0,284.0,107.0,False
+Haryana,Panchkula,138.0,179.0,225.0,187.0,70.0,436.0,339.0,206.0,False
+Haryana,Panipat,,,,,,,,,False
+Haryana,Rewari,,,,,,,,,False
+Haryana,Rohtak,,,,,,,,,False
+Haryana,Sirsa,148.0,136.0,191.0,136.0,78.0,511.0,297.0,104.0,False
+Haryana,Sonipat,,,,,,,,,False
+Haryana,Yamunanagar,,,,,,,,,False
+Himachal Pradesh,Bilaspur,,,,,,,,,False
+Himachal Pradesh,Chamba,110.0,274.0,299.0,673.0,57.0,403.0,299.0,930.0,False
+Himachal Pradesh,Hamirpur,133.0,235.0,266.0,496.0,63.0,425.0,309.0,494.0,False
+Himachal Pradesh,Kangra,128.0,208.0,300.0,643.0,63.0,377.0,324.0,554.0,False
+Himachal Pradesh,Kinnaur,117.0,250.0,189.0,626.0,61.0,489.0,322.0,797.0,False
+Himachal Pradesh,Kullu,,,,,,,,,False
+Himachal Pradesh,Lahul And Spiti,105.0,418.0,177.0,458.0,68.0,445.0,378.0,738.0,False
+Himachal Pradesh,Mandi,112.0,221.0,257.0,676.0,56.0,387.0,356.0,768.0,False
+Himachal Pradesh,Shimla,118.0,250.0,258.0,446.0,62.0,372.0,370.0,497.0,False
+Himachal Pradesh,Sirmaur,118.0,228.0,242.0,415.0,62.0,366.0,391.0,521.0,False
+Himachal Pradesh,Solan,125.0,230.0,262.0,351.0,62.0,370.0,368.0,515.0,False
+Himachal Pradesh,Una,140.0,161.0,217.0,191.0,74.0,444.0,339.0,233.0,False
+Jammu And Kashmir,Anantnag,,,,,,,,,False
+Jammu And Kashmir,Badgam,,,,,,,,,False
+Jammu And Kashmir,Bandipora,,,,,,,,,False
+Jammu And Kashmir,Baramulla,,,,,,,,,False
+Jammu And Kashmir,Doda,120.0,207.0,289.0,432.0,62.0,384.0,327.0,514.0,False
+Jammu And Kashmir,Ganderbal,107.0,290.0,159.0,497.0,64.0,392.0,449.0,804.0,False
+Jammu And Kashmir,Jammu,130.0,191.0,257.0,404.0,62.0,259.0,484.0,429.0,False
+Jammu And Kashmir,Kargil,,,,,,,,,False
+Jammu And Kashmir,Kathua,,,,,,,,,False
+Jammu And Kashmir,Kishtwar,108.0,300.0,185.0,372.0,71.0,407.0,409.0,523.0,False
+Jammu And Kashmir,Kulgam,126.0,231.0,253.0,463.0,61.0,277.0,470.0,452.0,False
+Jammu And Kashmir,Kupwara,130.0,212.0,313.0,481.0,67.0,261.0,426.0,378.0,False
+Jammu And Kashmir,Leh Ladakh,,,,,,,,,False
+Jammu And Kashmir,Poonch,131.0,186.0,268.0,332.0,71.0,374.0,359.0,378.0,False
+Jammu And Kashmir,Pulwama,116.0,241.0,245.0,502.0,61.0,331.0,425.0,458.0,False
+Jammu And Kashmir,Rajauri,,,,,,,,,False
+Jammu And Kashmir,Ramban,124.0,222.0,229.0,481.0,65.0,326.0,446.0,546.0,False
+Jammu And Kashmir,Reasi,118.0,207.0,299.0,501.0,61.0,336.0,365.0,595.0,False
+Jammu And Kashmir,Samba,138.0,173.0,222.0,285.0,72.0,362.0,416.0,251.0,False
+Jammu And Kashmir,Shopian,,,,,,,,,False
+Jammu And Kashmir,Srinagar,,,,,,,,,False
+Jammu And Kashmir,Udhampur,,,,,,,,,False
+Jharkhand,Bokaro,148.0,311.0,347.0,189.0,66.0,283.0,371.0,204.0,False
+Jharkhand,Chatra,148.0,367.0,353.0,133.0,62.0,205.0,441.0,229.0,False
+Jharkhand,Deoghar,,,,,,,,,False
+Jharkhand,Dhanbad,,,,,,,,,False
+Jharkhand,Dumka,137.0,151.0,202.0,161.0,58.0,360.0,437.0,186.0,False
+Jharkhand,East Singhbum,132.0,196.0,329.0,274.0,63.0,400.0,270.0,295.0,False
+Jharkhand,Garhwa,155.0,391.0,359.0,177.0,65.0,177.0,464.0,186.0,False
+Jharkhand,Giridih,147.0,253.0,264.0,129.0,64.0,414.0,322.0,162.0,False
+Jharkhand,Godda,140.0,191.0,254.0,169.0,63.0,397.0,349.0,227.0,False
+Jharkhand,Gumla,135.0,342.0,383.0,205.0,65.0,263.0,354.0,346.0,False
+Jharkhand,Hazaribagh,145.0,256.0,288.0,205.0,67.0,306.0,406.0,203.0,False
+Jharkhand,Jamtara,145.0,173.0,222.0,154.0,63.0,421.0,357.0,175.0,False
+Jharkhand,Khunti,140.0,301.0,331.0,187.0,67.0,342.0,327.0,253.0,False
+Jharkhand,Koderma,,,,,,,,,False
+Jharkhand,Latehar,153.0,373.0,367.0,148.0,68.0,236.0,397.0,159.0,False
+Jharkhand,Lohardaga,145.0,334.0,366.0,191.0,68.0,280.0,354.0,238.0,False
+Jharkhand,Pakur,136.0,188.0,209.0,193.0,59.0,423.0,369.0,224.0,False
+Jharkhand,Palamu,161.0,399.0,378.0,146.0,71.0,213.0,409.0,157.0,False
+Jharkhand,Ramgarh,145.0,360.0,362.0,186.0,65.0,255.0,383.0,175.0,False
+Jharkhand,Ranchi,,,,,,,,,False
+Jharkhand,Sahebganj,129.0,193.0,203.0,200.0,62.0,472.0,326.0,291.0,False
+Jharkhand,Saraikela Kharsawan,136.0,223.0,373.0,175.0,63.0,311.0,315.0,183.0,False
+Jharkhand,Simdega,141.0,322.0,353.0,232.0,63.0,289.0,359.0,331.0,False
+Jharkhand,West Singhbhum,132.0,271.0,389.0,208.0,61.0,347.0,264.0,221.0,False
+Karnataka,Bagalkot,,,,,,,,,False
+Karnataka,Bangalore Rural,138.0,143.0,222.0,156.0,65.0,554.0,224.0,163.0,False
+Karnataka,Belgaum,135.0,389.0,339.0,148.0,66.0,375.0,286.0,205.0,False
+Karnataka,Bellary,,,,,,,,,False
+Karnataka,Bengaluru Urban,,,,,,,,,False
+Karnataka,Bidar,152.0,313.0,387.0,148.0,72.0,327.0,286.0,117.0,False
+Karnataka,Bijapur,146.0,283.0,275.0,131.0,69.0,532.0,193.0,156.0,False
+Karnataka,Chamarajanagar,122.0,300.0,292.0,227.0,64.0,435.0,273.0,348.0,False
+Karnataka,Chikballapur,,,,,,,,,False
+Karnataka,Chikmagalur,,,,,,,,,False
+Karnataka,Chitradurga,146.0,334.0,297.0,129.0,71.0,428.0,275.0,180.0,False
+Karnataka,Dakshin Kannad,,,,,,,,,False
+Karnataka,Davangere,,,,,,,,,False
+Karnataka,Dharwad,,,,,,,,,False
+Karnataka,Gadag,144.0,287.0,272.0,136.0,74.0,449.0,279.0,193.0,False
+Karnataka,Gulbarga,147.0,238.0,355.0,126.0,69.0,384.0,261.0,179.0,False
+Karnataka,Hassan,133.0,290.0,291.0,188.0,70.0,392.0,318.0,202.0,False
+Karnataka,Haveri,141.0,391.0,378.0,140.0,74.0,320.0,302.0,166.0,False
+Karnataka,Kodagu,109.0,266.0,318.0,385.0,55.0,428.0,255.0,405.0,False
+Karnataka,Kolar,143.0,223.0,327.0,126.0,70.0,429.0,245.0,197.0,False
+Karnataka,Koppal,150.0,260.0,238.0,115.0,71.0,517.0,244.0,163.0,False
+Karnataka,Mandya,137.0,254.0,334.0,143.0,68.0,408.0,258.0,201.0,False
+Karnataka,Mysore,,,,,,,,,False
+Karnataka,Raichur,151.0,198.0,334.0,175.0,68.0,424.0,242.0,183.0,False
+Karnataka,Ramanagara,,,,,,,,,False
+Karnataka,Shimoga,134.0,348.0,306.0,163.0,62.0,433.0,262.0,192.0,False
+Karnataka,Tumkur,,,,,,,,,False
+Karnataka,Udupi,124.0,196.0,351.0,268.0,57.0,392.0,257.0,346.0,False
+Karnataka,Uttar Kannad,121.0,265.0,275.0,354.0,56.0,453.0,272.0,394.0,False
+Karnataka,Yadgir,142.0,267.0,380.0,120.0,74.0,333.0,287.0,293.0,False
+Kerala,Ernakulam,,,,,,,,,False
+Kerala,Idukki,,,,,,,,,False
+Kerala,Kannur,,,,,,,,,False
+Kerala,Kasaragod,112.0,186.0,327.0,343.0,56.0,504.0,170.0,403.0,False
+Kerala,Kollam,,,,,,,,,False
+Kerala,Kottayam,113.0,155.0,308.0,351.0,53.0,408.0,284.0,397.0,False
+Kerala,Kozhikode,,,,,,,,,False
+Kerala,Malappuram,126.0,139.0,260.0,314.0,56.0,474.0,266.0,437.0,False
+Kerala,Palakkad,126.0,149.0,270.0,432.0,54.0,448.0,281.0,273.0,False
+Kerala,Pathanamthitta,107.0,186.0,310.0,431.0,52.0,377.0,313.0,512.0,False
+Kerala,Thiruvananthapuram,,,,,,,,,False
+Kerala,Thrissur,,,,,,,,,False
+Kerala,Wayanad,124.0,205.0,330.0,238.0,56.0,413.0,257.0,292.0,False
+Madhya Pradesh,Agar Malwa,155.0,433.0,294.0,115.0,73.0,307.0,399.0,74.0,False
+Madhya Pradesh,Alirajpur,163.0,343.0,376.0,139.0,74.0,330.0,294.0,92.0,False
+Madhya Pradesh,Anuppur,158.0,399.0,375.0,174.0,70.0,207.0,418.0,129.0,False
+Madhya Pradesh,Ashoknagar,156.0,375.0,314.0,110.0,73.0,345.0,341.0,93.0,False
+Madhya Pradesh,Balaghat,143.0,306.0,412.0,242.0,63.0,215.0,374.0,376.0,False
+Madhya Pradesh,Barwani,163.0,506.0,471.0,118.0,73.0,239.0,290.0,113.0,False
+Madhya Pradesh,Betul,161.0,468.0,445.0,152.0,73.0,183.0,372.0,117.0,False
+Madhya Pradesh,Bhind,141.0,238.0,252.0,129.0,79.0,420.0,327.0,105.0,False
+Madhya Pradesh,Bhopal,,,,,,,,,False
+Madhya Pradesh,Burhanpur,162.0,399.0,379.0,135.0,74.0,331.0,290.0,88.0,False
+Madhya Pradesh,Chhatarpur,159.0,284.0,320.0,110.0,74.0,279.0,401.0,85.0,False
+Madhya Pradesh,Chhindwara,149.0,477.0,416.0,214.0,71.0,196.0,389.0,201.0,False
+Madhya Pradesh,Damoh,168.0,373.0,422.0,125.0,74.0,180.0,398.0,97.0,False
+Madhya Pradesh,Datia,139.0,229.0,234.0,132.0,77.0,417.0,349.0,86.0,False
+Madhya Pradesh,Dewas,166.0,448.0,413.0,106.0,76.0,176.0,411.0,98.0,False
+Madhya Pradesh,Dhar,163.0,520.0,436.0,109.0,76.0,187.0,377.0,102.0,False
+Madhya Pradesh,Dindori,158.0,400.0,381.0,195.0,71.0,208.0,411.0,187.0,False
+Madhya Pradesh,Guna,135.0,342.0,319.0,131.0,73.0,353.0,327.0,398.0,False
+Madhya Pradesh,Gwalior,,,,,,,,,False
+Madhya Pradesh,Harda,159.0,332.0,403.0,131.0,74.0,205.0,393.0,128.0,False
+Madhya Pradesh,Hoshangabad,,,,,,,,,False
+Madhya Pradesh,Indore,,,,,,,,,False
+Madhya Pradesh,Jabalpur,,,,,,,,,False
+Madhya Pradesh,Jhabua,157.0,390.0,423.0,132.0,71.0,248.0,329.0,105.0,False
+Madhya Pradesh,Katni,168.0,411.0,404.0,120.0,73.0,199.0,397.0,113.0,False
+Madhya Pradesh,Khandwa,,,,,,,,,False
+Madhya Pradesh,Khargone,155.0,428.0,298.0,122.0,74.0,368.0,334.0,79.0,False
+Madhya Pradesh,Mandla,164.0,441.0,411.0,194.0,71.0,159.0,429.0,174.0,False
+Madhya Pradesh,Mandsaur,,,,,,,,,False
+Madhya Pradesh,Morena,147.0,233.0,254.0,111.0,79.0,404.0,342.0,104.0,False
+Madhya Pradesh,Narsinghpur,168.0,377.0,424.0,109.0,74.0,166.0,410.0,104.0,False
+Madhya Pradesh,Neemuch,164.0,293.0,350.0,118.0,73.0,324.0,326.0,70.0,False
+Madhya Pradesh,Panna,161.0,429.0,350.0,130.0,76.0,179.0,471.0,88.0,False
+Madhya Pradesh,Raisen,153.0,360.0,432.0,182.0,63.0,218.0,350.0,194.0,False
+Madhya Pradesh,Rajgarh,164.0,413.0,366.0,115.0,75.0,290.0,344.0,86.0,False
+Madhya Pradesh,Ratlam,164.0,429.0,449.0,126.0,74.0,187.0,365.0,90.0,False
+Madhya Pradesh,Rewa,163.0,360.0,368.0,130.0,73.0,254.0,378.0,103.0,False
+Madhya Pradesh,Sagar,164.0,414.0,399.0,150.0,71.0,223.0,378.0,115.0,False
+Madhya Pradesh,Satna,160.0,420.0,318.0,134.0,76.0,214.0,468.0,89.0,False
+Madhya Pradesh,Sehore,166.0,424.0,421.0,130.0,73.0,221.0,357.0,106.0,False
+Madhya Pradesh,Seoni,164.0,437.0,377.0,163.0,71.0,169.0,455.0,149.0,False
+Madhya Pradesh,Shahdol,167.0,432.0,434.0,115.0,72.0,203.0,363.0,91.0,False
+Madhya Pradesh,Shajapur,163.0,439.0,377.0,113.0,75.0,220.0,403.0,90.0,False
+Madhya Pradesh,Sheopur,153.0,223.0,246.0,116.0,73.0,443.0,312.0,87.0,False
+Madhya Pradesh,Shivpuri,155.0,337.0,292.0,109.0,70.0,387.0,322.0,93.0,False
+Madhya Pradesh,Sidhi,157.0,380.0,374.0,157.0,71.0,226.0,400.0,123.0,False
+Madhya Pradesh,Singrauli,161.0,364.0,333.0,129.0,71.0,264.0,403.0,124.0,False
+Madhya Pradesh,Tikamgarh,153.0,256.0,253.0,123.0,73.0,332.0,416.0,100.0,False
+Madhya Pradesh,Ujjain,,,,,,,,,False
+Madhya Pradesh,Umaria,156.0,416.0,380.0,202.0,68.0,226.0,393.0,151.0,False
+Madhya Pradesh,Vidisha,159.0,436.0,337.0,133.0,75.0,244.0,419.0,114.0,False
+Maharashtra,Ahmednagar,140.0,384.0,409.0,159.0,71.0,330.0,262.0,181.0,False
+Maharashtra,Akola,161.0,410.0,455.0,112.0,75.0,273.0,273.0,91.0,False
+Maharashtra,Amravati,153.0,438.0,447.0,112.0,75.0,210.0,343.0,123.0,False
+Maharashtra,Aurangabad,,,,,,,,,False
+Maharashtra,Beed,160.0,422.0,469.0,123.0,72.0,277.0,254.0,116.0,False
+Maharashtra,Bhandara,155.0,390.0,438.0,157.0,72.0,158.0,404.0,175.0,False
+Maharashtra,Buldhana,149.0,464.0,518.0,161.0,70.0,226.0,256.0,182.0,False
+Maharashtra,Chandrapur,159.0,319.0,361.0,147.0,71.0,295.0,345.0,157.0,False
+Maharashtra,Dhule,158.0,359.0,361.0,124.0,73.0,322.0,316.0,100.0,False
+Maharashtra,Gadchiroli,154.0,259.0,339.0,199.0,61.0,277.0,384.0,231.0,False
+Maharashtra,Gondia,,,,,,,,,False
+Maharashtra,Hingoli,158.0,418.0,440.0,144.0,69.0,277.0,284.0,126.0,False
+Maharashtra,Jalgaon,159.0,398.0,401.0,108.0,74.0,319.0,280.0,89.0,False
+Maharashtra,Jalna,159.0,470.0,467.0,118.0,73.0,211.0,321.0,112.0,False
+Maharashtra,Kolhapur,,,,,,,,,False
+Maharashtra,Latur,155.0,319.0,380.0,127.0,71.0,320.0,300.0,110.0,False
+Maharashtra,Mumbai,,,,,,,,,False
+Maharashtra,Nagpur,,,,,,,,,False
+Maharashtra,Nanded,160.0,372.0,399.0,122.0,72.0,286.0,315.0,121.0,False
+Maharashtra,Nandurbar,160.0,347.0,350.0,149.0,74.0,267.0,384.0,80.0,False
+Maharashtra,Nashik,,,,,,,,,False
+Maharashtra,Osmanabad,155.0,384.0,366.0,137.0,72.0,324.0,311.0,132.0,False
+Maharashtra,Palghar,140.0,262.0,356.0,356.0,66.0,324.0,320.0,221.0,False
+Maharashtra,Parbhani,159.0,443.0,415.0,136.0,73.0,280.0,305.0,100.0,False
+Maharashtra,Pune,,,,,,,,,False
+Maharashtra,Raigad,131.0,242.0,319.0,286.0,59.0,387.0,294.0,336.0,False
+Maharashtra,Ratnagiri,131.0,218.0,373.0,246.0,62.0,335.0,292.0,315.0,False
+Maharashtra,Sangli,150.0,346.0,419.0,123.0,73.0,348.0,233.0,153.0,False
+Maharashtra,Satara,146.0,314.0,438.0,155.0,69.0,341.0,222.0,189.0,False
+Maharashtra,Sindhudurg,131.0,243.0,340.0,257.0,62.0,344.0,316.0,314.0,False
+Maharashtra,Solapur,152.0,341.0,513.0,147.0,72.0,249.0,239.0,151.0,False
+Maharashtra,Thane,137.0,268.0,380.0,257.0,66.0,327.0,293.0,175.0,False
+Maharashtra,Wardha,154.0,423.0,395.0,122.0,73.0,207.0,398.0,125.0,False
+Maharashtra,Washim,162.0,457.0,529.0,125.0,72.0,233.0,238.0,111.0,False
+Maharashtra,Yavatmal,160.0,367.0,446.0,125.0,71.0,272.0,282.0,113.0,False
+Manipur,Bishnupur,,,,,,,,,False
+Manipur,Chandel,105.0,215.0,270.0,436.0,53.0,316.0,414.0,465.0,False
+Manipur,Churachandpur,118.0,201.0,305.0,225.0,56.0,327.0,368.0,274.0,False
+Manipur,Imphal East,120.0,178.0,293.0,306.0,55.0,318.0,388.0,338.0,False
+Manipur,Imphal West,128.0,188.0,307.0,228.0,56.0,316.0,377.0,280.0,False
+Manipur,Senapati,112.0,206.0,346.0,368.0,56.0,302.0,352.0,326.0,False
+Manipur,Tamenglong,107.0,213.0,318.0,423.0,49.0,361.0,321.0,566.0,False
+Manipur,Thoubal,,,,,,,,,False
+Manipur,Ukhrul,97.0,242.0,336.0,1050.0,55.0,312.0,353.0,419.0,False
+Meghalaya,East Garo Hills,118.0,235.0,279.0,255.0,50.0,376.0,345.0,408.0,False
+Meghalaya,East Jaintia Hills,109.0,225.0,332.0,401.0,49.0,382.0,287.0,585.0,False
+Meghalaya,East Khasi Hills,98.0,222.0,326.0,952.0,51.0,336.0,337.0,801.0,False
+Meghalaya,North Garo Hills,117.0,190.0,272.0,269.0,48.0,389.0,339.0,304.0,False
+Meghalaya,Ri Bhoi,113.0,235.0,297.0,286.0,51.0,412.0,292.0,472.0,False
+Meghalaya,South Garo Hills,120.0,215.0,265.0,207.0,51.0,401.0,334.0,346.0,False
+Meghalaya,South West Garo Hills,129.0,199.0,288.0,186.0,52.0,387.0,324.0,181.0,False
+Meghalaya,South West Khasi Hills,110.0,206.0,285.0,523.0,50.0,376.0,339.0,600.0,False
+Meghalaya,West Garo Hills,118.0,237.0,279.0,241.0,48.0,399.0,322.0,247.0,False
+Meghalaya,West Jaintia Hills,112.0,216.0,286.0,348.0,53.0,371.0,342.0,492.0,False
+Meghalaya,West Khasi Hills,113.0,223.0,279.0,335.0,49.0,415.0,306.0,575.0,False
+Mizoram,Aizawl,,,,,,,,,False
+Mizoram,Champhai,107.0,216.0,312.0,302.0,54.0,273.0,415.0,367.0,False
+Mizoram,Kolasib,115.0,206.0,308.0,541.0,52.0,335.0,357.0,311.0,False
+Mizoram,Lawngtlai,111.0,190.0,283.0,273.0,53.0,367.0,351.0,421.0,False
+Mizoram,Lunglei,111.0,175.0,287.0,345.0,53.0,326.0,386.0,311.0,False
+Mizoram,Mamit,117.0,189.0,266.0,241.0,53.0,312.0,422.0,227.0,False
+Mizoram,Saiha,106.0,228.0,349.0,383.0,54.0,316.0,335.0,387.0,False
+Mizoram,Serchhip,105.0,230.0,337.0,534.0,53.0,290.0,373.0,402.0,False
+Nagaland,Dimapur,,,,,,,,,False
+Nagaland,Kiphire,108.0,203.0,280.0,358.0,56.0,329.0,391.0,446.0,False
+Nagaland,Kohima,,,,,,,,,False
+Nagaland,Longleng,110.0,234.0,287.0,767.0,53.0,374.0,339.0,500.0,False
+Nagaland,Mokokchung,115.0,191.0,300.0,405.0,51.0,369.0,331.0,304.0,False
+Nagaland,Mon,113.0,214.0,295.0,559.0,53.0,379.0,327.0,485.0,False
+Nagaland,Peren,107.0,221.0,306.0,720.0,51.0,317.0,376.0,420.0,False
+Nagaland,Phek,97.0,219.0,274.0,999.0,53.0,317.0,409.0,447.0,False
+Nagaland,Tuensang,97.0,248.0,316.0,1298.0,52.0,356.0,328.0,653.0,False
+Nagaland,Wokha,120.0,217.0,288.0,336.0,53.0,317.0,395.0,329.0,False
+Nagaland,Zunheboto,101.0,219.0,299.0,871.0,52.0,310.0,390.0,413.0,False
+Odisha,Anugul,140.0,161.0,295.0,170.0,63.0,516.0,190.0,192.0,False
+Odisha,Balangir,146.0,260.0,363.0,177.0,66.0,285.0,352.0,165.0,False
+Odisha,Baleshwar,130.0,186.0,344.0,205.0,64.0,306.0,350.0,297.0,False
+Odisha,Bargarh,148.0,264.0,370.0,191.0,69.0,226.0,404.0,149.0,False
+Odisha,Bhadrak,124.0,191.0,361.0,202.0,65.0,250.0,389.0,269.0,False
+Odisha,Boudh,136.0,208.0,309.0,188.0,62.0,367.0,323.0,257.0,False
+Odisha,Cuttack,,,,,,,,,False
+Odisha,Deogarh,137.0,221.0,361.0,251.0,63.0,343.0,296.0,266.0,False
+Odisha,Dhenkanal,132.0,170.0,315.0,159.0,62.0,394.0,291.0,275.0,False
+Odisha,Gajapati,109.0,187.0,277.0,430.0,55.0,360.0,363.0,380.0,False
+Odisha,Ganjam,132.0,183.0,312.0,165.0,62.0,352.0,335.0,166.0,False
+Odisha,Jagatsinghapur,124.0,190.0,387.0,220.0,66.0,235.0,379.0,246.0,False
+Odisha,Jajapur,126.0,185.0,368.0,215.0,65.0,206.0,426.0,328.0,False
+Odisha,Jharsuguda,145.0,281.0,392.0,142.0,66.0,234.0,375.0,174.0,False
+Odisha,Kalahandi,145.0,179.0,275.0,168.0,63.0,418.0,306.0,181.0,False
+Odisha,Kandhamal,128.0,185.0,326.0,263.0,61.0,355.0,319.0,304.0,False
+Odisha,Kendrapara,120.0,194.0,375.0,206.0,65.0,169.0,456.0,253.0,False
+Odisha,Kendujhar,132.0,178.0,326.0,185.0,60.0,379.0,295.0,226.0,False
+Odisha,Khordha,127.0,193.0,344.0,196.0,64.0,330.0,326.0,285.0,False
+Odisha,Koraput,127.0,194.0,260.0,268.0,57.0,399.0,340.0,294.0,False
+Odisha,Malkangiri,133.0,187.0,235.0,172.0,65.0,375.0,390.0,186.0,False
+Odisha,Mayurbhanj,117.0,267.0,273.0,271.0,55.0,343.0,384.0,555.0,False
+Odisha,Nabarangpur,136.0,293.0,296.0,155.0,62.0,406.0,298.0,196.0,False
+Odisha,Nayagarh,125.0,157.0,296.0,184.0,60.0,386.0,317.0,250.0,False
+Odisha,Nuapada,136.0,327.0,339.0,211.0,64.0,363.0,298.0,271.0,False
+Odisha,Puri,,,,,,,,,False
+Odisha,Rayagada,125.0,181.0,278.0,227.0,60.0,387.0,335.0,306.0,False
+Odisha,Sambalpur,141.0,251.0,331.0,145.0,62.0,270.0,400.0,180.0,False
+Odisha,Sonepur,,,,,,,,,False
+Odisha,Sundargarh,146.0,306.0,399.0,161.0,66.0,232.0,369.0,184.0,False
+Puducherry,Karaikal,,,,,,,,,False
+Puducherry,Mahe,,,,,,,,,False
+Puducherry,Pondicherry,,,,,,,,,False
+Puducherry,Yanam,,,,,,,,,False
+Punjab,Amritsar,,,,,,,,,False
+Punjab,Barnala,146.0,155.0,244.0,130.0,80.0,422.0,334.0,113.0,False
+Punjab,Bathinda,148.0,126.0,234.0,162.0,79.0,430.0,336.0,109.0,False
+Punjab,Faridkot,146.0,132.0,235.0,112.0,79.0,434.0,331.0,101.0,False
+Punjab,Fatehgarh Sahib,147.0,196.0,360.0,133.0,77.0,296.0,344.0,168.0,False
+Punjab,Fazilka,149.0,146.0,220.0,129.0,78.0,481.0,300.0,101.0,False
+Punjab,Gurdaspur,148.0,175.0,257.0,131.0,78.0,342.0,401.0,146.0,False
+Punjab,Hoshiarpur,142.0,147.0,210.0,123.0,70.0,445.0,346.0,165.0,False
+Punjab,Jalandhar,,,,,,,,,False
+Punjab,Kapurthala,144.0,201.0,271.0,104.0,79.0,411.0,318.0,129.0,False
+Punjab,Ludhiana,,,,,,,,,False
+Punjab,Mansa,155.0,120.0,206.0,141.0,79.0,474.0,320.0,89.0,False
+Punjab,Moga,145.0,175.0,250.0,126.0,79.0,392.0,358.0,145.0,False
+Punjab,Muktsar,,,,,,,,,False
+Punjab,Nawanshahr,148.0,172.0,246.0,118.0,76.0,458.0,296.0,196.0,False
+Punjab,Pathankot,135.0,209.0,241.0,347.0,67.0,376.0,384.0,300.0,False
+Punjab,Patiala,145.0,224.0,377.0,119.0,81.0,216.0,407.0,116.0,False
+Punjab,Rupnagar,139.0,140.0,265.0,212.0,73.0,402.0,333.0,220.0,False
+Punjab,S.A.S Nagar,144.0,161.0,215.0,127.0,71.0,434.0,351.0,210.0,False
+Punjab,Sangrur,146.0,183.0,290.0,137.0,80.0,391.0,319.0,126.0,False
+Punjab,Tarn Taran,147.0,169.0,257.0,140.0,81.0,347.0,395.0,138.0,False
+Rajasthan,Ajmer,,,,,,,,,False
+Rajasthan,Alwar,147.0,196.0,246.0,113.0,77.0,432.0,322.0,131.0,False
+Rajasthan,Banswara,161.0,332.0,279.0,138.0,72.0,346.0,375.0,81.0,False
+Rajasthan,Baran,161.0,227.0,266.0,116.0,73.0,441.0,293.0,78.0,False
+Rajasthan,Barmer,143.0,132.0,232.0,63.0,78.0,501.0,267.0,64.0,False
+Rajasthan,Bharatpur,147.0,173.0,291.0,110.0,77.0,453.0,256.0,95.0,False
+Rajasthan,Bhilwara,154.0,254.0,267.0,134.0,74.0,373.0,360.0,82.0,False
+Rajasthan,Bikaner,,,,,,,,,False
+Rajasthan,Bundi,148.0,231.0,300.0,125.0,72.0,360.0,340.0,86.0,False
+Rajasthan,Chittorgarh,161.0,388.0,340.0,96.0,74.0,356.0,305.0,80.0,False
+Rajasthan,Churu,145.0,191.0,254.0,93.0,78.0,509.0,238.0,82.0,False
+Rajasthan,Dausa,153.0,222.0,229.0,92.0,73.0,500.0,270.0,95.0,False
+Rajasthan,Dholpur,,,,,,,,,False
+Rajasthan,Dungarpur,,,,,,,,,False
+Rajasthan,Ganganagar,144.0,184.0,236.0,159.0,73.0,482.0,282.0,112.0,False
+Rajasthan,Hanumangarh,145.0,121.0,210.0,107.0,79.0,586.0,204.0,98.0,False
+Rajasthan,Jaipur,,,,,,,,,False
+Rajasthan,Jalore,143.0,227.0,231.0,119.0,75.0,546.0,223.0,76.0,False
+Rajasthan,Jhalawar,162.0,255.0,292.0,135.0,73.0,371.0,337.0,103.0,False
+Rajasthan,Jhunjhunu,146.0,190.0,273.0,79.0,76.0,443.0,284.0,99.0,False
+Rajasthan,Jodhpur,,,,,,,,,False
+Rajasthan,Karauli,152.0,186.0,246.0,93.0,73.0,513.0,241.0,125.0,False
+Rajasthan,Kota,,,,,,,,,False
+Rajasthan,Nagaur,145.0,169.0,278.0,67.0,76.0,512.0,210.0,64.0,False
+Rajasthan,Pali,146.0,263.0,255.0,119.0,74.0,454.0,291.0,72.0,False
+Rajasthan,Pratapgarh,156.0,345.0,373.0,156.0,73.0,316.0,311.0,116.0,False
+Rajasthan,Rajsamand,155.0,354.0,353.0,123.0,74.0,375.0,272.0,80.0,False
+Rajasthan,Sawai Madhopur,147.0,228.0,265.0,100.0,74.0,480.0,255.0,79.0,False
+Rajasthan,Sikar,148.0,209.0,243.0,70.0,75.0,484.0,273.0,84.0,False
+Rajasthan,Sirohi,149.0,299.0,243.0,151.0,74.0,397.0,361.0,111.0,False
+Rajasthan,Tonk,151.0,193.0,249.0,114.0,74.0,451.0,300.0,89.0,False
+Rajasthan,Udaipur,,,,,,,,,False
+Sikkim,East District,109.0,239.0,270.0,776.0,56.0,352.0,378.0,569.0,False
+Sikkim,North District,104.0,264.0,167.0,349.0,70.0,510.0,323.0,608.0,False
+Sikkim,South District,96.0,269.0,232.0,705.0,53.0,386.0,382.0,739.0,False
+Sikkim,West District,,,,,,,,,False
+Tamil Nadu,Ariyalur,141.0,240.0,322.0,224.0,70.0,382.0,296.0,362.0,False
+Tamil Nadu,Coimbatore,,,,,,,,,False
+Tamil Nadu,Cuddalore,140.0,226.0,301.0,201.0,71.0,393.0,306.0,342.0,False
+Tamil Nadu,Dharmapuri,140.0,309.0,322.0,190.0,70.0,421.0,256.0,227.0,False
+Tamil Nadu,Dindigul,142.0,266.0,334.0,196.0,68.0,418.0,248.0,315.0,False
+Tamil Nadu,Erode,140.0,261.0,303.0,204.0,69.0,370.0,327.0,291.0,False
+Tamil Nadu,Kanchipuram,,,,,,,,,False
+Tamil Nadu,Kanniyakumari,119.0,215.0,353.0,455.0,56.0,382.0,265.0,485.0,False
+Tamil Nadu,Karur,143.0,297.0,319.0,187.0,74.0,394.0,287.0,333.0,False
+Tamil Nadu,Krishnagiri,137.0,277.0,333.0,178.0,65.0,427.0,240.0,212.0,False
+Tamil Nadu,Madurai,,,,,,,,,False
+Tamil Nadu,Nagapattinam,122.0,238.0,322.0,442.0,66.0,337.0,340.0,484.0,False
+Tamil Nadu,Namakkal,141.0,315.0,284.0,232.0,71.0,361.0,355.0,262.0,False
+Tamil Nadu,Perambalur,140.0,328.0,340.0,259.0,71.0,355.0,305.0,401.0,False
+Tamil Nadu,Pudukkottai,144.0,283.0,322.0,243.0,76.0,366.0,313.0,323.0,False
+Tamil Nadu,Ramanathapuram,144.0,263.0,346.0,272.0,73.0,380.0,274.0,307.0,False
+Tamil Nadu,Salem,137.0,303.0,356.0,262.0,66.0,357.0,287.0,359.0,False
+Tamil Nadu,Sivaganga,144.0,310.0,318.0,250.0,71.0,365.0,317.0,360.0,False
+Tamil Nadu,Thanjavur,138.0,275.0,356.0,249.0,73.0,344.0,300.0,326.0,False
+Tamil Nadu,The Nilgiris,115.0,264.0,306.0,382.0,63.0,364.0,330.0,499.0,False
+Tamil Nadu,Theni,139.0,272.0,314.0,284.0,68.0,425.0,262.0,306.0,False
+Tamil Nadu,Thiruvallur,130.0,248.0,316.0,233.0,68.0,365.0,319.0,315.0,False
+Tamil Nadu,Thiruvarur,138.0,286.0,293.0,326.0,69.0,339.0,368.0,342.0,False
+Tamil Nadu,Tiruchirappalli,,,,,,,,,False
+Tamil Nadu,Tirunelveli,134.0,203.0,334.0,303.0,63.0,401.0,265.0,488.0,False
+Tamil Nadu,Tiruppur,146.0,259.0,277.0,179.0,70.0,429.0,293.0,193.0,False
+Tamil Nadu,Tiruvannamalai,134.0,277.0,300.0,252.0,68.0,380.0,320.0,382.0,False
+Tamil Nadu,Tuticorin,,,,,,,,,False
+Tamil Nadu,Vellore,148.0,304.0,300.0,218.0,71.0,391.0,308.0,259.0,False
+Tamil Nadu,Villupuram,,,,,,,,,False
+Tamil Nadu,Virudhunagar,147.0,290.0,344.0,270.0,74.0,372.0,283.0,337.0,False
+Telangana,Adilabad,,,,,,,,,False
+Telangana,Hyderabad,,,,,,,,,False
+Telangana,Karimnagar,,,,,,,,,False
+Telangana,Khammam,,,,,,,,,False
+Telangana,Mahbubnagar,,,,,,,,,False
+Telangana,Medak,159.0,341.0,326.0,163.0,71.0,416.0,258.0,169.0,False
+Telangana,Nalgonda,,,,,,,,,False
+Telangana,Nizamabad,,,,,,,,,False
+Telangana,Warangal,,,,,,,,,False
+Tripura,Dhalai,119.0,185.0,268.0,261.0,54.0,346.0,386.0,247.0,False
+Tripura,Gomati,129.0,174.0,296.0,169.0,55.0,285.0,419.0,218.0,False
+Tripura,Khowai,127.0,170.0,277.0,166.0,55.0,345.0,378.0,188.0,False
+Tripura,North Tripura,124.0,188.0,294.0,176.0,53.0,355.0,351.0,254.0,False
+Tripura,Sepahijala,127.0,162.0,298.0,177.0,55.0,317.0,384.0,210.0,False
+Tripura,South Tripura,131.0,174.0,320.0,182.0,54.0,325.0,356.0,218.0,False
+Tripura,Unakoti,126.0,159.0,262.0,224.0,52.0,368.0,370.0,223.0,False
+Tripura,West Tripura,128.0,157.0,329.0,167.0,54.0,305.0,366.0,201.0,False
+Uttar Pradesh,Agra,,,,,,,,,False
+Uttar Pradesh,Aligarh,143.0,138.0,198.0,145.0,84.0,494.0,308.0,128.0,False
+Uttar Pradesh,Allahabad,,,,,,,,,False
+Uttar Pradesh,Ambedkar Nagar,134.0,245.0,212.0,126.0,76.0,258.0,530.0,182.0,False
+Uttar Pradesh,Amethi,136.0,218.0,281.0,128.0,74.0,317.0,403.0,140.0,False
+Uttar Pradesh,Amroha,139.0,138.0,208.0,157.0,73.0,444.0,348.0,162.0,False
+Uttar Pradesh,Auraiya,135.0,160.0,235.0,148.0,75.0,423.0,341.0,189.0,False
+Uttar Pradesh,Azamgarh,135.0,261.0,285.0,129.0,76.0,270.0,445.0,161.0,False
+Uttar Pradesh,Baghpat,145.0,131.0,219.0,148.0,79.0,406.0,375.0,131.0,False
+Uttar Pradesh,Bahraich,133.0,151.0,230.0,136.0,68.0,374.0,396.0,199.0,False
+Uttar Pradesh,Ballia,137.0,229.0,268.0,124.0,73.0,298.0,434.0,133.0,False
+Uttar Pradesh,Balrampur,135.0,155.0,216.0,155.0,70.0,342.0,442.0,162.0,False
+Uttar Pradesh,Banda,141.0,175.0,209.0,142.0,72.0,347.0,444.0,102.0,False
+Uttar Pradesh,Barabanki,133.0,245.0,263.0,122.0,71.0,359.0,378.0,150.0,False
+Uttar Pradesh,Bareilly,132.0,142.0,246.0,140.0,70.0,382.0,372.0,177.0,False
+Uttar Pradesh,Basti,134.0,156.0,232.0,151.0,71.0,342.0,425.0,144.0,False
+Uttar Pradesh,Bijnor,132.0,168.0,262.0,179.0,68.0,403.0,335.0,231.0,False
+Uttar Pradesh,Budaun,,,,,,,,,False
+Uttar Pradesh,Bulandshahr,137.0,146.0,276.0,124.0,84.0,385.0,339.0,123.0,False
+Uttar Pradesh,Chandauli,144.0,277.0,335.0,144.0,75.0,264.0,400.0,151.0,False
+Uttar Pradesh,Chitrakoot,145.0,243.0,259.0,146.0,73.0,372.0,369.0,103.0,False
+Uttar Pradesh,Deoria,132.0,155.0,251.0,180.0,70.0,320.0,429.0,204.0,False
+Uttar Pradesh,Etah,142.0,146.0,224.0,141.0,89.0,484.0,292.0,137.0,False
+Uttar Pradesh,Etawah,136.0,115.0,214.0,161.0,76.0,392.0,394.0,190.0,False
+Uttar Pradesh,Faizabad,,,,,,,,,False
+Uttar Pradesh,Farrukhabad,132.0,152.0,194.0,170.0,80.0,401.0,405.0,155.0,False
+Uttar Pradesh,Fatehpur,135.0,195.0,174.0,133.0,72.0,292.0,534.0,114.0,False
+Uttar Pradesh,Firozabad,136.0,133.0,235.0,137.0,87.0,394.0,371.0,113.0,False
+Uttar Pradesh,Gautam Buddha Nagar,140.0,148.0,266.0,147.0,85.0,410.0,324.0,131.0,False
+Uttar Pradesh,Ghaziabad,140.0,121.0,186.0,121.0,83.0,435.0,379.0,109.0,False
+Uttar Pradesh,Ghazipur,135.0,269.0,296.0,154.0,70.0,275.0,429.0,166.0,False
+Uttar Pradesh,Gonda,133.0,211.0,251.0,135.0,71.0,346.0,403.0,167.0,False
+Uttar Pradesh,Gorakhpur,133.0,146.0,263.0,168.0,73.0,307.0,430.0,232.0,False
+Uttar Pradesh,Hamirpur,144.0,213.0,275.0,152.0,75.0,375.0,350.0,133.0,False
+Uttar Pradesh,Hapur,139.0,127.0,193.0,133.0,75.0,422.0,386.0,135.0,False
+Uttar Pradesh,Hardoi,132.0,238.0,244.0,137.0,74.0,325.0,431.0,204.0,False
+Uttar Pradesh,Hathras,140.0,145.0,248.0,139.0,86.0,466.0,286.0,110.0,False
+Uttar Pradesh,Jalaun,133.0,186.0,214.0,136.0,77.0,368.0,418.0,155.0,False
+Uttar Pradesh,Jaunpur,136.0,255.0,279.0,134.0,73.0,301.0,420.0,188.0,False
+Uttar Pradesh,Jhansi,143.0,205.0,239.0,137.0,74.0,437.0,324.0,107.0,False
+Uttar Pradesh,Kannauj,133.0,228.0,236.0,146.0,76.0,425.0,339.0,191.0,False
+Uttar Pradesh,Kanpur Dehat,132.0,227.0,199.0,152.0,74.0,376.0,425.0,186.0,False
+Uttar Pradesh,Kanpur Nagar,,,,,,,,,False
+Uttar Pradesh,Kasganj,136.0,123.0,203.0,165.0,86.0,460.0,337.0,155.0,False
+Uttar Pradesh,Kaushambi,141.0,151.0,198.0,143.0,72.0,365.0,437.0,95.0,False
+Uttar Pradesh,Kheri,134.0,167.0,253.0,147.0,69.0,375.0,373.0,201.0,False
+Uttar Pradesh,Lalitpur,160.0,279.0,261.0,125.0,75.0,318.0,421.0,85.0,False
+Uttar Pradesh,Lucknow,,,,,,,,,False
+Uttar Pradesh,Maharajganj,134.0,227.0,273.0,147.0,73.0,345.0,382.0,129.0,False
+Uttar Pradesh,Mahoba,144.0,192.0,203.0,133.0,72.0,400.0,397.0,87.0,False
+Uttar Pradesh,Mainpuri,136.0,111.0,191.0,179.0,83.0,483.0,327.0,165.0,False
+Uttar Pradesh,Mathura,,,,,,,,,False
+Uttar Pradesh,Mau,,,,,,,,,False
+Uttar Pradesh,Meerut,140.0,134.0,206.0,130.0,73.0,408.0,385.0,129.0,False
+Uttar Pradesh,Mirzapur,161.0,400.0,357.0,127.0,73.0,316.0,327.0,120.0,False
+Uttar Pradesh,Moradabad,134.0,135.0,247.0,114.0,71.0,363.0,390.0,166.0,False
+Uttar Pradesh,Muzaffarnagar,138.0,141.0,239.0,131.0,73.0,383.0,378.0,185.0,False
+Uttar Pradesh,Pilibhit,131.0,150.0,243.0,147.0,69.0,383.0,374.0,231.0,False
+Uttar Pradesh,Pratapgarh,139.0,154.0,215.0,127.0,72.0,328.0,457.0,147.0,False
+Uttar Pradesh,Rae Bareli,137.0,307.0,252.0,125.0,74.0,353.0,396.0,99.0,False
+Uttar Pradesh,Rampur,132.0,134.0,230.0,145.0,70.0,354.0,416.0,171.0,False
+Uttar Pradesh,Saharanpur,133.0,187.0,248.0,164.0,69.0,396.0,356.0,248.0,False
+Uttar Pradesh,Sambhal,135.0,154.0,277.0,186.0,76.0,418.0,305.0,141.0,False
+Uttar Pradesh,Sant Ravidas Nagar,143.0,324.0,272.0,136.0,73.0,313.0,415.0,138.0,False
+Uttar Pradesh,Shahjahanpur,130.0,149.0,181.0,164.0,72.0,384.0,436.0,160.0,False
+Uttar Pradesh,Shamli,144.0,132.0,209.0,132.0,76.0,428.0,364.0,124.0,False
+Uttar Pradesh,Shravasti,,,,,,,,,False
+Uttar Pradesh,Siddharth Nagar,137.0,138.0,260.0,147.0,71.0,302.0,438.0,175.0,False
+Uttar Pradesh,Sitapur,133.0,129.0,247.0,153.0,70.0,389.0,364.0,195.0,False
+Uttar Pradesh,Sonbhadra,163.0,479.0,374.0,153.0,74.0,203.0,423.0,129.0,False
+Uttar Pradesh,Sultanpur,137.0,226.0,276.0,129.0,73.0,309.0,415.0,183.0,False
+Uttar Pradesh,Unnao,129.0,214.0,277.0,151.0,74.0,344.0,378.0,170.0,False
+Uttar Pradesh,Varanasi,,,,,,,,,False
+Uttarakhand,Almora,121.0,221.0,221.0,325.0,62.0,315.0,464.0,464.0,False
+Uttarakhand,Bageshwar,118.0,247.0,212.0,465.0,62.0,345.0,443.0,589.0,False
+Uttarakhand,Chamoli,115.0,235.0,246.0,557.0,59.0,375.0,379.0,706.0,False
+Uttarakhand,Champawat,111.0,215.0,232.0,326.0,59.0,316.0,453.0,437.0,False
+Uttarakhand,Dehradun,,,,,,,,,False
+Uttarakhand,Haridwar,,,,,,,,,False
+Uttarakhand,Nainital,108.0,218.0,251.0,371.0,58.0,320.0,429.0,536.0,False
+Uttarakhand,Pauri Garhwal,117.0,222.0,234.0,353.0,61.0,359.0,407.0,478.0,False
+Uttarakhand,Pithoragarh,,,,,,,,,False
+Uttarakhand,Tehri Garhwal,112.0,227.0,248.0,458.0,57.0,336.0,416.0,608.0,False
+West Bengal,Bankura,138.0,128.0,235.0,113.0,61.0,518.0,248.0,170.0,False
+West Bengal,Bardhaman,,,,,,,,,False
+West Bengal,Birbhum,133.0,189.0,258.0,220.0,62.0,374.0,368.0,218.0,False
+West Bengal,Coochbehar,125.0,183.0,227.0,464.0,56.0,455.0,318.0,224.0,False
+West Bengal,Darjeeling,110.0,261.0,278.0,630.0,58.0,377.0,345.0,657.0,False
+West Bengal,Dinajpur Dakshin,130.0,163.0,411.0,150.0,67.0,222.0,367.0,179.0,False
+West Bengal,Dinajpur Uttar,128.0,164.0,255.0,163.0,68.0,311.0,434.0,180.0,False
+West Bengal,Hooghly,126.0,178.0,345.0,164.0,66.0,192.0,463.0,237.0,False
+West Bengal,Howrah,,,,,,,,,False
+West Bengal,Jalpaiguri,130.0,193.0,254.0,203.0,58.0,352.0,394.0,191.0,False
+West Bengal,Maldah,131.0,191.0,349.0,122.0,64.0,278.0,374.0,190.0,False
+West Bengal,Medinipur East,,,,,,,,,False
+West Bengal,Medinipur West,,,,,,,,,False
+West Bengal,Murshidabad,,,,,,,,,False
+West Bengal,Nadia,127.0,182.0,385.0,156.0,67.0,132.0,484.0,222.0,False
+West Bengal,Purulia,146.0,245.0,317.0,200.0,64.0,337.0,346.0,204.0,False

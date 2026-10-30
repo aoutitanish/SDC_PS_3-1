@@ -1,0 +1,1014 @@
+{
+  "inventory": [
+    {
+      "file_name": "crop_expert.csv",
+      "description": "Raw crop production & yield dataset across Indian districts (Ministry of Agriculture APY dataset)",
+      "row_count": 246091,
+      "column_count": 19,
+      "size_bytes": 31715849,
+      "size_mb": 30.2466,
+      "columns": [
+        {
+          "column_name": "State_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 33,
+          "example_values": [
+            "Andaman And Nicobar Islands",
+            "Andaman And Nicobar Islands",
+            "Andaman And Nicobar Islands"
+          ]
+        },
+        {
+          "column_name": "District_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 646,
+          "example_values": [
+            "Nicobars",
+            "Nicobars",
+            "Nicobars"
+          ]
+        },
+        {
+          "column_name": "Crop_Year",
+          "data_type": "int64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 19,
+          "example_values": [
+            "2000",
+            "2000",
+            "2000"
+          ]
+        },
+        {
+          "column_name": "Season",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 6,
+          "example_values": [
+            "Kharif",
+            "Kharif",
+            "Kharif"
+          ]
+        },
+        {
+          "column_name": "Crop",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 124,
+          "example_values": [
+            "Arecanut",
+            "Other Kharif pulses",
+            "Rice"
+          ]
+        },
+        {
+          "column_name": "Area",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 38442,
+          "example_values": [
+            "1254.0",
+            "2.0",
+            "102.0"
+          ]
+        },
+        {
+          "column_name": "Production",
+          "data_type": "float64",
+          "missing_count": 3730,
+          "missing_pct": 1.52,
+          "unique_count": 51627,
+          "example_values": [
+            "2000.0",
+            "1.0",
+            "321.0"
+          ]
+        },
+        {
+          "column_name": "is_aggregate_row",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "Crop_original",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 124,
+          "example_values": [
+            "Arecanut",
+            "Other Kharif pulses",
+            "Rice"
+          ]
+        },
+        {
+          "column_name": "zero_production_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "production_missing_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "year_coverage_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "Yield_tonnes_per_ha",
+          "data_type": "float64",
+          "missing_count": 3730,
+          "missing_pct": 1.52,
+          "unique_count": 144835,
+          "example_values": [
+            "1.594896331738437",
+            "0.5",
+            "3.147058823529412"
+          ]
+        },
+        {
+          "column_name": "zero_area_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 1,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "missing_production_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "yield_unit_suspicious_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "example_values": [
+            "True",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "extreme_yield_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "Crop_clean",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 124,
+          "example_values": [
+            "Arecanut",
+            "Other Kharif pulses",
+            "Rice"
+          ]
+        },
+        {
+          "column_name": "district_key",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 652,
+          "example_values": [
+            "andaman and nicobar islands__nicobars",
+            "andaman and nicobar islands__nicobars",
+            "andaman and nicobar islands__nicobars"
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "master_geography.csv",
+      "description": "Master administrative district & lat/long geography reference",
+      "row_count": 643,
+      "column_count": 4,
+      "size_bytes": 27625,
+      "size_mb": 0.0263,
+      "columns": [
+        {
+          "column_name": "State_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 33,
+          "example_values": [
+            "Andaman And Nicobar Islands",
+            "Andhra Pradesh",
+            "Andhra Pradesh"
+          ]
+        },
+        {
+          "column_name": "District_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 637,
+          "example_values": [
+            "North And Middle Andaman",
+            "Anantapur",
+            "Chittoor"
+          ]
+        },
+        {
+          "column_name": "latitude",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 641,
+          "example_values": [
+            "12.6112387",
+            "14.6783221",
+            "13.325036"
+          ]
+        },
+        {
+          "column_name": "longitude",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 642,
+          "example_values": [
+            "92.8316541",
+            "77.6065039",
+            "79.6480611"
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "soil_expert.csv",
+      "description": "ISRIC SoilGrids physicochemical soil property telemetry per district (0-5cm depth)",
+      "row_count": 641,
+      "column_count": 11,
+      "size_bytes": 41496,
+      "size_mb": 0.0396,
+      "columns": [
+        {
+          "column_name": "State_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 33,
+          "example_values": [
+            "Andaman And Nicobar Islands",
+            "Andaman And Nicobar Islands",
+            "Andaman And Nicobar Islands"
+          ]
+        },
+        {
+          "column_name": "District_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 635,
+          "example_values": [
+            "Nicobars",
+            "North And Middle Andaman",
+            "South Andamans"
+          ]
+        },
+        {
+          "column_name": "bdod_0_5cm",
+          "data_type": "float64",
+          "missing_count": 160,
+          "missing_pct": 24.96,
+          "unique_count": 70,
+          "example_values": [
+            "123.0",
+            "123.0",
+            "116.0"
+          ]
+        },
+        {
+          "column_name": "cec_0_5cm",
+          "data_type": "float64",
+          "missing_count": 159,
+          "missing_pct": 24.8,
+          "unique_count": 245,
+          "example_values": [
+            "233.0",
+            "233.0",
+            "244.0"
+          ]
+        },
+        {
+          "column_name": "clay_0_5cm",
+          "data_type": "float64",
+          "missing_count": 159,
+          "missing_pct": 24.8,
+          "unique_count": 212,
+          "example_values": [
+            "337.0",
+            "337.0",
+            "295.0"
+          ]
+        },
+        {
+          "column_name": "nitrogen_0_5cm",
+          "data_type": "float64",
+          "missing_count": 159,
+          "missing_pct": 24.8,
+          "unique_count": 239,
+          "example_values": [
+            "388.0",
+            "388.0",
+            "468.0"
+          ]
+        },
+        {
+          "column_name": "phh2o_0_5cm",
+          "data_type": "float64",
+          "missing_count": 159,
+          "missing_pct": 24.8,
+          "unique_count": 40,
+          "example_values": [
+            "56.0",
+            "56.0",
+            "54.0"
+          ]
+        },
+        {
+          "column_name": "sand_0_5cm",
+          "data_type": "float64",
+          "missing_count": 159,
+          "missing_pct": 24.8,
+          "unique_count": 248,
+          "example_values": [
+            "377.0",
+            "377.0",
+            "390.0"
+          ]
+        },
+        {
+          "column_name": "silt_0_5cm",
+          "data_type": "float64",
+          "missing_count": 159,
+          "missing_pct": 24.8,
+          "unique_count": 205,
+          "example_values": [
+            "286.0",
+            "286.0",
+            "315.0"
+          ]
+        },
+        {
+          "column_name": "soc_0_5cm",
+          "data_type": "float64",
+          "missing_count": 159,
+          "missing_pct": 24.8,
+          "unique_count": 279,
+          "example_values": [
+            "417.0",
+            "417.0",
+            "535.0"
+          ]
+        },
+        {
+          "column_name": "ph_outlier_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 1,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "weather_expert.csv",
+      "description": "IMD & NASA POWER monthly climate normals (rainfall, temp, RH, wind speed)",
+      "row_count": 145236,
+      "column_count": 13,
+      "size_bytes": 11653626,
+      "size_mb": 11.1138,
+      "columns": [
+        {
+          "column_name": "YEAR",
+          "data_type": "int64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 19,
+          "example_values": [
+            "1997",
+            "1997",
+            "1997"
+          ]
+        },
+        {
+          "column_name": "MONTH",
+          "data_type": "int64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 12,
+          "example_values": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "column_name": "Rainfall_mm_NASA_estimate",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2531,
+          "example_values": [
+            "1.53",
+            "0.0",
+            "0.07"
+          ]
+        },
+        {
+          "column_name": "RH2M",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 8285,
+          "example_values": [
+            "49.32",
+            "22.04",
+            "20.09"
+          ]
+        },
+        {
+          "column_name": "T2M",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 4445,
+          "example_values": [
+            "19.84",
+            "23.6",
+            "30.38"
+          ]
+        },
+        {
+          "column_name": "T2M_MAX",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 4454,
+          "example_values": [
+            "31.59",
+            "38.21",
+            "41.49"
+          ]
+        },
+        {
+          "column_name": "T2M_MIN",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 4587,
+          "example_values": [
+            "6.21",
+            "8.6",
+            "15.29"
+          ]
+        },
+        {
+          "column_name": "WS2M",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 680,
+          "example_values": [
+            "1.59",
+            "1.72",
+            "1.95"
+          ]
+        },
+        {
+          "column_name": "District_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 637,
+          "example_values": [
+            "Adilabad",
+            "Adilabad",
+            "Adilabad"
+          ]
+        },
+        {
+          "column_name": "State_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 33,
+          "example_values": [
+            "Telangana",
+            "Telangana",
+            "Telangana"
+          ]
+        },
+        {
+          "column_name": "nasa_data_missing_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 1,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "RH2M_outlier_flag",
+          "data_type": "bool",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 1,
+          "example_values": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "column_name": "Rainfall_mm_IMD",
+          "data_type": "float64",
+          "missing_count": 66,
+          "missing_pct": 0.05,
+          "unique_count": 3206,
+          "example_values": [
+            "22.6",
+            "0.9",
+            "20.2"
+          ]
+        }
+      ]
+    },
+    {
+      "file_name": "master_district_profiles.csv",
+      "description": "Unified master table combining geography, soil, and weather per district (635 districts)",
+      "row_count": 635,
+      "column_count": 33,
+      "size_bytes": 222247,
+      "size_mb": 0.212,
+      "columns": [
+        {
+          "column_name": "State_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 33,
+          "example_values": [
+            "Andaman And Nicobar Islands",
+            "Andhra Pradesh",
+            "Andhra Pradesh"
+          ]
+        },
+        {
+          "column_name": "District_Name",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 635,
+          "example_values": [
+            "North And Middle Andaman",
+            "Anantapur",
+            "Chittoor"
+          ]
+        },
+        {
+          "column_name": "latitude",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 634,
+          "example_values": [
+            "12.6112387",
+            "14.6783221",
+            "13.325036"
+          ]
+        },
+        {
+          "column_name": "longitude",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 634,
+          "example_values": [
+            "92.8316541",
+            "77.6065039",
+            "79.6480611"
+          ]
+        },
+        {
+          "column_name": "district_key",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 635,
+          "example_values": [
+            "andaman and nicobar islands__north and middle andaman",
+            "andhra pradesh__anantapur",
+            "andhra pradesh__chittoor"
+          ]
+        },
+        {
+          "column_name": "bdod_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 70,
+          "example_values": [
+            "123.0",
+            "135.0",
+            "135.0"
+          ]
+        },
+        {
+          "column_name": "cec_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 245,
+          "example_values": [
+            "233.0",
+            "289.0",
+            "289.0"
+          ]
+        },
+        {
+          "column_name": "clay_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 211,
+          "example_values": [
+            "337.0",
+            "343.0",
+            "343.0"
+          ]
+        },
+        {
+          "column_name": "nitrogen_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 239,
+          "example_values": [
+            "388.0",
+            "199.0",
+            "199.0"
+          ]
+        },
+        {
+          "column_name": "phh2o_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 40,
+          "example_values": [
+            "56.0",
+            "69.0",
+            "69.0"
+          ]
+        },
+        {
+          "column_name": "sand_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 247,
+          "example_values": [
+            "377.0",
+            "380.0",
+            "380.0"
+          ]
+        },
+        {
+          "column_name": "silt_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 203,
+          "example_values": [
+            "286.0",
+            "277.0",
+            "277.0"
+          ]
+        },
+        {
+          "column_name": "soc_0_5cm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 278,
+          "example_values": [
+            "417.0",
+            "333.0",
+            "333.0"
+          ]
+        },
+        {
+          "column_name": "ph",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 43,
+          "example_values": [
+            "5.6",
+            "6.7",
+            "6.9"
+          ]
+        },
+        {
+          "column_name": "clay_pct",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 216,
+          "example_values": [
+            "33.7",
+            "31.25",
+            "34.3"
+          ]
+        },
+        {
+          "column_name": "sand_pct",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 255,
+          "example_values": [
+            "37.7",
+            "37.1",
+            "38.0"
+          ]
+        },
+        {
+          "column_name": "silt_pct",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 206,
+          "example_values": [
+            "28.6",
+            "33.6",
+            "27.7"
+          ]
+        },
+        {
+          "column_name": "nitrogen_cg_kg",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 246,
+          "example_values": [
+            "388.0",
+            "195.5",
+            "199.0"
+          ]
+        },
+        {
+          "column_name": "soc_dg_kg",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 284,
+          "example_values": [
+            "417.0",
+            "300.0",
+            "333.0"
+          ]
+        },
+        {
+          "column_name": "cec",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 251,
+          "example_values": [
+            "233.0",
+            "267.0",
+            "289.0"
+          ]
+        },
+        {
+          "column_name": "bulk_density",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 73,
+          "example_values": [
+            "1.23",
+            "1.355",
+            "1.35"
+          ]
+        },
+        {
+          "column_name": "usda_texture",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 6,
+          "example_values": [
+            "Clay Loam",
+            "Clay Loam",
+            "Clay Loam"
+          ]
+        },
+        {
+          "column_name": "indian_soil_group",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 7,
+          "example_values": [
+            "Red and Yellow Soil",
+            "Red / Mixed Alluvial Soil",
+            "Black Soil (Regur/Vertisol)"
+          ]
+        },
+        {
+          "column_name": "nitrogen_level",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 3,
+          "example_values": [
+            "High",
+            "Medium",
+            "Medium"
+          ]
+        },
+        {
+          "column_name": "ph_category",
+          "data_type": "str",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 3,
+          "example_values": [
+            "Acidic",
+            "Neutral / Optimal",
+            "Neutral / Optimal"
+          ]
+        },
+        {
+          "column_name": "annual_rainfall_mm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 27,
+          "example_values": [
+            "2914.1684210526314",
+            "926.5657894736842",
+            "926.5657894736842"
+          ]
+        },
+        {
+          "column_name": "mean_temperature_c",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 510,
+          "example_values": [
+            "27.730087719298247",
+            "26.587192982456138",
+            "26.536666666666665"
+          ]
+        },
+        {
+          "column_name": "max_temperature_c",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 513,
+          "example_values": [
+            "29.841008771929825",
+            "36.08767543859649",
+            "36.071359649122805"
+          ]
+        },
+        {
+          "column_name": "min_temperature_c",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 513,
+          "example_values": [
+            "25.699298245614035",
+            "18.255438596491228",
+            "19.09017543859649"
+          ]
+        },
+        {
+          "column_name": "relative_humidity_pct",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 513,
+          "example_values": [
+            "78.84271929824563",
+            "60.99793859649122",
+            "69.48478070175439"
+          ]
+        },
+        {
+          "column_name": "wind_speed_ms",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 507,
+          "example_values": [
+            "4.371710526315789",
+            "3.2926315789473684",
+            "2.4114912280701755"
+          ]
+        },
+        {
+          "column_name": "kharif_rainfall_mm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 27,
+          "example_values": [
+            "1970.6315789473683",
+            "704.6657894736842",
+            "704.6657894736842"
+          ]
+        },
+        {
+          "column_name": "rabi_rainfall_mm",
+          "data_type": "float64",
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 27,
+          "example_values": [
+            "559.4578947368421",
+            "170.9078947368421",
+            "170.9078947368421"
+          ]
+        }
+      ]
+    }
+  ]
+}

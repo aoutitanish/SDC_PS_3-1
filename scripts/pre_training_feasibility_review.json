@@ -1,0 +1,85 @@
+{
+  "review_status": "FEASIBILITY_AUDIT_PASSED",
+  "review_date": "2026-09",
+  "workspace": "C:\\Users\\aouti\\Desktop\\PS-3\\FarmerHelp",
+  "mutations_made": false,
+  "component_audit": [
+    {
+      "component": "Hybrid CSI Formula",
+      "decision": "MODIFY",
+      "reason": "Tune weights via OOF validation grid search; do not hardcode."
+    },
+    {
+      "component": "Raw Telemetry Inputs (24)",
+      "decision": "KEEP",
+      "reason": "100% verified present in dataset with 0% missing in district profiles."
+    },
+    {
+      "component": "Crop-Agnostic Engineered Features",
+      "decision": "KEEP",
+      "reason": "Location/climate features (temp_stress, sand_clay_ratio) belong in X."
+    },
+    {
+      "component": "Crop-Dependent Features in X",
+      "decision": "REMOVE",
+      "reason": "Crop water demand, pH optimal bounds cannot be in X; moved to Stage 2 ICAR engine."
+    },
+    {
+      "component": "Static Drought Indicator",
+      "decision": "MODIFY",
+      "reason": "Dataset contains climate normals, not live rain gauge data; converted to Aridity Index in X + Live Override in Stage 2."
+    },
+    {
+      "component": "Regional Suitability Score",
+      "decision": "MODIFY",
+      "reason": "Raw frequency causes popularity bias; replaced with Relative Yield Efficiency (RYE)."
+    },
+    {
+      "component": "Sklearn Estimator Ensemble",
+      "decision": "KEEP",
+      "reason": "RF, ExtraTrees, HistGradientBoosting verified present in sklearn 1.9.1."
+    },
+    {
+      "component": "Probability Calibration",
+      "decision": "MODIFY",
+      "reason": "Wrap base models in CalibratedClassifierCV before soft voting to balance tree outputs."
+    },
+    {
+      "component": "Validation Protocol",
+      "decision": "MODIFY",
+      "reason": "Verified StratifiedGroupKFold exists in sklearn 1.9.1; enforce 20% spatial holdout districts."
+    }
+  ],
+  "sklearn_availability": {
+    "StratifiedGroupKFold": true,
+    "GroupKFold": true,
+    "GroupShuffleSplit": true,
+    "RandomForestClassifier": true,
+    "ExtraTreesClassifier": true,
+    "HistGradientBoostingClassifier": true,
+    "CalibratedClassifierCV": true,
+    "VotingClassifier": true,
+    "xgboost": false,
+    "lightgbm": false,
+    "catboost": false
+  },
+  "final_training_spec": {
+    "training_rows": 136128,
+    "classes_count": 28,
+    "raw_features_in_X": 20,
+    "engineered_features_in_X": 3,
+    "stage2_crop_specific_features": 4,
+    "outer_spatial_holdout_pct": 20.0,
+    "inner_cv_folds": 5,
+    "cv_scheme": "StratifiedGroupKFold on district_key",
+    "ensemble_models": [
+      "HistGradientBoosting",
+      "RandomForest",
+      "ExtraTrees"
+    ],
+    "calibration_method": "CalibratedClassifierCV(method='sigmoid')",
+    "weight_selection": "OOF Grid Search on Validation Folds",
+    "target_top3_accuracy_pct": 50.0,
+    "target_agronomic_violation_rate_pct": 0.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "short_name": "KrishiMitra",
+  "name": "KrishiMitra AI - Smart Agriculture Assistant",
+  "icons": [
+    {
+      "src": "/leaf.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fcfaf8",
+  "theme_color": "#15803d",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "NASA POWER 20-District Aligned Monthly Climatology",
+  "dataset_name": "nasa_power_monthly_district_weather_20.csv",
+  "source": "NASA Prediction Of Worldwide Energy Resources (POWER) Project",
+  "source_url": "https://power.larc.nasa.gov/",
+  "retrieval_service": "NASA POWER API v2.0 - Temporal Monthly Point",
+  "spatial_resolution": "0.5\u00b0 latitude x 0.5\u00b0 longitude (~55 km grid spacing)",
+  "temporal_range": "1981 to 2023 (43 complete calendar years)",
+  "total_districts": 20,
+  "total_monthly_records": 10320,
+  "expected_records_per_district": 516,
+  "parameters_catalog": {
+    "T2M": {
+      "name": "Temperature at 2 Meters",
+      "unit": "\u00b0C",
+      "type": "Monthly Average"
+    },
+    "T2M_MAX": {
+      "name": "Maximum Temperature at 2 Meters",
+      "unit": "\u00b0C",
+      "type": "Monthly Mean Maximum"
+    },
+    "T2M_MIN": {
+      "name": "Minimum Temperature at 2 Meters",
+      "unit": "\u00b0C",
+      "type": "Monthly Mean Minimum"
+    },
+    "PRECTOTCORR": {
+      "name": "Corrected Total Precipitation",
+      "unit": "mm/day",
+      "derived_monthly_unit": "mm/month"
+    },
+    "RH2M": {
+      "name": "Relative Humidity at 2 Meters",
+      "unit": "%",
+      "type": "Monthly Average"
+    },
+    "WS2M": {
+      "name": "Wind Speed at 2 Meters",
+      "unit": "m/s",
+      "type": "Monthly Average"
+    }
+  },
+  "critical_methodological_distinctions": [
+    "Data represents 0.5-degree grid MERRA-2 assimilation reanalysis, NOT ground-observed weather from an IMD meteorological station.",
+    "Month 13 (annual mean from NASA POWER) has been explicitly excluded from monthly time-series.",
+    "Monthly precipitation (mm) was derived by multiplying daily mean precipitation rate by exact calendar days in each month.",
+    "Elevation smoothing inherent in 0.5-deg grid reduces extreme thermal lapse rates in montane districts (e.g. Mandi)."
+  ],
+  "license": "NASA Open Data Policy (Free and open worldwide access)",
+  "generated_at": "2026-10-15T06:27:04.680916+00:00"
+}

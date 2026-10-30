@@ -1,0 +1,16 @@
+{
+  "dataset_name": "des_national_production_2015_2026.csv",
+  "source": "Directorate of Economics & Statistics (DES), Ministry of Agriculture & Farmers Welfare, GoI",
+  "granularity": "National / All-India",
+  "years_span": "2015-16 to 2025-26 (11 agricultural years)",
+  "total_rows": 682,
+  "crops_count": 34,
+  "non_null_production_rows": 612,
+  "unit_conversions": {
+    "Lakh Tonnes": "100,000 Metric Tonnes",
+    "Cotton Lakh Bales": "17,000 Metric Tonnes (1 bale = 170 kg)",
+    "Jute & Mesta Lakh Bales": "18,000 Metric Tonnes (1 bale = 180 kg)"
+  },
+  "district_level_status": "District-level APY for 2016+ is published on data.desagri.gov.in. As of 2026-10-15, direct public connection to data.desagri.gov.in is restricted/refused. No district synthetic interpolation has been performed. This national series is preserved as authoritative macroeconomic reference data.",
+  "generated_at": "2026-10-15T06:22:34.256030+00:00"
+}

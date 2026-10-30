@@ -1,0 +1,119 @@
+{
+  "status": "HEALTHY",
+  "datasets": {
+    "geography": {
+      "rows": 643,
+      "states_count": 33,
+      "districts_count": 637,
+      "lat_range": [
+        8.3279814,
+        34.5486607
+      ],
+      "lon_range": [
+        69.8538067,
+        96.8407212
+      ],
+      "null_count": 0
+    },
+    "soil": {
+      "rows": 641,
+      "ph_range": [
+        4.8,
+        8.9
+      ],
+      "clay_pct_range": [
+        15.9,
+        52.9
+      ],
+      "sand_pct_range": [
+        13.2,
+        58.6
+      ],
+      "silt_pct_range": [
+        17.0,
+        53.4
+      ],
+      "nitrogen_cg_kg_range": [
+        63.0,
+        1298.0
+      ],
+      "soil_textures": {
+        "Clay Loam": 378,
+        "Loam": 195,
+        "Clay": 39,
+        "Sandy Clay Loam": 20,
+        "Silty Clay": 7,
+        "Silt Loam": 2
+      },
+      "indian_soil_groups": {
+        "Black Soil (Regur/Vertisol)": 220,
+        "Red and Yellow Soil": 156,
+        "Alluvial Soil": 115,
+        "Red / Mixed Alluvial Soil": 77,
+        "Laterite Soil": 46,
+        "Desert / Arid Soil": 25,
+        "Saline / Alkaline Soil": 2
+      }
+    },
+    "weather": {
+      "districts": 637,
+      "annual_rainfall_mm_range": [
+        449.1,
+        3073.1
+      ],
+      "mean_temp_c_range": [
+        -7.0,
+        28.3
+      ],
+      "max_temp_c_range": [
+        2.7,
+        38.9
+      ],
+      "relative_humidity_range": [
+        32.4,
+        82.4
+      ]
+    }
+  },
+  "integrity_checks": {
+    "master_district_join": {
+      "total_districts": 635,
+      "columns": [
+        "State_Name",
+        "District_Name",
+        "latitude",
+        "longitude",
+        "district_key",
+        "bdod_0_5cm",
+        "cec_0_5cm",
+        "clay_0_5cm",
+        "nitrogen_0_5cm",
+        "phh2o_0_5cm",
+        "sand_0_5cm",
+        "silt_0_5cm",
+        "soc_0_5cm",
+        "ph",
+        "clay_pct",
+        "sand_pct",
+        "silt_pct",
+        "nitrogen_cg_kg",
+        "soc_dg_kg",
+        "cec",
+        "bulk_density",
+        "usda_texture",
+        "indian_soil_group",
+        "nitrogen_level",
+        "ph_category",
+        "annual_rainfall_mm",
+        "mean_temperature_c",
+        "max_temperature_c",
+        "min_temperature_c",
+        "relative_humidity_pct",
+        "wind_speed_ms",
+        "kharif_rainfall_mm",
+        "rabi_rainfall_mm"
+      ],
+      "null_values_remaining": 0
+    }
+  }
+}

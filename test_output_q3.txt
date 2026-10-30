@@ -1,0 +1,25 @@
+--- SCENARIO 3 ---
+📊 **Crop Comparison Matrix for Your Farm:**
+
+Detailed multi-factor comparison across top candidate crops tailored to your soil, climate, and irrigation setup:
+
+| Agronomic Factor | Arhar/Tur (Pigeon Pea) | Cotton | Groundnut | Dry chillies |
+| --- | --- | --- | --- | --- |
+| Agronomic Suitability | 94.3/100 | 94.8/100 | 94.2/100 | 93.0/100 |
+| Model Confidence | High | High | High | High |
+| Soil Compatibility | 98.9% (23.5-39.9% clay) | 99.3% (23.6-40.5% clay) | 99.5% (23.9-40.4% clay) | 97.0% (23.7-37.4% clay) |
+| Rainfall Compatibility | 95.7% (~502.3-2045.5 mm) | 94.9% (~482.0-2386.4 mm) | 93.3% (~729.0-2045.5 mm) | 92.6% (~729.0-2386.4 mm) |
+| Thermal Range | 91.2% (23.9-27.2°C) | 93.2% (23.8-27.6°C) | 93.0% (24.2-27.5°C) | 92.1% (22.8-27.5°C) |
+| Water Requirement | Low to Moderate (400 - 650 mm) | Moderate (650 - 900 mm) | Low to Moderate (400 - 650 mm) | Moderate (650 - 900 mm) |
+| Drip Irrigation Fit | Optimal | Optimal / High | Optimal | Optimal / High |
+| Benchmark Yield | 0.8 t/ha | 2.07 t/ha | 1.21 t/ha | 1.38 t/ha |
+| Key Advantage | Soil texture (clay 32.6%, pH 7.1) matches Arhar/Tur (Pigeon Pea)'s optimal range (23.5-39.9% clay, pH 5.6-7.6). | Soil texture (clay 32.6%, pH 7.1) matches Cotton's optimal range (23.6-40.5% clay, pH 5.5-7.8). | Soil texture (clay 32.6%, pH 7.1) matches Groundnut's optimal range (23.9-40.4% clay, pH 6.0-7.4). | Soil texture (clay 32.6%, pH 7.1) matches Dry chillies's optimal range (23.7-37.4% clay, pH 5.5-7.4). |
+| Management Caution | Monitor nutrient timing | Monitor nutrient timing | Monitor nutrient timing | Monitor nutrient timing |
+
+💡 **Comparative Takeaways:**
+• **Arhar/Tur (Pigeon Pea):** Suitability 94.3/100 (High Confidence). Strength: Soil texture (clay 32.6%, pH 7.1) matches Arhar/Tur (Pigeon Pea)'s optimal range (23.5-39.9% clay, pH 5.6-7.6).. Consideration: Monitor nutrient timing.
+• **Cotton:** Suitability 94.8/100 (High Confidence). Strength: Soil texture (clay 32.6%, pH 7.1) matches Cotton's optimal range (23.6-40.5% clay, pH 5.5-7.8).. Consideration: Monitor nutrient timing.
+• **Groundnut:** Suitability 94.2/100 (High Confidence). Strength: Soil texture (clay 32.6%, pH 7.1) matches Groundnut's optimal range (23.9-40.4% clay, pH 6.0-7.4).. Consideration: Monitor nutrient timing.
+• **Dry chillies:** Suitability 93.0/100 (High Confidence). Strength: Soil texture (clay 32.6%, pH 7.1) matches Dry chillies's optimal range (23.7-37.4% clay, pH 5.5-7.4).. Consideration: Monitor nutrient timing.
+
+📚 **Sources Used:** Crop Expert Dataset, Soil Expert Dataset, Weather Expert Dataset, Master Geography Dataset

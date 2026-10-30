@@ -1,0 +1,1037 @@
+{
+  "Rice": {
+    "crop_name": "Rice",
+    "sample_records": 14655,
+    "ph_optimal": [
+      5.5,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      22.8,
+      27.0
+    ],
+    "nitrogen_optimal_cg_kg": [
+      128.5,
+      368.0
+    ],
+    "clay_pct_optimal": [
+      23.8,
+      37.5
+    ],
+    "top_seasons": {
+      "Kharif": 6652,
+      "Summer": 2872,
+      "Winter": 2201
+    },
+    "top_states": {
+      "Bihar": 1601,
+      "Uttar Pradesh": 1505,
+      "Assam": 1354,
+      "Odisha": 1341,
+      "Karnataka": 1174
+    },
+    "mean_yield_tonnes_ha": 1.99
+  },
+  "Maize": {
+    "crop_name": "Maize",
+    "sample_records": 13310,
+    "ph_optimal": [
+      5.6,
+      7.5
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2114.8
+    ],
+    "temp_optimal_c": [
+      23.2,
+      26.8
+    ],
+    "nitrogen_optimal_cg_kg": [
+      124.0,
+      345.0
+    ],
+    "clay_pct_optimal": [
+      23.5,
+      38.5
+    ],
+    "top_seasons": {
+      "Kharif": 6906,
+      "Rabi": 2626,
+      "Summer": 2417
+    },
+    "top_states": {
+      "Uttar Pradesh": 2375,
+      "Bihar": 1962,
+      "Karnataka": 1277,
+      "Maharashtra": 1007,
+      "Odisha": 994
+    },
+    "mean_yield_tonnes_ha": 2.66
+  },
+  "Moong (Green Gram)": {
+    "crop_name": "Moong (Green Gram)",
+    "sample_records": 9771,
+    "ph_optimal": [
+      5.9,
+      7.5
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2045.5
+    ],
+    "temp_optimal_c": [
+      24.2,
+      27.2
+    ],
+    "nitrogen_optimal_cg_kg": [
+      124.0,
+      250.0
+    ],
+    "clay_pct_optimal": [
+      23.5,
+      38.3
+    ],
+    "top_seasons": {
+      "Kharif": 5220,
+      "Summer": 1966,
+      "Rabi": 1885
+    },
+    "top_states": {
+      "Uttar Pradesh": 1716,
+      "Odisha": 1061,
+      "Bihar": 1044,
+      "Karnataka": 639,
+      "West Bengal": 583
+    },
+    "mean_yield_tonnes_ha": 0.45
+  },
+  "Urad": {
+    "crop_name": "Urad",
+    "sample_records": 9384,
+    "ph_optimal": [
+      5.9,
+      7.5
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2045.5
+    ],
+    "temp_optimal_c": [
+      23.9,
+      27.2
+    ],
+    "nitrogen_optimal_cg_kg": [
+      125.0,
+      263.0
+    ],
+    "clay_pct_optimal": [
+      23.4,
+      38.8
+    ],
+    "top_seasons": {
+      "Kharif": 5607,
+      "Rabi": 1810,
+      "Summer": 1099
+    },
+    "top_states": {
+      "Uttar Pradesh": 1869,
+      "Odisha": 1155,
+      "Madhya Pradesh": 759,
+      "Karnataka": 541,
+      "Maharashtra": 531
+    },
+    "mean_yield_tonnes_ha": 0.49
+  },
+  "Groundnut": {
+    "crop_name": "Groundnut",
+    "sample_records": 8482,
+    "ph_optimal": [
+      6.0,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2045.5
+    ],
+    "temp_optimal_c": [
+      24.2,
+      27.5
+    ],
+    "nitrogen_optimal_cg_kg": [
+      122.0,
+      261.0
+    ],
+    "clay_pct_optimal": [
+      23.9,
+      40.4
+    ],
+    "top_seasons": {
+      "Kharif": 5099,
+      "Summer": 1406,
+      "Rabi": 1076
+    },
+    "top_states": {
+      "Odisha": 1156,
+      "Uttar Pradesh": 884,
+      "Karnataka": 870,
+      "Maharashtra": 840,
+      "Madhya Pradesh": 767
+    },
+    "mean_yield_tonnes_ha": 1.21
+  },
+  "Sesamum": {
+    "crop_name": "Sesamum",
+    "sample_records": 8451,
+    "ph_optimal": [
+      5.5,
+      7.5
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2114.8
+    ],
+    "temp_optimal_c": [
+      23.6,
+      27.2
+    ],
+    "nitrogen_optimal_cg_kg": [
+      122.0,
+      314.0
+    ],
+    "clay_pct_optimal": [
+      23.6,
+      39.2
+    ],
+    "top_seasons": {
+      "Kharif": 5996,
+      "Whole Year": 684,
+      "Summer": 529
+    },
+    "top_states": {
+      "Odisha": 1031,
+      "Uttar Pradesh": 1006,
+      "Madhya Pradesh": 783,
+      "Maharashtra": 614,
+      "Bihar": 478
+    },
+    "mean_yield_tonnes_ha": 0.47
+  },
+  "Wheat": {
+    "crop_name": "Wheat",
+    "sample_records": 7607,
+    "ph_optimal": [
+      5.5,
+      7.8
+    ],
+    "rainfall_optimal_mm": [
+      482.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      22.3,
+      26.7
+    ],
+    "nitrogen_optimal_cg_kg": [
+      118.0,
+      360.2
+    ],
+    "clay_pct_optimal": [
+      23.2,
+      39.9
+    ],
+    "top_seasons": {
+      "Rabi": 7233,
+      "Summer": 300,
+      "Whole Year": 54
+    },
+    "top_states": {
+      "Uttar Pradesh": 1185,
+      "Madhya Pradesh": 804,
+      "Bihar": 677,
+      "Maharashtra": 500,
+      "Odisha": 451
+    },
+    "mean_yield_tonnes_ha": 2.09
+  },
+  "Sugarcane": {
+    "crop_name": "Sugarcane",
+    "sample_records": 7577,
+    "ph_optimal": [
+      5.5,
+      7.6
+    ],
+    "rainfall_optimal_mm": [
+      502.3,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      23.6,
+      27.0
+    ],
+    "nitrogen_optimal_cg_kg": [
+      122.0,
+      335.0
+    ],
+    "clay_pct_optimal": [
+      23.4,
+      39.2
+    ],
+    "top_seasons": {
+      "Whole Year": 6019,
+      "Kharif": 1093,
+      "Winter": 444
+    },
+    "top_states": {
+      "Uttar Pradesh": 1186,
+      "Madhya Pradesh": 738,
+      "Bihar": 545,
+      "Odisha": 545,
+      "Tamil Nadu": 480
+    },
+    "mean_yield_tonnes_ha": 199.57
+  },
+  "Mustard / Rapeseed": {
+    "crop_name": "Mustard / Rapeseed",
+    "sample_records": 7285,
+    "ph_optimal": [
+      5.5,
+      7.7
+    ],
+    "rainfall_optimal_mm": [
+      502.3,
+      2114.8
+    ],
+    "temp_optimal_c": [
+      22.7,
+      26.7
+    ],
+    "nitrogen_optimal_cg_kg": [
+      120.0,
+      346.0
+    ],
+    "clay_pct_optimal": [
+      23.2,
+      38.0
+    ],
+    "top_seasons": {
+      "Rabi": 6687,
+      "Winter": 384,
+      "Whole Year": 109
+    },
+    "top_states": {
+      "Uttar Pradesh": 1185,
+      "Madhya Pradesh": 770,
+      "Bihar": 674,
+      "Odisha": 522,
+      "Assam": 454
+    },
+    "mean_yield_tonnes_ha": 0.77
+  },
+  "Arhar/Tur (Pigeon Pea)": {
+    "crop_name": "Arhar/Tur (Pigeon Pea)",
+    "sample_records": 7240,
+    "ph_optimal": [
+      5.6,
+      7.6
+    ],
+    "rainfall_optimal_mm": [
+      502.3,
+      2045.5
+    ],
+    "temp_optimal_c": [
+      23.9,
+      27.2
+    ],
+    "nitrogen_optimal_cg_kg": [
+      122.0,
+      253.0
+    ],
+    "clay_pct_optimal": [
+      23.5,
+      39.9
+    ],
+    "top_seasons": {
+      "Kharif": 6484,
+      "Rabi": 426,
+      "Whole Year": 253
+    },
+    "top_states": {
+      "Uttar Pradesh": 984,
+      "Madhya Pradesh": 803,
+      "Bihar": 668,
+      "Maharashtra": 551,
+      "Assam": 454
+    },
+    "mean_yield_tonnes_ha": 0.8
+  },
+  "Gram (Chickpea)": {
+    "crop_name": "Gram (Chickpea)",
+    "sample_records": 6947,
+    "ph_optimal": [
+      5.7,
+      7.6
+    ],
+    "rainfall_optimal_mm": [
+      502.3,
+      2114.8
+    ],
+    "temp_optimal_c": [
+      23.9,
+      26.9
+    ],
+    "nitrogen_optimal_cg_kg": [
+      118.0,
+      250.0
+    ],
+    "clay_pct_optimal": [
+      23.2,
+      40.1
+    ],
+    "top_seasons": {
+      "Rabi": 6668,
+      "Whole Year": 168,
+      "Kharif": 96
+    },
+    "top_states": {
+      "Uttar Pradesh": 1152,
+      "Madhya Pradesh": 766,
+      "Bihar": 599,
+      "Maharashtra": 530,
+      "Karnataka": 443
+    },
+    "mean_yield_tonnes_ha": 0.84
+  },
+  "Jowar (Sorghum)": {
+    "crop_name": "Jowar (Sorghum)",
+    "sample_records": 6774,
+    "ph_optimal": [
+      6.6,
+      7.5
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      1774.7
+    ],
+    "temp_optimal_c": [
+      24.5,
+      27.4
+    ],
+    "nitrogen_optimal_cg_kg": [
+      116.0,
+      217.0
+    ],
+    "clay_pct_optimal": [
+      23.8,
+      41.6
+    ],
+    "top_seasons": {
+      "Kharif": 4818,
+      "Rabi": 1536,
+      "Summer": 233
+    },
+    "top_states": {
+      "Uttar Pradesh": 1049,
+      "Madhya Pradesh": 998,
+      "Karnataka": 924,
+      "Maharashtra": 841,
+      "Gujarat": 474
+    },
+    "mean_yield_tonnes_ha": 1.05
+  },
+  "Onion": {
+    "crop_name": "Onion",
+    "sample_records": 6731,
+    "ph_optimal": [
+      5.9,
+      7.6
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      1774.7
+    ],
+    "temp_optimal_c": [
+      23.7,
+      27.2
+    ],
+    "nitrogen_optimal_cg_kg": [
+      121.0,
+      249.0
+    ],
+    "clay_pct_optimal": [
+      23.2,
+      37.7
+    ],
+    "top_seasons": {
+      "Whole Year": 3869,
+      "Rabi": 1454,
+      "Summer": 799
+    },
+    "top_states": {
+      "Uttar Pradesh": 1615,
+      "Karnataka": 800,
+      "Madhya Pradesh": 721,
+      "Assam": 454,
+      "Rajasthan": 413
+    },
+    "mean_yield_tonnes_ha": 11.85
+  },
+  "Potato": {
+    "crop_name": "Potato",
+    "sample_records": 6684,
+    "ph_optimal": [
+      5.4,
+      7.5
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      19.4,
+      26.6
+    ],
+    "nitrogen_optimal_cg_kg": [
+      125.0,
+      458.0
+    ],
+    "clay_pct_optimal": [
+      23.0,
+      37.7
+    ],
+    "top_seasons": {
+      "Whole Year": 4061,
+      "Rabi": 1496,
+      "Kharif": 539
+    },
+    "top_states": {
+      "Uttar Pradesh": 1186,
+      "Madhya Pradesh": 663,
+      "Odisha": 538,
+      "Assam": 454,
+      "Bihar": 449
+    },
+    "mean_yield_tonnes_ha": 12.75
+  },
+  "Dry chillies": {
+    "crop_name": "Dry chillies",
+    "sample_records": 6227,
+    "ph_optimal": [
+      5.5,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      22.8,
+      27.5
+    ],
+    "nitrogen_optimal_cg_kg": [
+      124.0,
+      351.0
+    ],
+    "clay_pct_optimal": [
+      23.7,
+      37.4
+    ],
+    "top_seasons": {
+      "Whole Year": 3958,
+      "Kharif": 1208,
+      "Rabi": 786
+    },
+    "top_states": {
+      "Karnataka": 913,
+      "Uttar Pradesh": 683,
+      "Madhya Pradesh": 523,
+      "Assam": 453,
+      "Andhra Pradesh": 430
+    },
+    "mean_yield_tonnes_ha": 1.38
+  },
+  "Sunflower": {
+    "crop_name": "Sunflower",
+    "sample_records": 5277,
+    "ph_optimal": [
+      6.3,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      1774.7
+    ],
+    "temp_optimal_c": [
+      23.8,
+      27.1
+    ],
+    "nitrogen_optimal_cg_kg": [
+      123.0,
+      249.0
+    ],
+    "clay_pct_optimal": [
+      23.9,
+      41.5
+    ],
+    "top_seasons": {
+      "Kharif": 2419,
+      "Rabi": 1569,
+      "Summer": 971
+    },
+    "top_states": {
+      "Karnataka": 1098,
+      "Maharashtra": 902,
+      "Uttar Pradesh": 749,
+      "Bihar": 482,
+      "Tamil Nadu": 444
+    },
+    "mean_yield_tonnes_ha": 0.95
+  },
+  "Bajra (Pearl Millet)": {
+    "crop_name": "Bajra (Pearl Millet)",
+    "sample_records": 5206,
+    "ph_optimal": [
+      6.7,
+      7.8
+    ],
+    "rainfall_optimal_mm": [
+      482.0,
+      1453.0
+    ],
+    "temp_optimal_c": [
+      24.7,
+      27.5
+    ],
+    "nitrogen_optimal_cg_kg": [
+      113.5,
+      242.5
+    ],
+    "clay_pct_optimal": [
+      23.0,
+      39.1
+    ],
+    "top_seasons": {
+      "Kharif": 4463,
+      "Summer": 331,
+      "Rabi": 256
+    },
+    "top_states": {
+      "Uttar Pradesh": 1096,
+      "Gujarat": 599,
+      "Madhya Pradesh": 533,
+      "Rajasthan": 428,
+      "Tamil Nadu": 418
+    },
+    "mean_yield_tonnes_ha": 1.18
+  },
+  "Small millets": {
+    "crop_name": "Small millets",
+    "sample_records": 4457,
+    "ph_optimal": [
+      5.3,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      18.4,
+      26.8
+    ],
+    "nitrogen_optimal_cg_kg": [
+      126.0,
+      477.0
+    ],
+    "clay_pct_optimal": [
+      24.3,
+      39.3
+    ],
+    "top_seasons": {
+      "Kharif": 4002,
+      "Rabi": 275,
+      "Whole Year": 165
+    },
+    "top_states": {
+      "Madhya Pradesh": 523,
+      "Uttar Pradesh": 507,
+      "Assam": 433,
+      "Bihar": 384,
+      "Tamil Nadu": 319
+    },
+    "mean_yield_tonnes_ha": 0.66
+  },
+  "Peas & beans (Pulses)": {
+    "crop_name": "Peas & beans (Pulses)",
+    "sample_records": 4249,
+    "ph_optimal": [
+      5.4,
+      7.6
+    ],
+    "rainfall_optimal_mm": [
+      502.3,
+      2114.8
+    ],
+    "temp_optimal_c": [
+      20.0,
+      26.3
+    ],
+    "nitrogen_optimal_cg_kg": [
+      122.0,
+      436.0
+    ],
+    "clay_pct_optimal": [
+      23.2,
+      37.7
+    ],
+    "top_seasons": {
+      "Rabi": 3710,
+      "Kharif": 339,
+      "Whole Year": 129
+    },
+    "top_states": {
+      "Uttar Pradesh": 913,
+      "Bihar": 589,
+      "Madhya Pradesh": 434,
+      "Assam": 362,
+      "Chhattisgarh": 268
+    },
+    "mean_yield_tonnes_ha": 1.28
+  },
+  "Cotton": {
+    "crop_name": "Cotton",
+    "sample_records": 4223,
+    "ph_optimal": [
+      5.5,
+      7.8
+    ],
+    "rainfall_optimal_mm": [
+      482.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      23.8,
+      27.6
+    ],
+    "nitrogen_optimal_cg_kg": [
+      114.0,
+      259.0
+    ],
+    "clay_pct_optimal": [
+      23.6,
+      40.5
+    ],
+    "top_seasons": {
+      "Kharif": 3702,
+      "Whole Year": 347,
+      "Rabi": 133
+    },
+    "top_states": {
+      "Tamil Nadu": 510,
+      "Maharashtra": 447,
+      "Karnataka": 424,
+      "Assam": 423,
+      "Rajasthan": 380
+    },
+    "mean_yield_tonnes_ha": 2.07
+  },
+  "Linseed": {
+    "crop_name": "Linseed",
+    "sample_records": 4182,
+    "ph_optimal": [
+      5.5,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      23.9,
+      26.6
+    ],
+    "nitrogen_optimal_cg_kg": [
+      118.0,
+      242.0
+    ],
+    "clay_pct_optimal": [
+      24.4,
+      40.5
+    ],
+    "top_seasons": {
+      "Rabi": 4114,
+      "Whole Year": 61,
+      "Kharif": 7
+    },
+    "top_states": {
+      "Madhya Pradesh": 750,
+      "Uttar Pradesh": 714,
+      "Bihar": 659,
+      "Assam": 415,
+      "Rajasthan": 272
+    },
+    "mean_yield_tonnes_ha": 0.53
+  },
+  "Ragi (Finger Millet)": {
+    "crop_name": "Ragi (Finger Millet)",
+    "sample_records": 4035,
+    "ph_optimal": [
+      5.9,
+      7.2
+    ],
+    "rainfall_optimal_mm": [
+      901.2,
+      1774.7
+    ],
+    "temp_optimal_c": [
+      23.6,
+      27.5
+    ],
+    "nitrogen_optimal_cg_kg": [
+      143.0,
+      326.0
+    ],
+    "clay_pct_optimal": [
+      25.4,
+      36.8
+    ],
+    "top_seasons": {
+      "Kharif": 2372,
+      "Rabi": 574,
+      "Autumn": 371
+    },
+    "top_states": {
+      "Karnataka": 838,
+      "Odisha": 700,
+      "Bihar": 519,
+      "Tamil Nadu": 479,
+      "Andhra Pradesh": 337
+    },
+    "mean_yield_tonnes_ha": 1.19
+  },
+  "Turmeric": {
+    "crop_name": "Turmeric",
+    "sample_records": 4031,
+    "ph_optimal": [
+      5.5,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      22.7,
+      27.1
+    ],
+    "nitrogen_optimal_cg_kg": [
+      130.0,
+      371.0
+    ],
+    "clay_pct_optimal": [
+      24.4,
+      37.7
+    ],
+    "top_seasons": {
+      "Whole Year": 3532,
+      "Rabi": 361,
+      "Kharif": 129
+    },
+    "top_states": {
+      "Uttar Pradesh": 539,
+      "Assam": 454,
+      "Madhya Pradesh": 418,
+      "Tamil Nadu": 357,
+      "Karnataka": 343
+    },
+    "mean_yield_tonnes_ha": 2.76
+  },
+  "Sweet potato": {
+    "crop_name": "Sweet potato",
+    "sample_records": 4024,
+    "ph_optimal": [
+      5.5,
+      7.5
+    ],
+    "rainfall_optimal_mm": [
+      729.0,
+      2386.4
+    ],
+    "temp_optimal_c": [
+      23.6,
+      27.0
+    ],
+    "nitrogen_optimal_cg_kg": [
+      121.0,
+      314.0
+    ],
+    "clay_pct_optimal": [
+      24.3,
+      37.8
+    ],
+    "top_seasons": {
+      "Whole Year": 3119,
+      "Kharif": 714,
+      "Rabi": 189
+    },
+    "top_states": {
+      "Uttar Pradesh": 674,
+      "Madhya Pradesh": 641,
+      "Assam": 454,
+      "Bihar": 336,
+      "Tamil Nadu": 313
+    },
+    "mean_yield_tonnes_ha": 8.83
+  },
+  "Masoor": {
+    "crop_name": "Masoor",
+    "sample_records": 3956,
+    "ph_optimal": [
+      5.5,
+      7.7
+    ],
+    "rainfall_optimal_mm": [
+      502.3,
+      2114.8
+    ],
+    "temp_optimal_c": [
+      23.1,
+      26.4
+    ],
+    "nitrogen_optimal_cg_kg": [
+      122.0,
+      326.0
+    ],
+    "clay_pct_optimal": [
+      23.0,
+      37.7
+    ],
+    "top_seasons": {
+      "Rabi": 3835,
+      "Kharif": 73,
+      "Whole Year": 48
+    },
+    "top_states": {
+      "Uttar Pradesh": 986,
+      "Bihar": 603,
+      "Madhya Pradesh": 470,
+      "Assam": 338,
+      "West Bengal": 268
+    },
+    "mean_yield_tonnes_ha": 0.71
+  },
+  "Barley": {
+    "crop_name": "Barley",
+    "sample_records": 3901,
+    "ph_optimal": [
+      6.2,
+      7.9
+    ],
+    "rainfall_optimal_mm": [
+      449.1,
+      1374.7
+    ],
+    "temp_optimal_c": [
+      20.2,
+      26.5
+    ],
+    "nitrogen_optimal_cg_kg": [
+      113.5,
+      371.0
+    ],
+    "clay_pct_optimal": [
+      21.4,
+      37.7
+    ],
+    "top_seasons": {
+      "Rabi": 3719,
+      "Kharif": 134,
+      "Whole Year": 48
+    },
+    "top_states": {
+      "Uttar Pradesh": 1183,
+      "Madhya Pradesh": 607,
+      "Bihar": 572,
+      "Rajasthan": 436,
+      "Haryana": 187
+    },
+    "mean_yield_tonnes_ha": 1.84
+  },
+  "Horse-gram": {
+    "crop_name": "Horse-gram",
+    "sample_records": 3705,
+    "ph_optimal": [
+      6.0,
+      7.2
+    ],
+    "rainfall_optimal_mm": [
+      901.2,
+      1774.7
+    ],
+    "temp_optimal_c": [
+      23.6,
+      27.4
+    ],
+    "nitrogen_optimal_cg_kg": [
+      142.0,
+      325.0
+    ],
+    "clay_pct_optimal": [
+      25.4,
+      37.8
+    ],
+    "top_seasons": {
+      "Kharif": 1976,
+      "Rabi": 1119,
+      "Winter": 412
+    },
+    "top_states": {
+      "Karnataka": 872,
+      "Odisha": 628,
+      "Chhattisgarh": 408,
+      "Tamil Nadu": 404,
+      "Andhra Pradesh": 322
+    },
+    "mean_yield_tonnes_ha": 0.46
+  },
+  "Other Kharif pulses": {
+    "crop_name": "Other Kharif pulses",
+    "sample_records": 3442,
+    "ph_optimal": [
+      5.7,
+      7.4
+    ],
+    "rainfall_optimal_mm": [
+      449.1,
+      2045.5
+    ],
+    "temp_optimal_c": [
+      20.5,
+      27.2
+    ],
+    "nitrogen_optimal_cg_kg": [
+      114.0,
+      371.0
+    ],
+    "clay_pct_optimal": [
+      23.9,
+      40.5
+    ],
+    "top_seasons": {
+      "Kharif": 3434,
+      "Rabi": 8
+    },
+    "top_states": {
+      "Karnataka": 389,
+      "Rajasthan": 366,
+      "Bihar": 360,
+      "Madhya Pradesh": 340,
+      "Maharashtra": 323
+    },
+    "mean_yield_tonnes_ha": 0.5
+  }
+}

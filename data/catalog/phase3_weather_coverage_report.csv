@@ -1,0 +1,56 @@
+state,district,latitude,longitude,status,months_recorded,expected_months,years_span,temporal_resolution,spatial_resolution,data_type
+Andhra Pradesh,Anantapur,14.6819,77.6006,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Andhra Pradesh,Guntur,16.3067,80.4365,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Andhra Pradesh,Kurnool,15.83,78.04,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Assam,Jorhat,26.7509,94.2037,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Assam,Kamrup,26.18,91.74,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Bihar,Muzaffarpur,26.1209,85.3647,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Bihar,Patna,25.59,85.14,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Chhattisgarh,Bilaspur,22.0797,82.1409,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Chhattisgarh,Raipur,21.2514,81.6296,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Gujarat,Ahmedabad,23.0225,72.5714,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Gujarat,Junagadh,21.5222,70.4579,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Gujarat,Rajkot,22.3,70.78,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Gujarat,Surat,21.1702,72.8311,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Haryana,Ambala,30.3782,76.7767,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Haryana,Hisar,29.1492,75.7217,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Haryana,Karnal,29.68,76.99,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Himachal Pradesh,Mandi,31.71,76.92,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Himachal Pradesh,Shimla,31.1048,77.1734,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Jharkhand,Ranchi,23.3441,85.3096,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Karnataka,Belagavi,15.8497,74.4977,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Karnataka,Dharwad,15.46,75.01,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Karnataka,Mysuru,12.2958,76.6394,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Karnataka,Raichur,16.2,77.36,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Kerala,Palakkad,10.7867,76.6548,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Kerala,Thrissur,10.52,76.21,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Madhya Pradesh,Bhopal,23.2599,77.4126,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Madhya Pradesh,Indore,22.72,75.86,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Madhya Pradesh,Jabalpur,23.1815,79.9864,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Madhya Pradesh,Ujjain,23.1765,75.7885,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Maharashtra,Ahmednagar,19.0952,74.7496,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Maharashtra,Nagpur,21.14,79.08,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Maharashtra,Nashik,20.01,73.79,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Maharashtra,Pune,18.5204,73.8567,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Maharashtra,Solapur,17.6599,75.9064,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Odisha,Cuttack,20.46,85.88,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Punjab,Amritsar,31.634,74.8723,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Punjab,Bathinda,30.211,74.9455,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Punjab,Ludhiana,30.9,75.85,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Rajasthan,Bikaner,28.0229,73.3119,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Rajasthan,Jaipur,26.9124,75.7873,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Rajasthan,Jodhpur,26.29,73.02,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Rajasthan,Kota,25.2138,75.8648,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Rajasthan,Sri Ganganagar,29.9,73.88,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Tamil Nadu,Coimbatore,11.02,76.97,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Tamil Nadu,Madurai,9.9252,78.1198,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Tamil Nadu,Thanjavur,10.787,79.1378,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Telangana,Nizamabad,18.6725,78.0941,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Telangana,Warangal,18.0,79.58,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Uttar Pradesh,Agra,27.18,78.02,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Uttar Pradesh,Kanpur Nagar,26.4499,80.3319,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Uttar Pradesh,Meerut,28.9845,77.7064,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Uttar Pradesh,Varanasi,25.3176,82.9739,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+Uttarakhand,Dehradun,30.3165,78.0322,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+West Bengal,Bardhaman,23.2324,87.8615,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate
+West Bengal,Midnapore,22.43,87.32,SUCCESS,516,516,1981–2023,Monthly,0.5° x 0.5°,Satellite & Assimilation Reanalysis Estimate

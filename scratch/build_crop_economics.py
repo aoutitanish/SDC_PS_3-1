@@ -1,0 +1,1094 @@
+"""
+Data Quality Hardening script to build data/processed/crop_economics.json
+Enforces:
+1. MSP year consistency (explicit "2024-25" year tags, no fake 2025-26/2026-27 numbers unless notified)
+2. Cost metric clarity (explicit metric: "A2+FL", unit: "INR/acre", year: "2024-25")
+3. Historical yield labeling (data_type: "historical", year: "1997-2015 historical district records")
+4. Profit calculation safety disclaimer
+5. Source traceability (source, source_url, year, unit, data_type)
+6. Null MSP for non-MSP crops (no guessed fallback prices)
+7. Crop alias uniqueness audit across all 28 crops
+"""
+
+import os
+import json
+
+PROFIT_DISCLAIMER = "Future profit calculations using historical yield, MSP, and A2+FL cost are illustrative estimates for planning only, not guaranteed farmer profit."
+
+ECONOMICS_DATA = {
+    "Rice": {
+        "crop_name": "Rice",
+        "commodity_aliases": ["Paddy (Dhan)", "Rice", "Paddy"],
+        "msp_information": {
+            "value": 2300.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "variety_grade_a": 2320.0,
+            "source": "Commission for Agricultural Costs and Prices (CACP), Ministry of Agriculture & Farmers Welfare",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 34500.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 1533.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES), Ministry of Agriculture & Farmers Welfare",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.99,
+            "equivalent_quintals_per_acre": 8.05,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Aerated dry godown / jute bags / metal bins",
+            "shelf_life_days": 365,
+            "optimal_moisture_pct": 13.0,
+            "source": "Food Corporation of India (FCI) & ICAR Grain Storage Guidelines",
+            "source_url": "https://fci.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Wheat": {
+        "crop_name": "Wheat",
+        "commodity_aliases": ["Wheat", "Gehun"],
+        "msp_information": {
+            "value": 2275.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 24000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 1128.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 2.09,
+            "equivalent_quintals_per_acre": 8.46,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Hermetic bags / dry covered warehouse",
+            "shelf_life_days": 365,
+            "optimal_moisture_pct": 12.0,
+            "source": "FCI & ICAR Grain Storage Manual",
+            "source_url": "https://fci.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Maize": {
+        "crop_name": "Maize",
+        "commodity_aliases": ["Maize", "Makka"],
+        "msp_information": {
+            "value": 2225.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 22000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 1483.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 2.66,
+            "equivalent_quintals_per_acre": 10.77,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Dry crib storage / ventilated godowns",
+            "shelf_life_days": 180,
+            "optimal_moisture_pct": 13.5,
+            "source": "ICAR - Indian Institute of Maize Research (IIMR)",
+            "source_url": "https://iimr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Arhar/Tur (Pigeon Pea)": {
+        "crop_name": "Arhar/Tur (Pigeon Pea)",
+        "commodity_aliases": ["Arhar (Tur/Red Gram)", "Arhar", "Tur", "Red Gram", "Arhar/Tur"],
+        "msp_information": {
+            "value": 7550.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 20500.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 5033.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.80,
+            "equivalent_quintals_per_acre": 3.24,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Hermetic bags / dry ventilated storage with neem oil treatment",
+            "shelf_life_days": 270,
+            "optimal_moisture_pct": 9.5,
+            "source": "ICAR - Indian Institute of Pulses Research (IIPR)",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Moong (Green Gram)": {
+        "crop_name": "Moong (Green Gram)",
+        "commodity_aliases": ["Moong (Green Gram)", "Moong", "Green Gram"],
+        "msp_information": {
+            "value": 8682.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 16000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 5788.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.45,
+            "equivalent_quintals_per_acre": 1.82,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "PICS / Hermetic bags in moisture-proof store",
+            "shelf_life_days": 240,
+            "optimal_moisture_pct": 9.0,
+            "source": "ICAR - IIPR Pulses Storage Protocol",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Urad": {
+        "crop_name": "Urad",
+        "commodity_aliases": ["Urad (Black Gram)", "Urad", "Black Gram"],
+        "msp_information": {
+            "value": 7400.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 16500.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 4933.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.49,
+            "equivalent_quintals_per_acre": 1.98,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Hermetic sealing / activated clay treatment",
+            "shelf_life_days": 240,
+            "optimal_moisture_pct": 9.0,
+            "source": "ICAR - IIPR Pulses Storage Protocol",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Gram (Chickpea)": {
+        "crop_name": "Gram (Chickpea)",
+        "commodity_aliases": ["Gram", "Chickpea (Gram)", "Chana", "Bengal Gram"],
+        "msp_information": {
+            "value": 5440.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 18000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 3628.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.84,
+            "equivalent_quintals_per_acre": 3.40,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Dry ventilated godowns / sun-dried before bagging",
+            "shelf_life_days": 300,
+            "optimal_moisture_pct": 9.0,
+            "source": "ICAR - IIPR Pulse Preservation Guidelines",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Groundnut": {
+        "crop_name": "Groundnut",
+        "commodity_aliases": ["Groundnut", "Peanut"],
+        "msp_information": {
+            "value": 6783.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 26000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 4522.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.21,
+            "equivalent_quintals_per_acre": 4.90,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Pod form in cool ventilated godown (prevent aflatoxin)",
+            "shelf_life_days": 180,
+            "optimal_moisture_pct": 7.5,
+            "source": "ICAR - Directorate of Groundnut Research (DGR)",
+            "source_url": "https://dgr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Mustard / Rapeseed": {
+        "crop_name": "Mustard / Rapeseed",
+        "commodity_aliases": ["Mustard", "Rapeseed", "Sarson"],
+        "msp_information": {
+            "value": 5650.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 18500.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 2950.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.77,
+            "equivalent_quintals_per_acre": 3.12,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Cool dry warehouse in gunny bags (prevent oxidation)",
+            "shelf_life_days": 270,
+            "optimal_moisture_pct": 8.0,
+            "source": "ICAR - Directorate of Rapeseed-Mustard Research (DRMR)",
+            "source_url": "https://drmr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Sesamum": {
+        "crop_name": "Sesamum",
+        "commodity_aliases": ["Sesamum (Til)", "Til", "Sesame"],
+        "msp_information": {
+            "value": 9267.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 15000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 5800.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.47,
+            "equivalent_quintals_per_acre": 1.90,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Moisture-proof sealed bags / cool dry store",
+            "shelf_life_days": 180,
+            "optimal_moisture_pct": 7.0,
+            "source": "ICAR Oilseeds Division",
+            "source_url": "https://icar.org.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Sugarcane": {
+        "crop_name": "Sugarcane",
+        "commodity_aliases": ["Sugarcane", "Ganna"],
+        "msp_information": {
+            "value": 340.0,
+            "unit": "INR/quintal",
+            "note": "Fair & Remunerative Price (FRP) fixed by CACP at 10.25% sugar recovery rate",
+            "year": "2024-25",
+            "source": "Cabinet Committee on Economic Affairs (CCEA) & CACP",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 52000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 210.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 199.57,
+            "equivalent_quintals_per_acre": 807.66,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Immediate mill crushing within 24-48 hours (prevent inversion loss)",
+            "shelf_life_days": 2,
+            "optimal_moisture_pct": 70.0,
+            "source": "ICAR - Sugarcane Breeding Institute (SBI)",
+            "source_url": "https://sugarcane.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Jowar (Sorghum)": {
+        "crop_name": "Jowar (Sorghum)",
+        "commodity_aliases": ["Jowar (Sorghum)", "Jowar", "Sorghum"],
+        "msp_information": {
+            "value": 3371.0,
+            "unit": "INR/quintal",
+            "variety_maldandi": 3421.0,
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 17500.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 2150.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.05,
+            "equivalent_quintals_per_acre": 4.25,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Ventilated grain bins / dry warehouse",
+            "shelf_life_days": 240,
+            "optimal_moisture_pct": 11.0,
+            "source": "ICAR - Indian Institute of Millets Research (IIMR)",
+            "source_url": "https://millets.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Bajra (Pearl Millet)": {
+        "crop_name": "Bajra (Pearl Millet)",
+        "commodity_aliases": ["Bajra (Pearl Millet)", "Bajra"],
+        "msp_information": {
+            "value": 2625.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 14000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 1500.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.18,
+            "equivalent_quintals_per_acre": 4.78,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Metal drums / hermetic bags in dry store",
+            "shelf_life_days": 240,
+            "optimal_moisture_pct": 11.0,
+            "source": "ICAR - IIMR Millet Storage Protocol",
+            "source_url": "https://millets.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Ragi (Finger Millet)": {
+        "crop_name": "Ragi (Finger Millet)",
+        "commodity_aliases": ["Ragi (Finger Millet)", "Ragi"],
+        "msp_information": {
+            "value": 4290.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 16000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 2600.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.19,
+            "equivalent_quintals_per_acre": 4.82,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Traditional mud bins / jute bags (naturally pest-resistant grain)",
+            "shelf_life_days": 365,
+            "optimal_moisture_pct": 11.5,
+            "source": "ICAR - IIMR Finger Millet Protocol",
+            "source_url": "https://millets.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Sunflower": {
+        "crop_name": "Sunflower",
+        "commodity_aliases": ["Sunflower", "Surajmukhi"],
+        "msp_information": {
+            "value": 7280.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 21000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 4200.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.95,
+            "equivalent_quintals_per_acre": 3.84,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Dry cool godown with air circulation",
+            "shelf_life_days": 180,
+            "optimal_moisture_pct": 8.0,
+            "source": "ICAR - IIOR Sunflower Storage Guidelines",
+            "source_url": "https://icar.org.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Cotton": {
+        "crop_name": "Cotton",
+        "commodity_aliases": ["Cotton", "Kapas"],
+        "msp_information": {
+            "value": 7121.0,
+            "unit": "INR/quintal",
+            "variety_long_staple": 7521.0,
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 31000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 4747.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 2.07,
+            "equivalent_quintals_per_acre": 8.38,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Dry covered bale storage / protected CCI godowns",
+            "shelf_life_days": 365,
+            "optimal_moisture_pct": 8.0,
+            "source": "Cotton Corporation of India (CCI) & ICAR - CICR",
+            "source_url": "https://cotcorp.org.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Barley": {
+        "crop_name": "Barley",
+        "commodity_aliases": ["Barley (Jau)", "Barley"],
+        "msp_information": {
+            "value": 1850.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 17000.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 1150.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.84,
+            "equivalent_quintals_per_acre": 7.45,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Hermetic grain bag / dry metal silo",
+            "shelf_life_days": 365,
+            "optimal_moisture_pct": 12.0,
+            "source": "ICAR - IIWBR Barley Protocol",
+            "source_url": "https://iiwbr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Masoor": {
+        "crop_name": "Masoor",
+        "commodity_aliases": ["Masur", "Lentil", "Masoor"],
+        "msp_information": {
+            "value": 6425.0,
+            "unit": "INR/quintal",
+            "year": "2024-25",
+            "source": "Commission for Agricultural Costs and Prices (CACP)",
+            "source_url": "https://cacp.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 16500.0,
+            "unit": "INR/acre",
+            "cost_per_quintal_a2_fl": 3800.0,
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.71,
+            "equivalent_quintals_per_acre": 2.87,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Hermetic bags / dry store treated with neem oil",
+            "shelf_life_days": 270,
+            "optimal_moisture_pct": 9.5,
+            "source": "ICAR - IIPR Lentil Storage Protocol",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+
+    # --- NON-MSP CROPS (Horticultural / Commercial crops without MSP) ---
+    "Onion": {
+        "crop_name": "Onion",
+        "commodity_aliases": ["Onion", "Pyaz"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 45000.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "Directorate of Onion and Garlic Research (DOGR), ICAR",
+            "source_url": "https://dogr.icar.gov.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 11.85,
+            "equivalent_quintals_per_acre": 47.96,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Naturally ventilated onion chawl / bottom-aerated storage structure",
+            "shelf_life_days": 120,
+            "optimal_moisture_pct": "65-70% RH",
+            "source": "ICAR - Directorate of Onion and Garlic Research (DOGR)",
+            "source_url": "https://dogr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Potato": {
+        "crop_name": "Potato",
+        "commodity_aliases": ["Potato", "Aloo"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 48000.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "ICAR - Central Potato Research Institute (CPRI)",
+            "source_url": "https://cpri.icar.gov.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 12.75,
+            "equivalent_quintals_per_acre": 51.60,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Cold storage (2-4°C, 90-95% RH with CIPC treatment)",
+            "shelf_life_days": 180,
+            "optimal_moisture_pct": "90-95% RH",
+            "source": "ICAR - CPRI Storage Guidelines",
+            "source_url": "https://cpri.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Dry chillies": {
+        "crop_name": "Dry chillies",
+        "commodity_aliases": ["Dry Chillies", "Chilli", "Mirchi"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 55000.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "Spices Board India & AP State Agriculture Department",
+            "source_url": "http://www.indianspices.com",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.38,
+            "equivalent_quintals_per_acre": 5.58,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Cold storage (4-10°C) to preserve color and capsaicin content",
+            "shelf_life_days": 270,
+            "optimal_moisture_pct": 10.0,
+            "source": "Spices Board India Storage Advisory",
+            "source_url": "http://www.indianspices.com",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Turmeric": {
+        "crop_name": "Turmeric",
+        "commodity_aliases": ["Turmeric", "Haldi"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 60000.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "ICAR - Indian Institute of Spices Research (IISR)",
+            "source_url": "https://spices.res.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 2.76,
+            "equivalent_quintals_per_acre": 11.17,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Cured & polished rhizome storage in cool dark godown",
+            "shelf_life_days": 365,
+            "optimal_moisture_pct": 10.0,
+            "source": "ICAR - IISR Spices Storage Protocol",
+            "source_url": "https://spices.res.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Sweet potato": {
+        "crop_name": "Sweet potato",
+        "commodity_aliases": ["Sweet Potato", "Shakarkand"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 28000.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "ICAR - Central Tuber Crops Research Institute (CTCRI)",
+            "source_url": "https://ctcri.org",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 8.83,
+            "equivalent_quintals_per_acre": 35.73,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Cured tuber storage at 13-15°C (85-90% RH)",
+            "shelf_life_days": 120,
+            "optimal_moisture_pct": "85-90% RH",
+            "source": "ICAR - CTCRI Storage Protocol",
+            "source_url": "https://ctcri.org",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Linseed": {
+        "crop_name": "Linseed",
+        "commodity_aliases": ["Linseed", "Alsi"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 14000.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.53,
+            "equivalent_quintals_per_acre": 2.14,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Dry cool godown (prevent oil oxidation)",
+            "shelf_life_days": 240,
+            "optimal_moisture_pct": 8.0,
+            "source": "ICAR Oilseeds Protocol",
+            "source_url": "https://icar.org.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Horse-gram": {
+        "crop_name": "Horse-gram",
+        "commodity_aliases": ["Horse-gram", "Kulthi"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 11000.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.46,
+            "equivalent_quintals_per_acre": 1.86,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Hermetic bag / dry traditional store",
+            "shelf_life_days": 300,
+            "optimal_moisture_pct": 9.0,
+            "source": "ICAR - IIPR Storage Guidelines",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Small millets": {
+        "crop_name": "Small millets",
+        "commodity_aliases": ["Small Millets", "Kodon", "Kutki", "Barnyard Millet"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 12500.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "ICAR - Indian Institute of Millets Research (IIMR)",
+            "source_url": "https://millets.icar.gov.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.66,
+            "equivalent_quintals_per_acre": 2.67,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Dry moisture-proof bins",
+            "shelf_life_days": 365,
+            "optimal_moisture_pct": 11.0,
+            "source": "ICAR - IIMR Small Millets Protocol",
+            "source_url": "https://millets.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Peas & beans (Pulses)": {
+        "crop_name": "Peas & beans (Pulses)",
+        "commodity_aliases": ["Peas (Dry)", "Beans", "Matar"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 17500.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 1.28,
+            "equivalent_quintals_per_acre": 5.18,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "PICS bags / dry ventilated store",
+            "shelf_life_days": 240,
+            "optimal_moisture_pct": 9.5,
+            "source": "ICAR - IIPR Storage Protocol",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    },
+    "Other Kharif pulses": {
+        "crop_name": "Other Kharif pulses",
+        "commodity_aliases": ["Other Pulses"],
+        "msp_information": None,
+        "cost_of_cultivation": {
+            "metric": "A2+FL",
+            "value": 14500.0,
+            "unit": "INR/acre",
+            "year": "2024-25",
+            "source": "Directorate of Economics and Statistics (DES)",
+            "source_url": "https://eands.dacnet.nic.in",
+            "data_type": "official"
+        },
+        "yield_benchmark_reference": {
+            "mean_yield_tonnes_ha": 0.50,
+            "equivalent_quintals_per_acre": 2.02,
+            "year": "1997-2015 historical district records",
+            "source": "Crop Expert Dataset (data/processed/crop_summary.json)",
+            "source_url": "data/processed/crop_summary.json",
+            "data_type": "historical",
+            "disclaimer": "Historical district mean yield; not a guaranteed expected yield for current season."
+        },
+        "post_harvest_storage": {
+            "storage_method": "Hermetic bags / dry ventilated warehouse",
+            "shelf_life_days": 240,
+            "optimal_moisture_pct": 9.5,
+            "source": "ICAR - IIPR Pulses Storage Protocol",
+            "source_url": "https://iipr.icar.gov.in",
+            "data_type": "official"
+        },
+        "profit_calculation_disclaimer": PROFIT_DISCLAIMER
+    }
+}
+
+def audit_alias_uniqueness(data):
+    """Audit crop alias uniqueness to guarantee every alias maps to exactly 1 crop."""
+    alias_map = {}
+    conflicts = []
+    for crop_name, rec in data.items():
+        aliases = rec.get("commodity_aliases", [])
+        for alias in aliases:
+            a_clean = alias.lower().strip()
+            if a_clean in alias_map and alias_map[a_clean] != crop_name:
+                conflicts.append((alias, alias_map[a_clean], crop_name))
+            else:
+                alias_map[a_clean] = crop_name
+    if conflicts:
+        print(f"CRITICAL ERROR: Alias conflicts detected: {conflicts}")
+        raise ValueError(f"Alias conflicts found: {conflicts}")
+    else:
+        print(f"ALIAS AUDIT SUCCESSFUL: {len(alias_map)} unique commodity aliases mapped cleanly across {len(data)} crops.")
+
+def main():
+    audit_alias_uniqueness(ECONOMICS_DATA)
+    out_path = os.path.join("data", "processed", "crop_economics.json")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(ECONOMICS_DATA, f, indent=2, ensure_ascii=False)
+    print(f"Successfully wrote hardened crop economics dataset to {out_path}")
+
+if __name__ == "__main__":
+    main()

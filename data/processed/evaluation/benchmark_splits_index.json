@@ -1,0 +1,127 @@
+{
+  "benchmark_title": "KrishiMitra Spatio-Temporal Leakage-Safe Benchmark",
+  "created_at": "2026-10-15T07:15:13.046108+00:00",
+  "temporal_splits": {
+    "training_years": [
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "validation_years": [
+      2012,
+      2013
+    ],
+    "test_years": [
+      2014,
+      2015
+    ],
+    "temporal_holdout_rationale": "Prevents future agricultural patterns and climate anomalies from leaking into historical predictions."
+  },
+  "spatial_splits": {
+    "total_districts": 643,
+    "training_districts_count": 556,
+    "held_out_districts_count": 87,
+    "held_out_percentage": 13.5,
+    "spatial_holdout_rationale": "Tests model generalizability to completely unseen districts and novel soil-climate combinations."
+  },
+  "held_out_districts_sample": [
+    {
+      "state": "Andaman And Nicobar Islands",
+      "district": "North And Middle Andaman"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Srikakulam"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "Namsai"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "district": "West Kameng"
+    },
+    {
+      "state": "Assam",
+      "district": "Baksa"
+    },
+    {
+      "state": "Assam",
+      "district": "Darrang"
+    },
+    {
+      "state": "Assam",
+      "district": "Nagaon"
+    },
+    {
+      "state": "Assam",
+      "district": "Jorhat"
+    },
+    {
+      "state": "Bihar",
+      "district": "Pashchim Champaran"
+    },
+    {
+      "state": "Bihar",
+      "district": "Aurangabad"
+    },
+    {
+      "state": "Bihar",
+      "district": "Samastipur"
+    },
+    {
+      "state": "Bihar",
+      "district": "Jehanabad"
+    },
+    {
+      "state": "Bihar",
+      "district": "Munger"
+    },
+    {
+      "state": "Chandigarh",
+      "district": "Chandigarh"
+    },
+    {
+      "state": "Chhattisgarh",
+      "district": "Surguja"
+    }
+  ],
+  "feature_quarantine_rules": {
+    "allowed_features": [
+      "ph_surface_0_5cm",
+      "clay_pct_surface_0_5cm",
+      "sand_pct_surface_0_5cm",
+      "soc_dg_kg_surface_0_5cm",
+      "nitrogen_cg_kg_surface_0_5cm",
+      "cec_cmolc_kg_surface_0_5cm",
+      "plant_available_water_capacity_awc_mm_m",
+      "dominant_indian_soil_group",
+      "season",
+      "latitude",
+      "longitude",
+      "pre_sowing_rainfall_normal_mm",
+      "temperature_vegetative_normal_c",
+      "irrigation_status_flag"
+    ],
+    "forbidden_features_leakage": [
+      "Yield_tonnes_per_ha",
+      "Production",
+      "Area",
+      "yield_quantile",
+      "harvest_market_prices",
+      "in-season_post_sowing_weather_observations"
+    ]
+  }
+}

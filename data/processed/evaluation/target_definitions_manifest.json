@@ -1,0 +1,43 @@
+{
+  "dataset_name": "multilabel_suitability_dataset.parquet",
+  "total_records": 54012,
+  "total_districts": 637,
+  "total_canonical_crops": 28,
+  "seasons_evaluated": [
+    "Kharif",
+    "Rabi",
+    "Summer"
+  ],
+  "target_separation_architecture": {
+    "target_1_occurrence": {
+      "field": "is_historically_cultivated",
+      "definition": "Whether crop is recorded as cultivated in historical DES records for that district-season.",
+      "type": "Binary (0 or 1)",
+      "critical_rule": "Historical cultivation is NOT equivalent to agronomic suitability or optimality."
+    },
+    "target_2_suitability": {
+      "field": "agronomic_suitability_label",
+      "definition": "Physiological compatibility based on ICAR/SAU evidence.",
+      "type": "3-Valued: 1 = Suitable, 0 = Unsuitable (explicit negative constraint), -1 = Unknown (missing evidence)",
+      "distribution": {
+        "suitable_count": 22714,
+        "unsuitable_count": 8054,
+        "unknown_count": 23244
+      }
+    },
+    "target_3_observed_yield": {
+      "field": "observed_mean_yield_tonnes_ha",
+      "definition": "Empirical historical yield from DES APY records. Strictly conditional on crop occurrence.",
+      "type": "Continuous (tonnes/ha) with NaN for uncultivated crops"
+    },
+    "target_4_economic_returns": {
+      "fields": [
+        "projected_gross_revenue_inr_ha",
+        "projected_net_margin_inr_ha"
+      ],
+      "definition": "Economic profitability computed from CACP MSP and Cost of Cultivation (C2).",
+      "type": "Continuous (INR/ha)"
+    }
+  },
+  "generated_at": "2026-10-15T07:11:13.102912+00:00"
+}

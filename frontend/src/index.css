@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-green: #00A859;
+  --primary-dark: #007A40;
+  --surface-white: #FFFFFF;
+  --surface-light: #F8FAF9;
+  --surface-card: #FFFFFF;
+  --text-dark: #0F281E;
+  --text-muted: #526B60;
+  --border-light: #E2ECE6;
+}
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #F8FAF9;
+    color: #0F281E;
+  }
+
+  body {
+    background-color: #F8FAF9;
+    color: #0F281E;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0F5F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B6D7C8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00A859;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0.5rem);
+}
+
+/* Depth & Glass utilities */
+.glass-pill {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-pill-dark {
+  background: rgba(15, 40, 30, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.shadow-depth {
+  box-shadow: 0 20px 40px -15px rgba(0, 168, 89, 0.15), 0 0 2px 1px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-float {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.12), 0 0 1px 1px rgba(0, 0, 0, 0.04);
+}

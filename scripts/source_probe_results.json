@@ -1,0 +1,69 @@
+{
+  "nasa_power": {
+    "status": 200,
+    "ok": true,
+    "size": 7682,
+    "content_type": "application/json",
+    "json_keys": [
+      "type",
+      "geometry",
+      "properties",
+      "header",
+      "messages",
+      "parameters"
+    ]
+  },
+  "nasa_power_climatology": {
+    "status": 200,
+    "ok": true,
+    "size": 1489,
+    "content_type": "application/json",
+    "json_keys": [
+      "type",
+      "geometry",
+      "properties",
+      "header",
+      "messages",
+      "parameters"
+    ]
+  },
+  "soilgrids": {
+    "error": "HTTPSConnectionPool(host='rest.isric.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "des_portal": {
+    "error": "HTTPSConnectionPool(host='data.desagri.gov.in', port=443): Max retries exceeded with url: /website/crops-apy-report-web (Caused by NewConnectionError(\"HTTPSConnection(host='data.desagri.gov.in', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+  },
+  "agmarknet": {
+    "status": 200,
+    "ok": true,
+    "size": 1003,
+    "content_type": "text/html"
+  },
+  "data_gov_in": {
+    "status": 403,
+    "ok": false,
+    "size": 415,
+    "content_type": "text/html"
+  },
+  "fao_faostat": {
+    "error": "HTTPSConnectionPool(host='fenixservices.fao.org', port=443): Read timed out. (read timeout=25)"
+  },
+  "imd": {
+    "status": 200,
+    "ok": true,
+    "size": 229353,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "icar": {
+    "status": 200,
+    "ok": true,
+    "size": 130381,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "icar_nbsslup": {
+    "status": 200,
+    "ok": true,
+    "size": 985,
+    "content_type": "text/html; charset=UTF-8"
+  }
+}

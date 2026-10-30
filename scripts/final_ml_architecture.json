@@ -1,0 +1,88 @@
+{
+  "architecture_name": "KrishiMitra Agricultural ML System V3",
+  "status": "DESIGN_COMPLETE",
+  "audit_date": "2026-09",
+  "primary_intelligence": "ML_ENGINE",
+  "llm_role": "OPTIONAL_BACKUP_AND_NATURAL_LANGUAGE_SYNTHESIZER",
+  "llm_toggle_env": "USE_QWEN_FALLBACK",
+  "target_analysis": {
+    "dataset_records": 246091,
+    "filtered_training_records": 136128,
+    "crop_classes": 28,
+    "multi_crop_districts_pct": 88.38,
+    "mean_crops_per_telemetry_vector": 7.43,
+    "bayes_optimal_top1_upper_bound_pct": 21.6,
+    "formulation_choice": "HYBRID_CSI_SCORE_FUSION"
+  },
+  "composite_score_formula": "CSI(Crop_k) = 0.50 * P_ML(Crop_k|X) + 0.35 * S_Agronomic(Crop_k, Soil, Climate) + 0.15 * S_Regional(Crop_k, State)",
+  "feature_matrix": {
+    "total_features": 24,
+    "numeric_telemetry_count": 16,
+    "categorical_count": 8,
+    "engineered_domain_features_count": 10,
+    "engineered_features": [
+      "rainfall_adequacy_ratio",
+      "temperature_stress_index",
+      "drought_indicator",
+      "excess_rainfall_indicator",
+      "soil_moisture_suitability",
+      "water_stress_index",
+      "ph_suitability_score",
+      "soil_texture_suitability",
+      "seasonal_thermal_window",
+      "climate_suitability_composite"
+    ]
+  },
+  "validation_strategy": {
+    "scheme": "5-Fold Stratified GroupKFold by district_key",
+    "spatial_holdout_districts_pct": 20.0,
+    "temporal_split": "Train: 1997-2015, Test: 2016-2020",
+    "spatial_leakage_prevention": "Strict Grouping on district_key"
+  },
+  "candidate_models": [
+    "RandomForestClassifier",
+    "ExtraTreesClassifier",
+    "HistGradientBoostingClassifier",
+    "GradientBoostingClassifier"
+  ],
+  "ensemble_strategy": {
+    "type": "Weighted Soft Voting Ensemble",
+    "weights": {
+      "HistGradientBoosting": 0.45,
+      "RandomForest": 0.35,
+      "ExtraTrees": 0.2
+    },
+    "calibration": "CalibratedClassifierCV (Sigmoid)"
+  },
+  "evaluation_metrics": [
+    "Top-1 Accuracy",
+    "Top-3 Accuracy",
+    "Top-5 Accuracy",
+    "Macro F1",
+    "Weighted F1",
+    "Per-Crop Recall",
+    "Per-Crop Precision",
+    "Expected Calibration Error (ECE)",
+    "Brier Score",
+    "NDCG@3",
+    "NDCG@5",
+    "Mean Reciprocal Rank (MRR)",
+    "Agronomic Violation Rate"
+  ],
+  "explainability_factors": [
+    "soil_compatibility_pct",
+    "season_compatibility_pct",
+    "rainfall_compatibility_pct",
+    "temperature_compatibility_pct",
+    "water_compatibility_pct",
+    "ml_confidence_pct",
+    "historical_suitability_pct"
+  ],
+  "artifact_paths": {
+    "ensemble_model": "ml/models/v3_production/crop_suitability_ensemble.pkl",
+    "preprocessor": "ml/models/v3_production/crop_feature_preprocessor.pkl",
+    "agronomic_rules": "ml/models/v3_production/crop_agronomic_rules.json",
+    "metadata": "ml/models/v3_production/model_metadata.json",
+    "evaluation_report": "ml/models/v3_production/model_evaluation_report.json"
+  }
+}

@@ -1,0 +1,23 @@
+--- SCENARIO 2 ---
+🔍 **Detailed Scientific Reasoning for Arhar/Tur (Pigeon Pea) Recommendation:**
+
+Agronomic factor alignment between your farm data and **Arhar/Tur (Pigeon Pea)** requirements:
+
+🌱 **1. Soil Properties (Suitability: 98.9/100)**
+• Measured Clay Content: 32.6% | Crop Optimal Range: 23.5 - 39.9%
+• Measured Soil pH: 7.1 | Crop Optimal Window: 5.6 - 7.6
+
+🌧️ **2. Climate & Thermal Fit (Suitability: 95.7/100)**
+• Measured Normal Rainfall: ~945 mm | Optimal Demand: 502.3 - 2045.5 mm
+• Regional Mean Temperature: 27.2°C | Vegetative Growth Range: 23.9 - 27.2°C
+
+💧 **3. Water Availability & Irrigation Analysis:**
+• Farm System: Drip Irrigation with Borewell
+• Evaluation: Well-suited for semi-arid conditions and supplemental drip irrigation.
+
+✅ **Key Supporting Drivers:**
+• Soil texture (clay 32.6%, pH 7.1) matches Arhar/Tur (Pigeon Pea)'s optimal range (23.5-39.9% clay, pH 5.6-7.6).
+• Precipitation (~945 mm) and thermal normal (27.2°C) support healthy vegetative and reproductive growth.
+• Drip irrigation + borewell setup enhances nutrient efficiency and mitigates mid-season dry spells.
+
+📚 **Sources Used:** Crop Expert Dataset, Soil Expert Dataset, Weather Expert Dataset, Master Geography Dataset
